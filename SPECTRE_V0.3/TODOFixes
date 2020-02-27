@@ -1,13 +1,17 @@
 SPECTRE	(Speeduino PrintEd Circuit TjeeRdiE)
 
 NEED FIXING
-Fix 3.3v not connected vor CLT sensor resistor
-Fix headers on the side of the board serial + boot0 + boot1 (now shorting out with bottom plate)
+
+Schematic:
+Fix 3.3v not connected for CLT sensor resistor
 Resistor between PE0 + PE1 and BAT54S to protect BAT54S from over current
 Change fuel pump pin PA6 because PA6 is also LED used for visual feedback
 Change vbat pin because PC6 has not adc (change to PC5 for example)
 Flyback diode for both idle outputs (Diode To VBAT not special output)
 Flyback diode for FAN and Fuel output
+
+PCB:
+Fix headers on the side of the board serial + boot0 + boot1 (now shorting out with bottom plate)
 
 NICE TO HAVE
 Add boost control (with flyback diode)

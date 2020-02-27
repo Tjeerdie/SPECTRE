@@ -209,12 +209,12 @@ Wire Wire Line
 Text Label 9400 7400 0    10   ~ 0
 GND
 Wire Wire Line
-	1800 1600 1700 1600
-Text Label 1800 1600 0    10   ~ 0
+	1800 1250 1700 1250
+Text Label 1800 1250 0    10   ~ 0
 GND
 Wire Wire Line
-	2900 1500 2800 1500
-Text Label 2900 1500 0    10   ~ 0
+	2900 1250 2800 1250
+Text Label 2900 1250 0    10   ~ 0
 GND
 Wire Wire Line
 	4600 8600 4400 8600
@@ -817,12 +817,12 @@ Wire Wire Line
 Text Label 9400 6900 1    70   ~ 0
 3.3V
 Wire Wire Line
-	1300 1600 1100 1600
-Text Label 1300 1600 2    70   ~ 0
+	1300 1250 1100 1250
+Text Label 1300 1250 2    70   ~ 0
 3.3V
 Wire Wire Line
-	2400 1500 2200 1500
-Text Label 2400 1500 2    70   ~ 0
+	2400 1250 2200 1250
+Text Label 2400 1250 2    70   ~ 0
 3.3V
 Wire Wire Line
 	8700 8400 8700 8100
@@ -1022,7 +1022,7 @@ PA6
 Wire Wire Line
 	4200 3700 3850 3700
 Text Label 3850 3700 0    70   ~ 0
-PA6
+PA4
 Wire Wire Line
 	10500 4000 11100 4000
 Text Label 11000 4000 0    70   ~ 0
@@ -1144,7 +1144,7 @@ PD11
 Text Label 12900 4700 0    70   ~ 0
 PD13
 Wire Wire Line
-	1500 1250 1500 1000
+	1500 900  1500 650 
 Wire Wire Line
 	12000 4800 11400 4800
 Text Label 11500 4800 0    70   ~ 0
@@ -1154,7 +1154,7 @@ Wire Wire Line
 Text Label 11500 4700 0    70   ~ 0
 PD14
 Wire Wire Line
-	2600 1150 2600 1000
+	2600 900  2600 750 
 Text Label 12900 4600 0    70   ~ 0
 PD15
 Wire Wire Line
@@ -1178,7 +1178,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 7800 7500 7800
 Text Label 7400 7800 0    70   ~ 0
-PC6
+PC5
 Connection ~ 6700 7800
 Connection ~ 7000 7800
 Wire Wire Line
@@ -1281,27 +1281,23 @@ Wire Wire Line
 	4800 8800 4850 8800
 Connection ~ 4800 8500
 Wire Wire Line
-	1500 1550 1500 1700
-Connection ~ 1500 1700
-Wire Wire Line
-	2600 1600 2600 1450
-Connection ~ 2600 1600
+	1500 1200 1500 1350
 Wire Wire Line
 	7900 3350 8250 3350
 Wire Wire Line
-	8250 3350 9150 3350
+	8250 3350 8400 3350
 Text Label 8650 3350 0    70   ~ 0
 FAN
 Connection ~ 8250 3350
 Wire Wire Line
 	5000 3400 5350 3400
 Wire Wire Line
-	5350 3400 5950 3400
+	5350 3400 5600 3400
 Text Label 5750 3400 0    70   ~ 0
 FUEL_PUMP
 Connection ~ 5350 3400
 Wire Wire Line
-	14700 4100 15700 4100
+	14700 4100 14950 4100
 Text Label 15100 4100 0    70   ~ 0
 IDLE1-OUT
 Wire Wire Line
@@ -2331,23 +2327,23 @@ $EndComp
 $Comp
 L Speeduino_base-eagle-import:GND #SUPPLY06
 U 1 1 EB91AAB4
-P 1900 1600
-F 0 "#SUPPLY06" H 1900 1600 50  0001 C CNN
-F 1 "GND" H 1825 1475 59  0000 L BNN
-F 2 "" H 1900 1600 50  0001 C CNN
-F 3 "" H 1900 1600 50  0001 C CNN
-	1    1900 1600
+P 1900 1250
+F 0 "#SUPPLY06" H 1900 1250 50  0001 C CNN
+F 1 "GND" H 1825 1125 59  0000 L BNN
+F 2 "" H 1900 1250 50  0001 C CNN
+F 3 "" H 1900 1250 50  0001 C CNN
+	1    1900 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Speeduino_base-eagle-import:GND #SUPPLY012
 U 1 1 584824A5
-P 3000 1500
-F 0 "#SUPPLY012" H 3000 1500 50  0001 C CNN
-F 1 "GND" H 2925 1375 59  0000 L BNN
-F 2 "" H 3000 1500 50  0001 C CNN
-F 3 "" H 3000 1500 50  0001 C CNN
-	1    3000 1500
+P 3000 1250
+F 0 "#SUPPLY012" H 3000 1250 50  0001 C CNN
+F 1 "GND" H 2925 1125 59  0000 L BNN
+F 2 "" H 3000 1250 50  0001 C CNN
+F 3 "" H 3000 1250 50  0001 C CNN
+	1    3000 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2452,45 +2448,45 @@ $EndComp
 $Comp
 L Speeduino_base-eagle-import:BAT54S D1
 U 1 1 8D141E84
-P 1500 1600
-F 0 "D1" H 1530 1679 59  0000 L BNN
-F 1 "BAT54S" H 1330 1444 59  0000 L BNN
-F 2 "Speeduino_base:SOT23" H 1500 1600 50  0001 C CNN
-F 3 "" H 1500 1600 50  0001 C CNN
-	1    1500 1600
+P 1500 1250
+F 0 "D1" H 1530 1329 59  0000 L BNN
+F 1 "BAT54S" H 1330 1094 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 1500 1250 50  0001 C CNN
+F 3 "" H 1500 1250 50  0001 C CNN
+	1    1500 1250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Speeduino_base-eagle-import:BAT54S D4
 U 1 1 5A2B5BA5
-P 2600 1500
-F 0 "D4" H 2630 1579 59  0000 L BNN
-F 1 "BAT54S" H 2430 1344 59  0000 L BNN
-F 2 "Speeduino_base:SOT23" H 2600 1500 50  0001 C CNN
-F 3 "" H 2600 1500 50  0001 C CNN
-	1    2600 1500
+P 2600 1250
+F 0 "D4" H 2630 1329 59  0000 L BNN
+F 1 "BAT54S" H 2430 1094 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 2600 1250 50  0001 C CNN
+F 3 "" H 2600 1250 50  0001 C CNN
+	1    2600 1250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R4
 U 1 1 F3670DF8
-P 1500 1400
-F 0 "R4" H 1350 1450 42  0000 L BNN
-F 1 "1k" H 1450 1300 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 1500 1400 50  0001 C CNN
-F 3 "" H 1500 1400 50  0001 C CNN
-	1    1500 1400
+P 1500 1050
+F 0 "R4" H 1350 1100 42  0000 L BNN
+F 1 "1k" H 1450 950 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1500 1050 50  0001 C CNN
+F 3 "" H 1500 1050 50  0001 C CNN
+	1    1500 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R13
 U 1 1 5AEF6CA1
-P 2600 1300
-F 0 "R13" H 2450 1350 42  0000 L BNN
-F 1 "1k" H 2450 1200 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 2600 1300 50  0001 C CNN
-F 3 "" H 2600 1300 50  0001 C CNN
-	1    2600 1300
+P 2600 1050
+F 0 "R13" H 2450 1100 42  0000 L BNN
+F 1 "1k" H 2450 950 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2600 1050 50  0001 C CNN
+F 3 "" H 2600 1050 50  0001 C CNN
+	1    2600 1050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3369,17 +3365,6 @@ F 3 "" H 6600 10400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Speeduino_base-eagle-import:SMD-FERRITE-BEAD-470R-2A(0805)'0805' L1
-U 1 1 6985C268
-P 7000 10400
-F 0 "L1" H 6900 10450 42  0000 L BNN
-F 1 "470R-2A" H 6900 10300 42  0000 L BNN
-F 2 "Speeduino_base:L0805" H 7000 10400 50  0001 C CNN
-F 3 "" H 7000 10400 50  0001 C CNN
-	1    7000 10400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Speeduino_base-eagle-import:?1812L F1
 U 1 1 2B6D0F9D
 P 5300 9800
@@ -3483,8 +3468,6 @@ Wire Wire Line
 	6630 9800 6630 9810
 Text Label 6700 10400 0    10   ~ 0
 GND
-Wire Wire Line
-	6700 10400 6800 10400
 Connection ~ 4900 9800
 Text Label 4600 9800 2    70   ~ 0
 VBAT
@@ -3661,10 +3644,6 @@ F 3 "~" H 2600 2000 50  0001 C CNN
 	1    2600 2000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2600 1600 2600 1850
-Wire Wire Line
-	1500 1700 1500 2150
 Text GLabel 5150 1400 3    50   Input ~ 0
 STEP_2B_OUT
 Text GLabel 5850 1950 2    50   Input ~ 0
@@ -3922,9 +3901,9 @@ Wire Wire Line
 	2900 2700 2900 3000
 Wire Wire Line
 	2900 2350 2900 2500
-Text GLabel 1500 1000 1    50   Input ~ 0
+Text GLabel 1500 650  1    50   Input ~ 0
 PE0
-Text GLabel 2600 1000 1    50   Input ~ 0
+Text GLabel 2600 750  1    50   Input ~ 0
 PE1
 Text GLabel 13450 3300 0    50   Input ~ 0
 PC8
@@ -4009,7 +3988,7 @@ L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R71
 U 1 1 5E80CCFA
 P 11350 1300
 F 0 "R71" H 11200 1350 42  0000 L BNN
-F 1 "1k" H 11200 1200 42  0000 L BNN
+F 1 "560" H 11200 1200 42  0000 L BNN
 F 2 "Speeduino_base:R0603" H 11350 1300 50  0001 C CNN
 F 3 "" H 11350 1300 50  0001 C CNN
 	1    11350 1300
@@ -4037,7 +4016,7 @@ L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R70
 U 1 1 5E85B2DA
 P 11350 900
 F 0 "R70" H 11200 950 42  0000 L BNN
-F 1 "1k" H 11200 800 42  0000 L BNN
+F 1 "82" H 11200 800 42  0000 L BNN
 F 2 "Speeduino_base:R0603" H 11350 900 50  0001 C CNN
 F 3 "" H 11350 900 50  0001 C CNN
 	1    11350 900 
@@ -4065,7 +4044,7 @@ L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R69
 U 1 1 5E8A9CBD
 P 11350 500
 F 0 "R69" H 11200 550 42  0000 L BNN
-F 1 "1k" H 11200 400 42  0000 L BNN
+F 1 "180" H 11200 400 42  0000 L BNN
 F 2 "Speeduino_base:R0603" H 11350 500 50  0001 C CNN
 F 3 "" H 11350 500 50  0001 C CNN
 	1    11350 500 
@@ -4095,4 +4074,140 @@ Text GLabel 11000 900  0    50   Input ~ 0
 3.3V
 Text GLabel 11000 1300 0    50   Input ~ 0
 VBAT
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R72
+U 1 1 5E26DB31
+P 7050 10400
+F 0 "R72" H 6900 10450 42  0000 L BNN
+F 1 "0R0" H 6900 10300 42  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 10400 50  0001 C CNN
+F 3 "" H 7050 10400 50  0001 C CNN
+	1    7050 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 10400 6900 10400
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5E2F31E3
+P 10250 2200
+F 0 "J1" V 10404 1912 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 10313 1912 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10250 2200 50  0001 C CNN
+F 3 "~" H 10250 2200 50  0001 C CNN
+	1    10250 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10150 2000 1    50   Input ~ 0
+3.3V
+Text GLabel 10450 2000 1    50   Input ~ 0
+GND
+Text GLabel 10250 2000 1    50   Input ~ 0
+PA10
+Text GLabel 10350 2000 1    50   Input ~ 0
+PA9
+$Comp
+L Device:D_Small D24
+U 1 1 5E5E6468
+P 14700 2900
+F 0 "D24" V 14654 2968 50  0000 L CNN
+F 1 "1N4007" V 14745 2968 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-128" V 14700 2900 50  0001 C CNN
+F 3 "~" V 14700 2900 50  0001 C CNN
+	1    14700 2900
+	0    1    1    0   
+$EndComp
+Connection ~ 14700 3000
+Wire Wire Line
+	14700 2800 14700 2600
+Text GLabel 14700 2600 1    50   Input ~ 0
+VBAT
+$Comp
+L Device:D_Small D25
+U 1 1 5E648732
+P 14950 4000
+F 0 "D25" V 14904 4068 50  0000 L CNN
+F 1 "1N4007" V 14995 4068 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-128" V 14950 4000 50  0001 C CNN
+F 3 "~" V 14950 4000 50  0001 C CNN
+	1    14950 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14950 3900 14950 3700
+Text GLabel 14950 3700 1    50   Input ~ 0
+VBAT
+Connection ~ 14950 4100
+Wire Wire Line
+	14950 4100 15700 4100
+$Comp
+L Device:D_Small D22
+U 1 1 5E6A2F41
+P 5600 3300
+F 0 "D22" V 5554 3368 50  0000 L CNN
+F 1 "1N4007" V 5645 3368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-128" V 5600 3300 50  0001 C CNN
+F 3 "~" V 5600 3300 50  0001 C CNN
+	1    5600 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3200 5600 3000
+Text GLabel 5600 3000 1    50   Input ~ 0
+VBAT
+$Comp
+L Device:D_Small D23
+U 1 1 5E6F41B5
+P 8400 3250
+F 0 "D23" V 8354 3318 50  0000 L CNN
+F 1 "1N4007" V 8445 3318 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-128" V 8400 3250 50  0001 C CNN
+F 3 "~" V 8400 3250 50  0001 C CNN
+	1    8400 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 3150 8400 2950
+Text GLabel 8400 2950 1    50   Input ~ 0
+VBAT
+Connection ~ 8400 3350
+Wire Wire Line
+	8400 3350 9150 3350
+Connection ~ 5600 3400
+Wire Wire Line
+	5600 3400 5950 3400
+Text GLabel 5700 5900 0    50   Input ~ 0
+3.3V
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R73
+U 1 1 5E765C93
+P 1500 1500
+F 0 "R73" H 1350 1550 42  0000 L BNN
+F 1 "1k" H 1450 1400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1500 1500 50  0001 C CNN
+F 3 "" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	0    1    1    0   
+$EndComp
+Connection ~ 1500 1350
+Wire Wire Line
+	1500 1650 1500 2150
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R74
+U 1 1 5E909D41
+P 2600 1600
+F 0 "R74" H 2450 1650 42  0000 L BNN
+F 1 "1k" H 2450 1500 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2600 1600 50  0001 C CNN
+F 3 "" H 2600 1600 50  0001 C CNN
+	1    2600 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 1750 2600 1850
+Wire Wire Line
+	2600 1200 2600 1350
+Connection ~ 2600 1350
+Wire Wire Line
+	2600 1350 2600 1450
 $EndSCHEMATC
