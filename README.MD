@@ -1,4 +1,4 @@
-# Project Title
+# Project SPECTRE
 Project SPECTRE	(Speeduino PrintEd Circuit TjeeRdiE). This is a board with the hardware to run speeduino on a STM32F407VE6T board from ebay. (Or a STM32 BLACK_F407VE as i call it). Schematics and more information on the cpu board can be found here: [Link] (https://github.com/mcauser/BLACK_F407VE) 
 BLACK_F407VE. This is a design in Kicad so to open the files use Kicad. The intension of the board is to use minimal hardware next to the board and casing. So injector voltage, MAP power IGN power etc are all available from the connector directly. For a 4 cylinder NA engine with wasted spark and full seqential injection you would only need a relay for the fule pump and a relay for the FAN if needed. The board fits inside the ebay ECU housing with 48pin connector.
 
