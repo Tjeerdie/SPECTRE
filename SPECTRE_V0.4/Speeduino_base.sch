@@ -1,0 +1,4098 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 16951 11694
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6350 7800 6200 7800
+Wire Wire Line
+	6200 7800 6200 7850
+Wire Wire Line
+	5900 7850 5900 7800
+Wire Wire Line
+	5900 7800 5900 7650
+Wire Wire Line
+	6200 7800 5900 7800
+Connection ~ 6200 7800
+Connection ~ 5900 7800
+Wire Wire Line
+	5900 7350 6000 7350
+Wire Wire Line
+	6000 7350 6000 7300
+Text Label 6000 7300 0    70   ~ 0
+VBAT
+Text Label 6000 7300 0    70   ~ 0
+VBAT
+Wire Wire Line
+	6150 6400 6000 6400
+Wire Wire Line
+	6000 6400 6000 6450
+Wire Wire Line
+	6000 6400 5700 6400
+Wire Wire Line
+	5700 6350 5700 6400
+Connection ~ 6000 6400
+Text Label 5850 6400 0    70   ~ 0
+CLT
+Wire Wire Line
+	7700 9800 7900 9800
+Wire Wire Line
+	7900 9800 7900 9790
+Wire Wire Line
+	7900 9790 8200 9790
+Wire Wire Line
+	8200 9790 8200 9810
+Wire Wire Line
+	8200 9810 8500 9810
+Text Label 7700 9800 0    70   ~ 0
+5V
+Connection ~ 7900 9790
+Connection ~ 8200 9810
+Wire Wire Line
+	1800 2900 1800 2700
+Wire Wire Line
+	1600 2500 1650 2500
+Wire Wire Line
+	1600 2500 1600 2900
+Wire Wire Line
+	1600 2900 1800 2900
+Text Label 1800 2800 1    70   ~ 0
+5V
+Connection ~ 1800 2900
+Wire Wire Line
+	2450 2500 2600 2500
+Text Label 2500 2500 0    70   ~ 0
+5V
+Wire Wire Line
+	5000 7900 5000 8200
+Text Label 5000 8200 1    70   ~ 0
+5V
+Wire Wire Line
+	1200 3100 900  3100
+Text Label 900  3100 0    70   ~ 0
+5V
+Text Label 2900 2900 0    70   ~ 0
+5V
+Wire Wire Line
+	10200 2700 9500 2700
+Text Label 9600 2700 0    70   ~ 0
+5V
+Wire Wire Line
+	10200 2800 9500 2800
+Text Label 9600 2800 0    70   ~ 0
+5V
+Wire Wire Line
+	10500 2700 11100 2700
+Text Label 11000 2700 0    70   ~ 0
+5V
+Wire Wire Line
+	10500 2800 11100 2800
+Text Label 11000 2800 0    70   ~ 0
+5V
+Wire Wire Line
+	5900 8200 5900 8150
+Text Label 5900 8200 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 8200 6200 8150
+Text Label 6200 8200 0    10   ~ 0
+GND
+Wire Wire Line
+	6700 8200 6700 8150
+Text Label 6700 8200 0    10   ~ 0
+GND
+Wire Wire Line
+	8400 7500 8400 7450
+Text Label 8400 7500 0    10   ~ 0
+GND
+Wire Wire Line
+	8900 7500 8900 7450
+Text Label 8900 7500 0    10   ~ 0
+GND
+Wire Wire Line
+	2900 8300 2900 8250
+Text Label 2900 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	3300 8300 3300 8250
+Text Label 3300 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	3000 7200 3000 7150
+Text Label 3000 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	3500 7200 3500 7150
+Text Label 3500 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 6800 6000 6750
+Text Label 6000 6800 0    10   ~ 0
+GND
+Wire Wire Line
+	6500 6800 6500 6750
+Text Label 6500 6800 0    10   ~ 0
+GND
+Wire Wire Line
+	2400 4700 2500 4700
+Wire Wire Line
+	2500 4700 2700 4700
+Wire Wire Line
+	2700 4700 2800 4700
+Wire Wire Line
+	2800 4800 2800 4700
+Connection ~ 2500 4700
+Connection ~ 2700 4700
+Connection ~ 2800 4700
+Text Label 2400 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	3100 2800 3100 2900
+Text Label 3100 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 2900 2500 2800
+Text Label 2500 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 7900 4900 8200
+Text Label 4900 8200 1    70   ~ 0
+GND
+Wire Wire Line
+	10200 3100 9500 3100
+Text Label 9600 3100 0    70   ~ 0
+GND
+Wire Wire Line
+	10500 3100 11100 3100
+Text Label 11000 3100 0    70   ~ 0
+GND
+Wire Wire Line
+	12000 3000 11400 3000
+Text Label 11500 3000 0    70   ~ 0
+GND
+Text Label 12900 3000 0    70   ~ 0
+GND
+Wire Wire Line
+	12000 3100 11400 3100
+Text Label 11500 3100 0    70   ~ 0
+GND
+Text Label 12900 3100 0    70   ~ 0
+GND
+Wire Wire Line
+	3800 8300 3800 8100
+Text Label 3800 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 7100 3800 7000
+Text Label 3800 7100 0    10   ~ 0
+GND
+Wire Wire Line
+	7100 8100 7100 8000
+Text Label 7100 8100 0    10   ~ 0
+GND
+Wire Wire Line
+	6800 6700 6800 6600
+Text Label 6800 6700 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 7400 9400 7300
+Text Label 9400 7400 0    10   ~ 0
+GND
+Wire Wire Line
+	1800 1600 1700 1600
+Text Label 1800 1600 0    10   ~ 0
+GND
+Wire Wire Line
+	2900 1500 2800 1500
+Text Label 2900 1500 0    10   ~ 0
+GND
+Wire Wire Line
+	4600 8600 4400 8600
+Text Label 4600 8600 0    10   ~ 0
+GND
+Wire Wire Line
+	7900 9000 7900 8950
+Text Label 7900 9000 0    10   ~ 0
+GND
+Wire Wire Line
+	8300 9000 8300 8950
+Text Label 8300 9000 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 8800 8900 8800
+Wire Wire Line
+	8900 8800 8900 9000
+Text Label 8700 8800 0    10   ~ 0
+GND
+Wire Wire Line
+	10500 8300 10500 8250
+Text Label 10500 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	10800 7600 10800 7700
+Wire Wire Line
+	10800 7700 10700 7700
+Text Label 10800 7600 0    10   ~ 0
+GND
+Wire Wire Line
+	4200 5700 4200 5900
+Text Label 4200 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	8400 6400 8400 6350
+Text Label 8400 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	8900 6400 8900 6350
+Text Label 8900 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	9200 6300 9200 6200
+Text Label 9200 6300 0    10   ~ 0
+GND
+Wire Wire Line
+	1100 8400 1100 8350
+Text Label 1100 8400 0    10   ~ 0
+GND
+Wire Wire Line
+	1500 8400 1500 8350
+Text Label 1500 8400 0    10   ~ 0
+GND
+Wire Wire Line
+	1200 7300 1200 7250
+Text Label 1200 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	1700 7300 1700 7250
+Text Label 1700 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	2000 8400 2000 8200
+Text Label 2000 8400 0    10   ~ 0
+GND
+Wire Wire Line
+	2000 7200 2000 7100
+Text Label 2000 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	11800 9200 12000 9300
+Wire Wire Line
+	12000 9300 12300 9300
+Wire Wire Line
+	12300 9500 12300 9300
+Wire Wire Line
+	12000 9650 12000 9300
+Text Label 12000 9300 0    70   ~ 0
+IGN3-OUT
+Connection ~ 12000 9300
+Wire Wire Line
+	13200 9300 13300 9300
+Wire Wire Line
+	13300 9300 13600 9300
+Wire Wire Line
+	13600 9500 13600 9300
+Wire Wire Line
+	13300 9650 13300 9300
+Text Label 13300 9300 0    70   ~ 0
+IGN4-OUT
+Connection ~ 13300 9300
+Wire Wire Line
+	12000 5600 12800 5600
+Text Label 12400 5600 0    70   ~ 0
+INJ1-OUT
+Wire Wire Line
+	12100 6700 12900 6700
+Text Label 12500 6700 0    70   ~ 0
+INJ2-OUT
+Wire Wire Line
+	16000 5600 14800 5600
+Text Label 15200 5600 0    70   ~ 0
+INJ3-OUT
+Wire Wire Line
+	16100 6700 14800 6700
+Text Label 15200 6700 0    70   ~ 0
+INJ4-OUT
+Wire Wire Line
+	14000 4450 14500 4450
+Wire Wire Line
+	14500 4450 14500 4400
+Wire Wire Line
+	13850 4400 14000 4400
+Wire Wire Line
+	14000 4400 14000 4450
+Connection ~ 14000 4450
+Wire Wire Line
+	7400 3350 7600 3350
+Wire Wire Line
+	7550 3700 8050 3700
+Wire Wire Line
+	7400 3650 7550 3650
+Wire Wire Line
+	7550 3650 7550 3700
+Wire Wire Line
+	8050 3550 8050 3700
+Connection ~ 7550 3700
+Wire Wire Line
+	3150 6800 3000 6800
+Wire Wire Line
+	3000 6800 3000 6850
+Wire Wire Line
+	3000 6800 2700 6800
+Wire Wire Line
+	2700 6750 2700 6800
+Connection ~ 3000 6800
+Text Label 2850 6800 0    70   ~ 0
+IAT
+Wire Wire Line
+	2950 7900 2900 7900
+Wire Wire Line
+	2900 7900 2900 7950
+Wire Wire Line
+	2900 7900 2600 7900
+Connection ~ 2900 7900
+Text Label 2750 7900 0    70   ~ 0
+O2
+Wire Wire Line
+	8550 7100 8400 7100
+Wire Wire Line
+	8400 7100 8400 7150
+Wire Wire Line
+	8400 7100 7900 7100
+Connection ~ 8400 7100
+Text Label 8150 7100 0    70   ~ 0
+TPS
+Text Label 8150 7100 0    70   ~ 0
+TPS
+Wire Wire Line
+	4500 3400 4700 3400
+Wire Wire Line
+	4650 3750 5150 3750
+Wire Wire Line
+	4500 3700 4650 3700
+Wire Wire Line
+	4650 3700 4650 3750
+Wire Wire Line
+	5150 3600 5150 3750
+Connection ~ 4650 3750
+Wire Wire Line
+	8200 10110 8500 10110
+Wire Wire Line
+	8200 10090 8200 10110
+Wire Wire Line
+	7900 10090 8200 10090
+Wire Wire Line
+	7900 10100 7900 10090
+Wire Wire Line
+	8200 10400 8200 10110
+Connection ~ 8200 10110
+Connection ~ 7900 10090
+Wire Wire Line
+	11400 7400 11400 7350
+Wire Wire Line
+	11400 7400 12100 7400
+Wire Wire Line
+	12100 7400 12100 7100
+Text Label 11500 7400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	7550 4000 7550 4050
+Wire Wire Line
+	7550 4050 8050 4050
+Wire Wire Line
+	8050 4050 8050 3850
+Wire Wire Line
+	8250 3850 8250 3750
+Wire Wire Line
+	8050 3850 8250 3850
+Text Label 7550 4050 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	14700 4500 14700 4800
+Text Label 14700 4500 0    70   ~ 0
+PWR_GND
+Text Label 14700 4800 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	11300 6250 11300 6300
+Wire Wire Line
+	11300 6250 12000 6250
+Wire Wire Line
+	12000 6250 12000 6000
+Connection ~ 11300 6250
+Text Label 11300 6300 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	14100 6250 14100 6300
+Wire Wire Line
+	14100 6300 14800 6300
+Wire Wire Line
+	14800 6300 14800 6000
+Text Label 14200 6300 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	14100 7350 14100 7400
+Wire Wire Line
+	14100 7400 14100 7500
+Wire Wire Line
+	14100 7400 14800 7400
+Wire Wire Line
+	14800 7400 14800 7100
+Connection ~ 14100 7400
+Text Label 14200 7400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	4650 4050 4650 4100
+Wire Wire Line
+	4650 4100 5350 4100
+Wire Wire Line
+	5350 4100 5350 3800
+Text Label 4750 4100 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	14000 3650 14000 3700
+Wire Wire Line
+	14000 3700 14700 3700
+Wire Wire Line
+	14700 3400 14700 3700
+Text Label 14100 3700 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	3500 10400 3700 10400
+Text Label 3600 10400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	9900 9400 9900 9500
+Wire Wire Line
+	9900 9500 9800 9500
+Text Label 9900 9400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	11400 9400 11400 9500
+Wire Wire Line
+	11400 9500 11300 9500
+Text Label 11400 9400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	12800 9400 12800 9500
+Wire Wire Line
+	12800 9500 12700 9500
+Text Label 12800 9400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	14100 9400 14100 9500
+Wire Wire Line
+	14100 9500 14000 9500
+Text Label 14100 9400 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	14000 4750 14000 5000
+Wire Wire Line
+	14000 5000 14200 5000
+Text Label 14100 5000 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	3500 10200 3700 10200
+Text Label 3700 10200 2    70   ~ 0
+STEP_1B_OUT
+Wire Wire Line
+	3500 10100 3700 10100
+Text Label 3700 10100 2    70   ~ 0
+STEP_1A_OUT
+Wire Wire Line
+	3500 10000 3700 10000
+Text Label 3700 10000 2    70   ~ 0
+STEP_2A_OUT
+Wire Wire Line
+	3500 9900 3700 9900
+Text Label 3700 9900 2    70   ~ 0
+STEP_2B_OUT
+Wire Wire Line
+	7950 8600 7900 8600
+Wire Wire Line
+	7900 8600 7900 8650
+Wire Wire Line
+	7700 8550 7700 8600
+Wire Wire Line
+	7900 8600 7700 8600
+Wire Wire Line
+	7700 8600 7500 8600
+Connection ~ 7900 8600
+Text Label 7600 8600 0    70   ~ 0
+MAP
+Connection ~ 7700 8600
+Wire Wire Line
+	2100 4700 2100 4900
+Wire Wire Line
+	2100 4950 2100 4900
+Wire Wire Line
+	2050 4900 2100 4900
+Connection ~ 2100 4900
+Wire Wire Line
+	2200 4700 2200 4900
+Wire Wire Line
+	2200 4900 2200 4950
+Wire Wire Line
+	2250 4900 2200 4900
+Connection ~ 2200 4900
+Wire Wire Line
+	1750 4900 1700 4900
+Wire Wire Line
+	2000 4700 1700 4700
+Wire Wire Line
+	2550 4900 2600 4900
+Wire Wire Line
+	2300 4700 2300 4800
+Wire Wire Line
+	2300 4800 2600 4800
+Wire Wire Line
+	2150 2500 2100 2500
+Wire Wire Line
+	2100 2500 2100 2900
+Wire Wire Line
+	2100 2500 2100 2000
+Wire Wire Line
+	2100 2000 2400 2000
+Connection ~ 2100 2500
+Wire Wire Line
+	1950 2500 2000 2500
+Wire Wire Line
+	2000 2500 2000 2900
+Wire Wire Line
+	1700 2000 2000 2000
+Wire Wire Line
+	2000 2000 2000 2500
+Connection ~ 2000 2500
+Wire Wire Line
+	1700 5250 1700 5400
+Text Label 1700 5400 1    70   ~ 0
+VR1+
+Wire Wire Line
+	1300 2000 1200 2000
+Wire Wire Line
+	1200 2000 700  2000
+Wire Wire Line
+	1200 2150 1200 2000
+Text Label 700  2000 0    70   ~ 0
+VR1+
+Connection ~ 1200 2000
+Wire Wire Line
+	2100 5250 2100 5400
+Text Label 2100 5400 1    70   ~ 0
+VR1-
+Wire Wire Line
+	2200 5250 2200 5400
+Text Label 2200 5400 1    70   ~ 0
+VR2+
+Wire Wire Line
+	2900 2050 2900 2000
+Wire Wire Line
+	2900 2000 2900 1800
+Wire Wire Line
+	2900 1800 3300 1800
+Wire Wire Line
+	2800 2000 2900 2000
+Text Label 2900 2050 0    70   ~ 0
+VR2+
+Connection ~ 2900 2000
+Wire Wire Line
+	2600 5250 2600 5400
+Text Label 2600 5400 1    70   ~ 0
+VR2-
+Wire Wire Line
+	9000 9300 9100 9300
+Wire Wire Line
+	9100 9300 9400 9300
+Wire Wire Line
+	9400 9500 9400 9300
+Wire Wire Line
+	9100 9650 9100 9300
+Text Label 9100 9300 0    70   ~ 0
+IGN1-OUT
+Connection ~ 9100 9300
+Wire Wire Line
+	10500 9300 10600 9300
+Wire Wire Line
+	10600 9300 10900 9300
+Wire Wire Line
+	10900 9500 10900 9300
+Wire Wire Line
+	10600 9650 10600 9300
+Text Label 10600 9300 0    70   ~ 0
+IGN2-OUT
+Connection ~ 10600 9300
+Wire Wire Line
+	4000 3400 4200 3400
+Text Label 4000 3400 0    70   ~ 0
+VBAT_F1
+Wire Wire Line
+	6900 3350 7100 3350
+Text Label 6900 3350 0    70   ~ 0
+VBAT_F1
+Wire Wire Line
+	10500 3800 11100 3800
+Text Label 11000 3800 0    70   ~ 0
+PA1
+Wire Wire Line
+	11300 5950 11300 5900
+Wire Wire Line
+	10500 3700 11100 3700
+Text Label 11000 3700 0    70   ~ 0
+VREF+
+Wire Wire Line
+	10500 3600 11100 3600
+Text Label 11000 3600 0    70   ~ 0
+PC3
+Wire Wire Line
+	6500 6400 6500 6450
+Wire Wire Line
+	6700 6400 6820 6400
+Wire Wire Line
+	6700 6400 7300 6400
+Text Label 7200 6400 0    70   ~ 0
+PC3
+Connection ~ 6700 6400
+Wire Wire Line
+	10200 3800 9500 3800
+Text Label 9600 3800 0    70   ~ 0
+PA0
+Wire Wire Line
+	10200 3700 9500 3700
+Text Label 9600 3700 0    70   ~ 0
+VREF-
+Wire Wire Line
+	10200 3600 9500 3600
+Text Label 9600 3600 0    70   ~ 0
+PC2
+Wire Wire Line
+	3450 6800 3500 6800
+Wire Wire Line
+	3500 6800 3500 6850
+Wire Wire Line
+	3500 6800 3700 6800
+Wire Wire Line
+	3700 6800 4220 6800
+Text Label 4000 6800 0    70   ~ 0
+PC2
+Connection ~ 3500 6800
+Connection ~ 3700 6800
+Wire Wire Line
+	10500 3500 11100 3500
+Text Label 11000 3500 0    70   ~ 0
+PC1
+Wire Wire Line
+	8900 7100 8900 7150
+Wire Wire Line
+	9300 7100 9320 7100
+Wire Wire Line
+	9320 7100 9320 7150
+Wire Wire Line
+	9300 7100 9700 7100
+Text Label 9700 7100 0    70   ~ 0
+PC1
+Connection ~ 9300 7100
+Wire Wire Line
+	10500 3400 11100 3400
+Text Label 11000 3400 0    70   ~ 0
+PC13
+Wire Wire Line
+	10200 3500 9500 3500
+Text Label 9600 3500 0    70   ~ 0
+PC0
+Wire Wire Line
+	8600 8600 9120 8600
+Wire Wire Line
+	8500 8500 8500 8600
+Wire Wire Line
+	8500 8600 8600 8600
+Wire Wire Line
+	8500 8700 8500 8600
+Text Label 9100 8600 0    70   ~ 0
+PC0
+Connection ~ 8600 8600
+Connection ~ 8500 8600
+Wire Wire Line
+	10200 3400 9500 3400
+Text Label 9600 3400 0    70   ~ 0
+PE6
+Wire Wire Line
+	7100 3650 6750 3650
+Text Label 6750 3650 0    70   ~ 0
+PE6
+Wire Wire Line
+	10500 3300 11100 3300
+Text Label 11000 3300 0    70   ~ 0
+PE5
+Wire Wire Line
+	1900 10300 1600 10300
+Text Label 1900 10300 2    70   ~ 0
+PE5
+Wire Wire Line
+	10500 3200 11100 3200
+Text Label 11000 3200 0    70   ~ 0
+PE3
+Wire Wire Line
+	10200 3300 9500 3300
+Text Label 9600 3300 0    70   ~ 0
+PE4
+Wire Wire Line
+	10200 3200 9500 3200
+Text Label 9600 3200 0    70   ~ 0
+PE2
+Wire Wire Line
+	1900 9700 1700 9700
+Text Label 1700 9700 0    70   ~ 0
+PE2
+Wire Wire Line
+	10500 2900 11100 2900
+Text Label 11000 2900 0    70   ~ 0
+3.3V
+Wire Wire Line
+	10200 2900 9500 2900
+Text Label 9600 2900 0    70   ~ 0
+3.3V
+Wire Wire Line
+	10200 3000 9500 3000
+Text Label 9600 3000 0    70   ~ 0
+3.3V
+Wire Wire Line
+	10500 3000 11100 3000
+Text Label 11000 3000 0    70   ~ 0
+3.3V
+Wire Wire Line
+	12000 2700 11400 2700
+Text Label 11500 2700 0    70   ~ 0
+3.3V
+Wire Wire Line
+	12300 2700 13000 2700
+Text Label 12900 2700 0    70   ~ 0
+3.3V
+Wire Wire Line
+	12000 2800 11400 2800
+Text Label 11500 2800 0    70   ~ 0
+3.3V
+Wire Wire Line
+	12300 2800 13000 2800
+Text Label 12900 2800 0    70   ~ 0
+3.3V
+Wire Wire Line
+	1900 10200 1600 10200
+Wire Wire Line
+	1900 10100 1600 10100
+Wire Wire Line
+	1600 10100 1600 10200
+Text Label 1600 10100 0    70   ~ 0
+3.3V
+Wire Wire Line
+	3500 10300 3700 10300
+Text Label 3600 10300 0    70   ~ 0
+3.3V
+Wire Wire Line
+	3800 7700 3800 7600
+Text Label 3800 7600 0    70   ~ 0
+3.3V
+Wire Wire Line
+	3800 6600 3800 6400
+Text Label 3800 6600 1    70   ~ 0
+3.3V
+Wire Wire Line
+	7100 7600 7100 7400
+Text Label 7100 7600 1    70   ~ 0
+3.3V
+Wire Wire Line
+	6800 6200 6800 6000
+Text Label 6800 6200 1    70   ~ 0
+3.3V
+Wire Wire Line
+	9400 6900 9400 6700
+Text Label 9400 6900 1    70   ~ 0
+3.3V
+Wire Wire Line
+	1300 1600 1100 1600
+Text Label 1300 1600 2    70   ~ 0
+3.3V
+Wire Wire Line
+	2400 1500 2200 1500
+Text Label 2400 1500 2    70   ~ 0
+3.3V
+Wire Wire Line
+	8700 8400 8700 8100
+Text Label 8700 8300 0    70   ~ 0
+3.3V
+Wire Wire Line
+	4200 5300 4200 5100
+Text Label 4200 5200 1    70   ~ 0
+3.3V
+Wire Wire Line
+	5000 8600 5200 8600
+Text Label 5100 8600 0    70   ~ 0
+3.3V
+Wire Wire Line
+	2700 6450 2700 6300
+Text Label 2700 6300 0    70   ~ 0
+3.3V
+Wire Wire Line
+	5700 6050 5700 5900
+Text Label 4450 4400 0    70   ~ 0
+3.3V
+Wire Wire Line
+	9200 5800 9200 5500
+Text Label 9200 5800 1    70   ~ 0
+3.3V
+Wire Wire Line
+	8100 5650 8100 5500
+Text Label 8100 5500 0    70   ~ 0
+3.3V
+Wire Wire Line
+	2000 7800 2000 7700
+Text Label 2000 7700 0    70   ~ 0
+3.3V
+Wire Wire Line
+	2000 6700 2000 6500
+Text Label 2000 6700 1    70   ~ 0
+3.3V
+Wire Wire Line
+	900  6550 900  6400
+Text Label 900  6400 0    70   ~ 0
+3.3V
+Wire Wire Line
+	9600 10050 9600 10200
+Wire Wire Line
+	9600 10200 9800 10200
+Text Label 9700 10200 0    70   ~ 0
+3.3V
+Wire Wire Line
+	11100 10050 11100 10200
+Wire Wire Line
+	11100 10200 11300 10200
+Text Label 11200 10200 0    70   ~ 0
+3.3V
+Wire Wire Line
+	12500 10050 12500 10200
+Wire Wire Line
+	12500 10200 12700 10200
+Text Label 12600 10200 0    70   ~ 0
+3.3V
+Wire Wire Line
+	13800 10050 13800 10200
+Wire Wire Line
+	13800 10200 14000 10200
+Text Label 13900 10200 0    70   ~ 0
+3.3V
+Wire Wire Line
+	10500 5000 11100 5000
+Text Label 11000 5000 0    70   ~ 0
+PB14
+Wire Wire Line
+	10500 4900 11100 4900
+Text Label 11000 4900 0    70   ~ 0
+PB12
+Wire Wire Line
+	10500 4800 11100 4800
+Text Label 11000 4800 0    70   ~ 0
+PB10
+Wire Wire Line
+	14250 9700 14400 9700
+Text Label 14300 9700 0    70   ~ 0
+PB10
+Wire Wire Line
+	10200 5000 9500 5000
+Text Label 9600 5000 0    70   ~ 0
+PB13
+Wire Wire Line
+	10200 4900 9500 4900
+Text Label 9600 4900 0    70   ~ 0
+PB11
+Wire Wire Line
+	10200 4800 9500 4800
+Text Label 9600 4800 0    70   ~ 0
+PE15
+Wire Wire Line
+	10500 4700 11100 4700
+Text Label 11000 4700 0    70   ~ 0
+PE14
+Wire Wire Line
+	10500 4600 11100 4600
+Text Label 11000 4600 0    70   ~ 0
+PE12
+Wire Wire Line
+	10200 4700 9500 4700
+Text Label 9600 4700 0    70   ~ 0
+PE13
+Wire Wire Line
+	10200 4600 9500 4600
+Text Label 9600 4600 0    70   ~ 0
+PE11
+Wire Wire Line
+	10500 4500 11100 4500
+Text Label 11000 4500 0    70   ~ 0
+PE10
+Wire Wire Line
+	10500 4400 11100 4400
+Text Label 11000 4400 0    70   ~ 0
+PE8
+Wire Wire Line
+	10500 4300 11100 4300
+Text Label 11000 4300 0    70   ~ 0
+PB1
+Wire Wire Line
+	1700 8000 1700 8100
+Wire Wire Line
+	1700 8200 1700 8100
+Wire Wire Line
+	1900 8000 2200 8000
+Wire Wire Line
+	1700 8100 1900 8100
+Wire Wire Line
+	1900 8100 1900 8000
+Connection ~ 1700 8100
+Connection ~ 1900 8000
+Wire Wire Line
+	10200 4500 9500 4500
+Text Label 9600 4500 0    70   ~ 0
+PE9
+Wire Wire Line
+	10200 4400 9500 4400
+Text Label 9600 4400 0    70   ~ 0
+PE7
+Wire Wire Line
+	1900 10400 1600 10400
+Text Label 1900 10400 2    70   ~ 0
+PE7
+Wire Wire Line
+	10200 4300 9500 4300
+Text Label 9600 4300 0    70   ~ 0
+PB0
+Wire Wire Line
+	1650 6900 1700 6900
+Wire Wire Line
+	1700 6900 1700 6950
+Wire Wire Line
+	1700 6900 1900 6900
+Wire Wire Line
+	1900 6900 2420 6900
+Connection ~ 1700 6900
+Connection ~ 1900 6900
+Wire Wire Line
+	10500 4200 11100 4200
+Text Label 11000 4200 0    70   ~ 0
+PC5
+Wire Wire Line
+	8900 6000 8900 6050
+Wire Wire Line
+	9100 6000 9220 6000
+Wire Wire Line
+	9100 6000 9700 6000
+Connection ~ 9100 6000
+Wire Wire Line
+	10500 4100 11100 4100
+Text Label 11000 4100 0    70   ~ 0
+PA7
+Wire Wire Line
+	10200 4200 9500 4200
+Text Label 9600 4200 0    70   ~ 0
+PC4
+Wire Wire Line
+	3500 7900 3500 8000
+Wire Wire Line
+	3500 8100 3500 8000
+Wire Wire Line
+	3700 7900 4000 7900
+Wire Wire Line
+	3500 8000 3700 8000
+Wire Wire Line
+	3700 8000 3700 7900
+Connection ~ 3500 8000
+Text Label 3900 7900 0    70   ~ 0
+PC4
+Connection ~ 3700 7900
+Wire Wire Line
+	10200 4100 9500 4100
+Text Label 9600 4100 0    70   ~ 0
+PA6
+Wire Wire Line
+	4200 3700 3850 3700
+Text Label 3850 3700 0    70   ~ 0
+PA6
+Wire Wire Line
+	10500 4000 11100 4000
+Text Label 11000 4000 0    70   ~ 0
+PA5
+Wire Wire Line
+	10500 3900 11100 3900
+Text Label 11000 3900 0    70   ~ 0
+PA3
+Wire Wire Line
+	14100 5950 14100 5900
+Wire Wire Line
+	10200 4000 9500 4000
+Text Label 9600 4000 0    70   ~ 0
+PA4
+Wire Wire Line
+	14100 7050 14100 7000
+Wire Wire Line
+	10200 3900 9500 3900
+Text Label 9600 3900 0    70   ~ 0
+PA2
+Wire Wire Line
+	11900 7000 11400 7000
+Wire Wire Line
+	11400 7050 11400 7000
+Text Label 12900 3900 0    70   ~ 0
+PD0
+Wire Wire Line
+	12300 3800 13000 3800
+Text Label 12900 3800 0    70   ~ 0
+PD2
+Wire Wire Line
+	12300 3700 13000 3700
+Text Label 12900 3700 0    70   ~ 0
+PD4
+Wire Wire Line
+	4400 5150 4400 5000
+Text Label 4400 5100 1    70   ~ 0
+PD4
+Wire Wire Line
+	12000 3900 11400 3900
+Text Label 11500 3900 0    70   ~ 0
+PD1
+Wire Wire Line
+	12000 3800 11400 3800
+Text Label 11500 3800 0    70   ~ 0
+PD3
+Wire Wire Line
+	12000 3700 11400 3700
+Text Label 11500 3700 0    70   ~ 0
+PD5
+Wire Wire Line
+	12300 3600 13000 3600
+Text Label 12900 3600 0    70   ~ 0
+PD6
+Wire Wire Line
+	12300 3500 13000 3500
+Text Label 12900 3500 0    70   ~ 0
+PB3
+Wire Wire Line
+	12000 3600 11400 3600
+Text Label 11500 3600 0    70   ~ 0
+PD7
+Wire Wire Line
+	10050 9700 10200 9700
+Text Label 10100 9700 0    70   ~ 0
+PD7
+Wire Wire Line
+	12000 3500 11400 3500
+Text Label 11500 3500 0    70   ~ 0
+PB5
+Wire Wire Line
+	12300 3300 13000 3300
+Text Label 12900 3300 0    70   ~ 0
+PB8
+Text Label 12900 3200 0    70   ~ 0
+PE0
+Wire Wire Line
+	12000 3300 11400 3300
+Text Label 11500 3300 0    70   ~ 0
+PB9
+Wire Wire Line
+	11550 9700 11700 9700
+Text Label 11600 9700 0    70   ~ 0
+PB9
+Wire Wire Line
+	12000 3200 11400 3200
+Text Label 11500 3200 0    70   ~ 0
+PE1
+Wire Wire Line
+	12000 2900 11400 2900
+Text Label 11500 2900 0    70   ~ 0
+BOOT0
+Text Label 12900 5000 0    70   ~ 0
+PB15
+Wire Wire Line
+	12300 4900 13000 4900
+Text Label 12900 4900 0    70   ~ 0
+PD9
+Wire Wire Line
+	5150 8800 5300 8800
+Text Label 5200 8800 0    70   ~ 0
+PD9
+Wire Wire Line
+	12000 5000 11400 5000
+Text Label 11500 5000 0    70   ~ 0
+PD8
+Wire Wire Line
+	4700 7900 4700 8200
+Text Label 4700 8200 1    70   ~ 0
+PD8
+Wire Wire Line
+	12000 4900 11400 4900
+Text Label 11500 4900 0    70   ~ 0
+PD10
+Wire Wire Line
+	12300 4800 13000 4800
+Text Label 12900 4800 0    70   ~ 0
+PD11
+Text Label 12900 4700 0    70   ~ 0
+PD13
+Wire Wire Line
+	1500 1250 1500 1000
+Wire Wire Line
+	12000 4800 11400 4800
+Text Label 11500 4800 0    70   ~ 0
+PD12
+Wire Wire Line
+	12000 4700 11400 4700
+Text Label 11500 4700 0    70   ~ 0
+PD14
+Wire Wire Line
+	2600 1150 2600 1000
+Text Label 12900 4600 0    70   ~ 0
+PD15
+Wire Wire Line
+	10950 7900 11100 7900
+Text Label 12900 4500 0    70   ~ 0
+PC7
+Wire Wire Line
+	12300 4400 13000 4400
+Text Label 12900 4400 0    70   ~ 0
+PC9
+Wire Wire Line
+	12000 4600 11400 4600
+Text Label 11500 4600 0    70   ~ 0
+PC6
+Wire Wire Line
+	6650 7800 6700 7800
+Wire Wire Line
+	6700 7800 6700 7850
+Wire Wire Line
+	6700 7800 7000 7800
+Wire Wire Line
+	7000 7800 7500 7800
+Text Label 7400 7800 0    70   ~ 0
+PC6
+Connection ~ 6700 7800
+Connection ~ 7000 7800
+Wire Wire Line
+	12000 4500 11400 4500
+Text Label 11500 4500 0    70   ~ 0
+PC8
+Wire Wire Line
+	12000 4400 11400 4400
+Text Label 11500 4400 0    70   ~ 0
+PA8
+Wire Wire Line
+	12950 9700 13100 9700
+Text Label 13000 9700 0    70   ~ 0
+PA8
+Wire Wire Line
+	12300 4300 13000 4300
+Text Label 12900 4300 0    70   ~ 0
+PA9
+Wire Wire Line
+	12300 4200 13000 4200
+Text Label 12900 4200 0    70   ~ 0
+PA11
+Wire Wire Line
+	12000 4300 11400 4300
+Text Label 11500 4300 0    70   ~ 0
+PA10
+Text Label 11500 4200 0    70   ~ 0
+PA12
+Text Label 12900 4100 0    70   ~ 0
+PA15
+Wire Wire Line
+	12300 4000 13000 4000
+Text Label 12900 4000 0    70   ~ 0
+PC11
+Wire Wire Line
+	12000 4100 11400 4100
+Text Label 11500 4100 0    70   ~ 0
+PC10
+Wire Wire Line
+	12000 4000 11400 4000
+Text Label 11500 4000 0    70   ~ 0
+PC12
+Wire Wire Line
+	12000 3400 11500 3400
+Text Label 11500 3400 0    70   ~ 0
+PB7
+Wire Wire Line
+	12300 3400 13000 3400
+Text Label 12700 3400 0    70   ~ 0
+PB6
+Wire Wire Line
+	13950 9700 13800 9700
+Wire Wire Line
+	13800 9700 13800 9750
+Connection ~ 13800 9700
+Wire Wire Line
+	13300 9950 13300 10600
+Wire Wire Line
+	12000 9950 12000 10600
+Wire Wire Line
+	13300 10600 12000 10600
+Wire Wire Line
+	10600 9950 10600 10600
+Wire Wire Line
+	12000 10600 10600 10600
+Wire Wire Line
+	9100 9950 9100 10600
+Wire Wire Line
+	10600 10600 9100 10600
+Connection ~ 13300 10600
+Connection ~ 12000 10600
+Connection ~ 10600 10600
+Wire Wire Line
+	12650 9700 12500 9700
+Wire Wire Line
+	12500 9700 12500 9750
+Connection ~ 12500 9700
+Wire Wire Line
+	11250 9700 11100 9700
+Wire Wire Line
+	11100 9700 11100 9750
+Connection ~ 11100 9700
+Wire Wire Line
+	9750 9700 9600 9700
+Wire Wire Line
+	9600 9700 9600 9750
+Connection ~ 9600 9700
+Wire Wire Line
+	4800 7900 4800 8150
+Wire Wire Line
+	4800 8150 4800 8200
+Text Label 4800 8200 1    70   ~ 0
+BT_TX
+Connection ~ 4800 8150
+Wire Wire Line
+	4800 8500 4800 8450
+Wire Wire Line
+	4800 8500 4800 8800
+Wire Wire Line
+	4800 8800 4850 8800
+Connection ~ 4800 8500
+Wire Wire Line
+	1500 1550 1500 1700
+Connection ~ 1500 1700
+Wire Wire Line
+	2600 1600 2600 1450
+Connection ~ 2600 1600
+Wire Wire Line
+	7900 3350 8250 3350
+Wire Wire Line
+	8250 3350 9150 3350
+Text Label 8650 3350 0    70   ~ 0
+FAN
+Connection ~ 8250 3350
+Wire Wire Line
+	5000 3400 5350 3400
+Wire Wire Line
+	5350 3400 5950 3400
+Text Label 5750 3400 0    70   ~ 0
+FUEL_PUMP
+Connection ~ 5350 3400
+Wire Wire Line
+	14700 4100 15700 4100
+Text Label 15100 4100 0    70   ~ 0
+IDLE1-OUT
+Wire Wire Line
+	14000 3350 14500 3350
+Wire Wire Line
+	14500 3350 14500 3300
+Wire Wire Line
+	13850 3300 14000 3300
+Wire Wire Line
+	14000 3300 14000 3350
+Connection ~ 14000 3350
+Wire Wire Line
+	14700 3000 15300 3000
+Text Label 15100 3000 0    70   ~ 0
+IDLE2-OUT
+Wire Wire Line
+	10650 7900 10500 7900
+Wire Wire Line
+	10500 7900 10500 7950
+Connection ~ 10500 7900
+Wire Wire Line
+	10000 8150 10000 8800
+Wire Wire Line
+	9900 7500 10000 7500
+Wire Wire Line
+	10000 7500 10300 7500
+Wire Wire Line
+	10300 7700 10300 7500
+Wire Wire Line
+	10000 7850 10000 7500
+Text Label 10000 7500 0    70   ~ 0
+TACHO-OUT
+Connection ~ 10000 7500
+Wire Wire Line
+	4100 5500 4050 5500
+Wire Wire Line
+	4100 5500 4400 5500
+Wire Wire Line
+	4400 5500 4400 5450
+Connection ~ 4100 5500
+Wire Wire Line
+	3750 5500 3800 5500
+Text Label 3800 5500 2    70   ~ 0
+FLEX_FUEL_IN
+Wire Wire Line
+	8300 8100 8500 8100
+Wire Wire Line
+	8250 8600 8300 8600
+Wire Wire Line
+	8300 8650 8300 8600
+Wire Wire Line
+	8300 8100 8300 8600
+Connection ~ 8300 8600
+Wire Wire Line
+	3250 7900 3300 7900
+Wire Wire Line
+	3300 7900 3300 7950
+Wire Wire Line
+	3300 7500 3500 7500
+Wire Wire Line
+	3300 7900 3300 7500
+Connection ~ 3300 7900
+Wire Wire Line
+	8550 6000 8400 6000
+Wire Wire Line
+	8400 6000 8400 6050
+Wire Wire Line
+	8400 6000 8100 6000
+Wire Wire Line
+	8100 5950 8100 6000
+Connection ~ 8400 6000
+Text Label 8250 6000 0    70   ~ 0
+CLT_2
+Wire Wire Line
+	1450 8000 1500 8000
+Wire Wire Line
+	1500 8000 1500 8050
+Wire Wire Line
+	1500 7600 1700 7600
+Wire Wire Line
+	1500 8000 1500 7600
+Connection ~ 1500 8000
+Wire Wire Line
+	1350 6900 1200 6900
+Wire Wire Line
+	1200 6900 1200 6950
+Wire Wire Line
+	1200 6900 900  6900
+Wire Wire Line
+	900  6850 900  6900
+Connection ~ 1200 6900
+Text Label 1050 6900 0    70   ~ 0
+IAT_2
+Wire Wire Line
+	1150 8000 1100 8000
+Wire Wire Line
+	1100 8000 1100 8050
+Wire Wire Line
+	1100 8000 800  8000
+Connection ~ 1100 8000
+Text Label 950  8000 0    70   ~ 0
+O2_2
+$Comp
+L Speeduino_base-eagle-import:A4988BREAKOUT U$1
+U 1 1 BABD3B23
+P 2900 9800
+F 0 "U$1" H 2900 9800 50  0001 C CNN
+F 1 "A4988BREAKOUT" H 2900 9800 50  0001 C CNN
+F 2 "Speeduino_base:A4988BREAKOUT" H 2900 9800 50  0001 C CNN
+F 3 "" H 2900 9800 50  0001 C CNN
+	1    2900 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C12
+U 1 1 279658A0
+P 6200 8000
+F 0 "C12" H 6050 8050 42  0000 L BNN
+F 1 "100nf" H 6050 7900 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 6200 8000 50  0001 C CNN
+F 3 "" H 6200 8000 50  0001 C CNN
+	1    6200 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C15
+U 1 1 017EDE15
+P 6700 8000
+F 0 "C15" H 6550 8050 42  0000 L BNN
+F 1 "220nf" H 6550 7900 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 6700 8000 50  0001 C CNN
+F 3 "" H 6700 8000 50  0001 C CNN
+	1    6700 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R33
+U 1 1 13B7C125
+P 6500 7800
+F 0 "R33" H 6350 7850 42  0000 L BNN
+F 1 "470R" H 6350 7700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 6500 7800 50  0001 C CNN
+F 3 "" H 6500 7800 50  0001 C CNN
+	1    6500 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R31
+U 1 1 C078789D
+P 5900 8000
+F 0 "R31" H 5750 8050 42  0000 L BNN
+F 1 "1k2" H 5750 7900 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5900 8000 50  0001 C CNN
+F 3 "" H 5900 8000 50  0001 C CNN
+	1    5900 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R30
+U 1 1 1939C5D8
+P 5900 7500
+F 0 "R30" H 5750 7550 42  0000 L BNN
+F 1 "8k3" H 5750 7400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5900 7500 50  0001 C CNN
+F 3 "" H 5900 7500 50  0001 C CNN
+	1    5900 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY022
+U 1 1 E46721A6
+P 5900 8300
+F 0 "#SUPPLY022" H 5900 8300 50  0001 C CNN
+F 1 "GND" H 5825 8175 59  0000 L BNN
+F 2 "" H 5900 8300 50  0001 C CNN
+F 3 "" H 5900 8300 50  0001 C CNN
+	1    5900 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY024
+U 1 1 33EFDB7C
+P 6200 8300
+F 0 "#SUPPLY024" H 6200 8300 50  0001 C CNN
+F 1 "GND" H 6125 8175 59  0000 L BNN
+F 2 "" H 6200 8300 50  0001 C CNN
+F 3 "" H 6200 8300 50  0001 C CNN
+	1    6200 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY027
+U 1 1 D5692080
+P 6700 8300
+F 0 "#SUPPLY027" H 6700 8300 50  0001 C CNN
+F 1 "GND" H 6625 8175 59  0000 L BNN
+F 2 "" H 6700 8300 50  0001 C CNN
+F 3 "" H 6700 8300 50  0001 C CNN
+	1    6700 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C11
+U 1 1 0CFCFE7B
+P 6000 6600
+F 0 "C11" H 5850 6650 42  0000 L BNN
+F 1 "100nf" H 5850 6500 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 6000 6600 50  0001 C CNN
+F 3 "" H 6000 6600 50  0001 C CNN
+	1    6000 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C13
+U 1 1 4039F557
+P 6500 6600
+F 0 "C13" H 6350 6650 42  0000 L BNN
+F 1 "220nf" H 6350 6500 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 6500 6600 50  0001 C CNN
+F 3 "" H 6500 6600 50  0001 C CNN
+	1    6500 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R32
+U 1 1 AD69C2FC
+P 6300 6400
+F 0 "R32" H 6150 6450 42  0000 L BNN
+F 1 "470R" H 6150 6300 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 6300 6400 50  0001 C CNN
+F 3 "" H 6300 6400 50  0001 C CNN
+	1    6300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY023
+U 1 1 6DF68C43
+P 6000 6900
+F 0 "#SUPPLY023" H 6000 6900 50  0001 C CNN
+F 1 "GND" H 5925 6775 59  0000 L BNN
+F 2 "" H 6000 6900 50  0001 C CNN
+F 3 "" H 6000 6900 50  0001 C CNN
+	1    6000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY025
+U 1 1 FD320F9F
+P 6500 6900
+F 0 "#SUPPLY025" H 6500 6900 50  0001 C CNN
+F 1 "GND" H 6425 6775 59  0000 L BNN
+F 2 "" H 6500 6900 50  0001 C CNN
+F 3 "" H 6500 6900 50  0001 C CNN
+	1    6500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R65
+U 1 1 7B845FE4
+P 14100 9700
+F 0 "R65" H 13950 9750 42  0000 L BNN
+F 1 "100" H 13950 9600 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 14100 9700 50  0001 C CNN
+F 3 "" H 14100 9700 50  0001 C CNN
+	1    14100 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R60
+U 1 1 5DE26417
+P 13800 9900
+F 0 "R60" H 13650 9950 42  0000 L BNN
+F 1 "10k" H 13650 9800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 13800 9900 50  0001 C CNN
+F 3 "" H 13800 9900 50  0001 C CNN
+	1    13800 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:NMOSSOT223 Q13
+U 1 1 0CAD59DB
+P 14800 6900
+F 0 "Q13" H 14900 7000 59  0000 L BNN
+F 1 "BSP78" H 14900 6900 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 14800 6900 50  0001 C CNN
+F 3 "" H 14800 6900 50  0001 C CNN
+	1    14800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:NMOSSOT223 Q6
+U 1 1 AC9552FE
+P 12100 6900
+F 0 "Q6" H 12200 7000 59  0000 L BNN
+F 1 "BSP78" H 12200 6900 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 12100 6900 50  0001 C CNN
+F 3 "" H 12100 6900 50  0001 C CNN
+	1    12100 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:NMOSSOT223 Q5
+U 1 1 D5645E00
+P 12000 5800
+F 0 "Q5" H 12100 5900 59  0000 L BNN
+F 1 "BSP78" H 12100 5800 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 12000 5800 50  0001 C CNN
+F 3 "" H 12000 5800 50  0001 C CNN
+	1    12000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:NMOSSOT223 Q12
+U 1 1 44BD5C1A
+P 14800 5800
+F 0 "Q12" H 14900 5900 59  0000 L BNN
+F 1 "BSP78" H 14900 5800 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 14800 5800 50  0001 C CNN
+F 3 "" H 14800 5800 50  0001 C CNN
+	1    14800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R49
+U 1 1 4920326A
+P 11400 7200
+F 0 "R49" H 11250 7250 42  0000 L BNN
+F 1 "10k" H 11250 7100 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11400 7200 50  0001 C CNN
+F 3 "" H 11400 7200 50  0001 C CNN
+	1    11400 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R64
+U 1 1 9DD4332C
+P 14100 7200
+F 0 "R64" H 13950 7250 42  0000 L BNN
+F 1 "10k" H 13950 7100 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 14100 7200 50  0001 C CNN
+F 3 "" H 14100 7200 50  0001 C CNN
+	1    14100 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R48
+U 1 1 18259785
+P 11300 6100
+F 0 "R48" H 11150 6150 42  0000 L BNN
+F 1 "10k" H 11150 6000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11300 6100 50  0001 C CNN
+F 3 "" H 11300 6100 50  0001 C CNN
+	1    11300 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R63
+U 1 1 AE0241E3
+P 14100 6100
+F 0 "R63" H 13950 6150 42  0000 L BNN
+F 1 "10k" H 13950 6000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 14100 6100 50  0001 C CNN
+F 3 "" H 14100 6100 50  0001 C CNN
+	1    14100 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R61
+U 1 1 C1118344
+P 14000 4600
+F 0 "R61" H 13850 4650 42  0000 L BNN
+F 1 "10k" H 13850 4500 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 14000 4600 50  0001 C CNN
+F 3 "" H 14000 4600 50  0001 C CNN
+	1    14000 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R58
+U 1 1 26A20928
+P 13700 4400
+F 0 "R58" H 13550 4450 42  0000 L BNN
+F 1 "100" H 13550 4300 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 13700 4400 50  0001 C CNN
+F 3 "" H 13700 4400 50  0001 C CNN
+	1    13700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R54
+U 1 1 FAD656C0
+P 7250 3350
+F 0 "R54" H 7100 3400 42  0000 L BNN
+F 1 "1k" H 7100 3250 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 7250 3350 50  0001 C CNN
+F 3 "" H 7250 3350 50  0001 C CNN
+	1    7250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R56
+U 1 1 6C9160CA
+P 7550 3850
+F 0 "R56" H 7400 3900 42  0000 L BNN
+F 1 "10k" H 7400 3750 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 7550 3850 50  0001 C CNN
+F 3 "" H 7550 3850 50  0001 C CNN
+	1    7550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-LED-CLEAR-YELLOW(0603) D17
+U 1 1 301CABBA
+P 7750 3350
+F 0 "D17" H 7450 3400 42  0000 L BNN
+F 1 "YEL" H 7550 3150 42  0000 L BNN
+F 2 "Speeduino_base:LED-0603" H 7750 3350 50  0001 C CNN
+F 3 "" H 7750 3350 50  0001 C CNN
+	1    7750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R55
+U 1 1 101C6958
+P 7250 3650
+F 0 "R55" H 7100 3700 42  0000 L BNN
+F 1 "100" H 7100 3550 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 7250 3650 50  0001 C CNN
+F 3 "" H 7250 3650 50  0001 C CNN
+	1    7250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C8
+U 1 1 543F7B23
+P 3000 7000
+F 0 "C8" H 2850 7050 42  0000 L BNN
+F 1 "100nf" H 2850 6900 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 3000 7000 50  0001 C CNN
+F 3 "" H 3000 7000 50  0001 C CNN
+	1    3000 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C10
+U 1 1 F28CDFA2
+P 3500 7000
+F 0 "C10" H 3350 7050 42  0000 L BNN
+F 1 "220nf" H 3350 6900 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 3500 7000 50  0001 C CNN
+F 3 "" H 3500 7000 50  0001 C CNN
+	1    3500 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R18
+U 1 1 C1D8375F
+P 3300 6800
+F 0 "R18" H 3150 6850 42  0000 L BNN
+F 1 "470R" H 3150 6700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 3300 6800 50  0001 C CNN
+F 3 "" H 3300 6800 50  0001 C CNN
+	1    3300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY013
+U 1 1 89083F54
+P 3000 7300
+F 0 "#SUPPLY013" H 3000 7300 50  0001 C CNN
+F 1 "GND" H 2925 7175 59  0000 L BNN
+F 2 "" H 3000 7300 50  0001 C CNN
+F 3 "" H 3000 7300 50  0001 C CNN
+	1    3000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY016
+U 1 1 37B43BE0
+P 3500 7300
+F 0 "#SUPPLY016" H 3500 7300 50  0001 C CNN
+F 1 "GND" H 3425 7175 59  0000 L BNN
+F 2 "" H 3500 7300 50  0001 C CNN
+F 3 "" H 3500 7300 50  0001 C CNN
+	1    3500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R15
+U 1 1 E50A5FDF
+P 2700 6600
+F 0 "R15" H 2550 6650 42  0000 L BNN
+F 1 "2k49" H 2550 6500 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2700 6600 50  0001 C CNN
+F 3 "" H 2700 6600 50  0001 C CNN
+	1    2700 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C7
+U 1 1 7834A5D8
+P 2900 8100
+F 0 "C7" H 2750 8150 42  0000 L BNN
+F 1 "100nf" H 2750 8000 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 2900 8100 50  0001 C CNN
+F 3 "" H 2900 8100 50  0001 C CNN
+	1    2900 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C9
+U 1 1 F5987D08
+P 3300 8100
+F 0 "C9" H 3150 8150 42  0000 L BNN
+F 1 "220nf" H 3150 8000 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 3300 8100 50  0001 C CNN
+F 3 "" H 3300 8100 50  0001 C CNN
+	1    3300 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R17
+U 1 1 6B2186A7
+P 3100 7900
+F 0 "R17" H 2950 7950 42  0000 L BNN
+F 1 "470R" H 2950 7800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 3100 7900 50  0001 C CNN
+F 3 "" H 3100 7900 50  0001 C CNN
+	1    3100 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY011
+U 1 1 58809FBD
+P 2900 8400
+F 0 "#SUPPLY011" H 2900 8400 50  0001 C CNN
+F 1 "GND" H 2825 8275 59  0000 L BNN
+F 2 "" H 2900 8400 50  0001 C CNN
+F 3 "" H 2900 8400 50  0001 C CNN
+	1    2900 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY015
+U 1 1 C4E6B509
+P 3300 8400
+F 0 "#SUPPLY015" H 3300 8400 50  0001 C CNN
+F 1 "GND" H 3225 8275 59  0000 L BNN
+F 2 "" H 3300 8400 50  0001 C CNN
+F 3 "" H 3300 8400 50  0001 C CNN
+	1    3300 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C21
+U 1 1 E41D2A15
+P 8400 7300
+F 0 "C21" H 8250 7350 42  0000 L BNN
+F 1 "100nf" H 8250 7200 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 8400 7300 50  0001 C CNN
+F 3 "" H 8400 7300 50  0001 C CNN
+	1    8400 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C24
+U 1 1 5045745D
+P 8900 7300
+F 0 "C24" H 8750 7350 42  0000 L BNN
+F 1 "220nf" H 8750 7200 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 8900 7300 50  0001 C CNN
+F 3 "" H 8900 7300 50  0001 C CNN
+	1    8900 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R39
+U 1 1 ED60FBC0
+P 8700 7100
+F 0 "R39" H 8550 7150 42  0000 L BNN
+F 1 "470R" H 8550 7000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 8700 7100 50  0001 C CNN
+F 3 "" H 8700 7100 50  0001 C CNN
+	1    8700 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY033
+U 1 1 EDDD6CCC
+P 8400 7600
+F 0 "#SUPPLY033" H 8400 7600 50  0001 C CNN
+F 1 "GND" H 8325 7475 59  0000 L BNN
+F 2 "" H 8400 7600 50  0001 C CNN
+F 3 "" H 8400 7600 50  0001 C CNN
+	1    8400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY036
+U 1 1 773ADE49
+P 8900 7600
+F 0 "#SUPPLY036" H 8900 7600 50  0001 C CNN
+F 1 "GND" H 8825 7475 59  0000 L BNN
+F 2 "" H 8900 7600 50  0001 C CNN
+F 3 "" H 8900 7600 50  0001 C CNN
+	1    8900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R26
+U 1 1 1D995D96
+P 4350 3400
+F 0 "R26" H 4200 3450 42  0000 L BNN
+F 1 "1k" H 4200 3300 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 4350 3400 50  0001 C CNN
+F 3 "" H 4350 3400 50  0001 C CNN
+	1    4350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R29
+U 1 1 131CE6D1
+P 4650 3900
+F 0 "R29" H 4500 3950 42  0000 L BNN
+F 1 "10k" H 4500 3800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 4650 3900 50  0001 C CNN
+F 3 "" H 4650 3900 50  0001 C CNN
+	1    4650 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-LED-CLEAR-YELLOW(0603) D9
+U 1 1 39900F51
+P 4850 3400
+F 0 "D9" H 4550 3450 42  0000 L BNN
+F 1 "YEL" H 4650 3200 42  0000 L BNN
+F 2 "Speeduino_base:LED-0603" H 4850 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R27
+U 1 1 8D61E0EB
+P 4350 3700
+F 0 "R27" H 4200 3750 42  0000 L BNN
+F 1 "100" H 4200 3600 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 4350 3700 50  0001 C CNN
+F 3 "" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C22
+U 1 1 3AC10700
+P 8500 9960
+F 0 "C22" H 8350 10010 42  0000 L BNN
+F 1 "220nf" H 8350 9860 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 8500 9960 50  0001 C CNN
+F 3 "" H 8500 9960 50  0001 C CNN
+	1    8500 9960
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-10UF-25V-10%-X5R(1206) C18
+U 1 1 603F19F2
+P 7900 9940
+F 0 "C18" H 7750 9990 42  0000 L BNN
+F 1 "10uf" H 7750 9840 42  0000 L BNN
+F 2 "Speeduino_base:C1206" H 7900 9940 50  0001 C CNN
+F 3 "" H 7900 9940 50  0001 C CNN
+	1    7900 9940
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-DIODE-SWITCHING-75V-150MA(D1206) D13
+U 1 1 378D6824
+P 8200 9960
+F 0 "D13" H 8050 10060 42  0000 L BNN
+F 1 "Zener 5.1V" H 8050 9810 42  0000 L BNN
+F 2 "Speeduino_base:LED-1206" H 8200 9960 50  0001 C CNN
+F 3 "" H 8200 9960 50  0001 C CNN
+	1    8200 9960
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:NMOSSOT223 Q10
+U 1 1 58777E9B
+P 14700 4300
+F 0 "Q10" H 14800 4400 59  0000 L BNN
+F 1 "BSP78" H 14800 4300 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 14700 4300 50  0001 C CNN
+F 3 "" H 14700 4300 50  0001 C CNN
+	1    14700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY019
+U 1 1 D47E55B8
+P 3800 8400
+F 0 "#SUPPLY019" H 3800 8400 50  0001 C CNN
+F 1 "GND" H 3725 8275 59  0000 L BNN
+F 2 "" H 3800 8400 50  0001 C CNN
+F 3 "" H 3800 8400 50  0001 C CNN
+	1    3800 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:MAX9926UAEE+ U1
+U 1 1 F9562130
+P 2500 3800
+F 0 "U1" H 1799 4640 69  0000 L BNN
+F 1 "MAX9926UAEE+" H 1799 2842 69  0000 L BNN
+F 2 "Speeduino_base:21-0055H_16" H 2500 3800 50  0001 C CNN
+F 3 "" H 2500 3800 50  0001 C CNN
+	1    2500 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R6
+U 1 1 BB6B83B7
+P 1700 5100
+F 0 "R6" H 1550 5150 42  0000 L BNN
+F 1 "10k" H 1550 5000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1700 5100 50  0001 C CNN
+F 3 "" H 1700 5100 50  0001 C CNN
+	1    1700 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R10
+U 1 1 969B26C1
+P 2100 5100
+F 0 "R10" H 1950 5150 42  0000 L BNN
+F 1 "10k" H 1950 5000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2100 5100 50  0001 C CNN
+F 3 "" H 2100 5100 50  0001 C CNN
+	1    2100 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R11
+U 1 1 5A37C653
+P 2200 5100
+F 0 "R11" H 2050 5150 42  0000 L BNN
+F 1 "10k" H 2050 5000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2200 5100 50  0001 C CNN
+F 3 "" H 2200 5100 50  0001 C CNN
+	1    2200 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R14
+U 1 1 E22AC850
+P 2600 5100
+F 0 "R14" H 2450 5150 42  0000 L BNN
+F 1 "10k" H 2550 5000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2600 5100 50  0001 C CNN
+F 3 "" H 2600 5100 50  0001 C CNN
+	1    2600 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-1NF-50V-5%-C0G(0603) C5
+U 1 1 76EEEFEE
+P 1900 4900
+F 0 "C5" H 1750 4950 42  0000 L BNN
+F 1 "1nf" H 1750 4800 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 1900 4900 50  0001 C CNN
+F 3 "" H 1900 4900 50  0001 C CNN
+	1    1900 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-1NF-50V-5%-C0G(0603) C6
+U 1 1 6219F5EC
+P 2400 4900
+F 0 "C6" H 2250 4950 42  0000 L BNN
+F 1 "1nf" H 2250 4800 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 2400 4900 50  0001 C CNN
+F 3 "" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY010
+U 1 1 6FB95633
+P 2800 4900
+F 0 "#SUPPLY010" H 2800 4900 50  0001 C CNN
+F 1 "GND" H 2725 4775 59  0000 L BNN
+F 2 "" H 2800 4900 50  0001 C CNN
+F 3 "" H 2800 4900 50  0001 C CNN
+	1    2800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY014
+U 1 1 594B5769
+P 3100 2700
+F 0 "#SUPPLY014" H 3100 2700 50  0001 C CNN
+F 1 "GND" H 3025 2575 59  0000 L BNN
+F 2 "" H 3100 2700 50  0001 C CNN
+F 3 "" H 3100 2700 50  0001 C CNN
+	1    3100 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY09
+U 1 1 ED32CD1A
+P 2500 2700
+F 0 "#SUPPLY09" H 2500 2700 50  0001 C CNN
+F 1 "GND" H 2425 2575 59  0000 L BNN
+F 2 "" H 2500 2700 50  0001 C CNN
+F 3 "" H 2500 2700 50  0001 C CNN
+	1    2500 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R9
+U 1 1 7B2F8B97
+P 1800 2500
+F 0 "R9" H 1650 2550 42  0000 L BNN
+F 1 "10k" H 1650 2400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1800 2500 50  0001 C CNN
+F 3 "" H 1800 2500 50  0001 C CNN
+	1    1800 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R12
+U 1 1 324E6A95
+P 2300 2500
+F 0 "R12" H 2150 2550 42  0000 L BNN
+F 1 "10k" H 2150 2400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2300 2500 50  0001 C CNN
+F 3 "" H 2300 2500 50  0001 C CNN
+	1    2300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:WIRELESS-BLUETOOTH-HC-05 U$2
+U 1 1 54307519
+P 4800 7100
+F 0 "U$2" H 3900 7500 59  0000 L BNN
+F 1 "WIRELESS-BLUETOOTH-HC-05" H 4200 7500 59  0000 L BNN
+F 2 "Speeduino_base:WIRELESS-BLUETOOTH-HC-05" H 4800 7100 50  0001 C CNN
+F 3 "" H 4800 7100 50  0001 C CNN
+	1    4800 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R2
+U 1 1 64669C67
+P 1200 2300
+F 0 "R2" H 1050 2350 42  0000 L BNN
+F 1 "1k" H 1050 2200 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1200 2300 50  0001 C CNN
+F 3 "" H 1200 2300 50  0001 C CNN
+	1    1200 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R16
+U 1 1 9E8052E2
+P 2900 2200
+F 0 "R16" H 2750 2250 42  0000 L BNN
+F 1 "1k" H 2750 2100 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2900 2200 50  0001 C CNN
+F 3 "" H 2900 2200 50  0001 C CNN
+	1    2900 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R57
+U 1 1 F8870A87
+P 13300 9800
+F 0 "R57" H 13150 9850 42  0000 L BNN
+F 1 "1k" H 13150 9700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 13300 9800 50  0001 C CNN
+F 3 "" H 13300 9800 50  0001 C CNN
+	1    13300 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R53
+U 1 1 867010BA
+P 12800 9700
+F 0 "R53" H 12650 9750 42  0000 L BNN
+F 1 "100" H 12650 9600 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 12800 9700 50  0001 C CNN
+F 3 "" H 12800 9700 50  0001 C CNN
+	1    12800 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R52
+U 1 1 0E8D017C
+P 12500 9900
+F 0 "R52" H 12350 9950 42  0000 L BNN
+F 1 "10k" H 12350 9800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 12500 9900 50  0001 C CNN
+F 3 "" H 12500 9900 50  0001 C CNN
+	1    12500 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R51
+U 1 1 D72D4FE0
+P 12000 9800
+F 0 "R51" H 11950 9850 42  0000 L BNN
+F 1 "1k" H 11950 9700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 12000 9800 50  0001 C CNN
+F 3 "" H 12000 9800 50  0001 C CNN
+	1    12000 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R50
+U 1 1 BB50C2AF
+P 11400 9700
+F 0 "R50" H 11250 9750 42  0000 L BNN
+F 1 "100" H 11250 9600 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11400 9700 50  0001 C CNN
+F 3 "" H 11400 9700 50  0001 C CNN
+	1    11400 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R47
+U 1 1 6876DA03
+P 11100 9900
+F 0 "R47" H 10950 9950 42  0000 L BNN
+F 1 "10k" H 10950 9800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11100 9900 50  0001 C CNN
+F 3 "" H 11100 9900 50  0001 C CNN
+	1    11100 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R45
+U 1 1 D39EF5DE
+P 10600 9800
+F 0 "R45" H 10450 9850 42  0000 L BNN
+F 1 "1k" H 10450 9700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 10600 9800 50  0001 C CNN
+F 3 "" H 10600 9800 50  0001 C CNN
+	1    10600 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R42
+U 1 1 EE60ABFD
+P 9900 9700
+F 0 "R42" H 9750 9750 42  0000 L BNN
+F 1 "100" H 9750 9600 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 9900 9700 50  0001 C CNN
+F 3 "" H 9900 9700 50  0001 C CNN
+	1    9900 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R41
+U 1 1 7F55AD9F
+P 9600 9900
+F 0 "R41" H 9450 9950 42  0000 L BNN
+F 1 "10k" H 9450 9800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 9600 9900 50  0001 C CNN
+F 3 "" H 9600 9900 50  0001 C CNN
+	1    9600 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R40
+U 1 1 7B5E9000
+P 9100 9800
+F 0 "R40" H 8950 9850 42  0000 L BNN
+F 1 "1k" H 8950 9700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 9100 9800 50  0001 C CNN
+F 3 "" H 9100 9800 50  0001 C CNN
+	1    9100 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY018
+U 1 1 11576E5E
+P 3800 7200
+F 0 "#SUPPLY018" H 3800 7200 50  0001 C CNN
+F 1 "GND" H 3725 7075 59  0000 L BNN
+F 2 "" H 3800 7200 50  0001 C CNN
+F 3 "" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY029
+U 1 1 F44125E8
+P 7100 8200
+F 0 "#SUPPLY029" H 7100 8200 50  0001 C CNN
+F 1 "GND" H 7025 8075 59  0000 L BNN
+F 2 "" H 7100 8200 50  0001 C CNN
+F 3 "" H 7100 8200 50  0001 C CNN
+	1    7100 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY028
+U 1 1 CF03759F
+P 6800 6800
+F 0 "#SUPPLY028" H 6800 6800 50  0001 C CNN
+F 1 "GND" H 6725 6675 59  0000 L BNN
+F 2 "" H 6800 6800 50  0001 C CNN
+F 3 "" H 6800 6800 50  0001 C CNN
+	1    6800 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY039
+U 1 1 8E6D77CC
+P 9400 7500
+F 0 "#SUPPLY039" H 9400 7500 50  0001 C CNN
+F 1 "GND" H 9325 7375 59  0000 L BNN
+F 2 "" H 9400 7500 50  0001 C CNN
+F 3 "" H 9400 7500 50  0001 C CNN
+	1    9400 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY06
+U 1 1 EB91AAB4
+P 1900 1600
+F 0 "#SUPPLY06" H 1900 1600 50  0001 C CNN
+F 1 "GND" H 1825 1475 59  0000 L BNN
+F 2 "" H 1900 1600 50  0001 C CNN
+F 3 "" H 1900 1600 50  0001 C CNN
+	1    1900 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY012
+U 1 1 584824A5
+P 3000 1500
+F 0 "#SUPPLY012" H 3000 1500 50  0001 C CNN
+F 1 "GND" H 2925 1375 59  0000 L BNN
+F 2 "" H 3000 1500 50  0001 C CNN
+F 3 "" H 3000 1500 50  0001 C CNN
+	1    3000 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D6
+U 1 1 279ED16D
+P 3800 7900
+F 0 "D6" H 3830 7979 59  0000 L BNN
+F 1 "BAT54S" H 3630 7744 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 3800 7900 50  0001 C CNN
+F 3 "" H 3800 7900 50  0001 C CNN
+	1    3800 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D5
+U 1 1 A2E1D69D
+P 3800 6800
+F 0 "D5" H 3830 6879 59  0000 L BNN
+F 1 "BAT54S" H 3630 6644 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 3800 6800 50  0001 C CNN
+F 3 "" H 3800 6800 50  0001 C CNN
+	1    3800 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D8
+U 1 1 9B5A414A
+P 4800 8600
+F 0 "D8" H 4830 8679 59  0000 L BNN
+F 1 "BAT54S" H 4630 8444 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 4800 8600 50  0001 C CNN
+F 3 "" H 4800 8600 50  0001 C CNN
+	1    4800 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R24
+U 1 1 32D12B64
+P 4800 8300
+F 0 "R24" H 4650 8350 42  0000 L BNN
+F 1 "470R" H 4650 8200 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 4800 8300 50  0001 C CNN
+F 3 "" H 4800 8300 50  0001 C CNN
+	1    4800 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R25
+U 1 1 6C0000A0
+P 5000 8800
+F 0 "R25" H 4850 8850 42  0000 L BNN
+F 1 "1k" H 4850 8700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5000 8800 50  0001 C CNN
+F 3 "" H 5000 8800 50  0001 C CNN
+	1    5000 8800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY021
+U 1 1 6EC63A1B
+P 4400 8700
+F 0 "#SUPPLY021" H 4400 8700 50  0001 C CNN
+F 1 "GND" H 4325 8575 59  0000 L BNN
+F 2 "" H 4400 8700 50  0001 C CNN
+F 3 "" H 4400 8700 50  0001 C CNN
+	1    4400 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D12
+U 1 1 5A7E911D
+P 7100 7800
+F 0 "D12" H 7130 7879 59  0000 L BNN
+F 1 "BAT54S" H 6930 7644 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 7100 7800 50  0001 C CNN
+F 3 "" H 7100 7800 50  0001 C CNN
+	1    7100 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D11
+U 1 1 5D706025
+P 6800 6400
+F 0 "D11" H 6830 6479 59  0000 L BNN
+F 1 "BAT54S" H 6630 6244 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 6800 6400 50  0001 C CNN
+F 3 "" H 6800 6400 50  0001 C CNN
+	1    6800 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D16
+U 1 1 40BA98E3
+P 9400 7100
+F 0 "D16" H 9430 7179 59  0000 L BNN
+F 1 "BAT54S" H 9230 6944 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 9400 7100 50  0001 C CNN
+F 3 "" H 9400 7100 50  0001 C CNN
+	1    9400 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D1
+U 1 1 8D141E84
+P 1500 1600
+F 0 "D1" H 1530 1679 59  0000 L BNN
+F 1 "BAT54S" H 1330 1444 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 1500 1600 50  0001 C CNN
+F 3 "" H 1500 1600 50  0001 C CNN
+	1    1500 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D4
+U 1 1 5A2B5BA5
+P 2600 1500
+F 0 "D4" H 2630 1579 59  0000 L BNN
+F 1 "BAT54S" H 2430 1344 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 2600 1500 50  0001 C CNN
+F 3 "" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R4
+U 1 1 F3670DF8
+P 1500 1400
+F 0 "R4" H 1350 1450 42  0000 L BNN
+F 1 "1k" H 1450 1300 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1500 1400 50  0001 C CNN
+F 3 "" H 1500 1400 50  0001 C CNN
+	1    1500 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R13
+U 1 1 5AEF6CA1
+P 2600 1300
+F 0 "R13" H 2450 1350 42  0000 L BNN
+F 1 "1k" H 2450 1200 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 2600 1300 50  0001 C CNN
+F 3 "" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C17
+U 1 1 6406DB36
+P 7900 8800
+F 0 "C17" H 7750 8850 42  0000 L BNN
+F 1 "100nf" H 7750 8700 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 7900 8800 50  0001 C CNN
+F 3 "" H 7900 8800 50  0001 C CNN
+	1    7900 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C19
+U 1 1 4F9C3074
+P 8300 8800
+F 0 "C19" H 8150 8850 42  0000 L BNN
+F 1 "220nf" H 8150 8700 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 8300 8800 50  0001 C CNN
+F 3 "" H 8300 8800 50  0001 C CNN
+	1    8300 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R35
+U 1 1 E01049CC
+P 8100 8600
+F 0 "R35" H 7950 8650 42  0000 L BNN
+F 1 "470R" H 7950 8500 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 8100 8600 50  0001 C CNN
+F 3 "" H 8100 8600 50  0001 C CNN
+	1    8100 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY030
+U 1 1 C1CCB56E
+P 7900 9100
+F 0 "#SUPPLY030" H 7900 9100 50  0001 C CNN
+F 1 "GND" H 7825 8975 59  0000 L BNN
+F 2 "" H 7900 9100 50  0001 C CNN
+F 3 "" H 7900 9100 50  0001 C CNN
+	1    7900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY031
+U 1 1 C6FF550E
+P 8300 9100
+F 0 "#SUPPLY031" H 8300 9100 50  0001 C CNN
+F 1 "GND" H 8225 8975 59  0000 L BNN
+F 2 "" H 8300 9100 50  0001 C CNN
+F 3 "" H 8300 9100 50  0001 C CNN
+	1    8300 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY037
+U 1 1 D63ED477
+P 8900 9100
+F 0 "#SUPPLY037" H 8900 9100 50  0001 C CNN
+F 1 "GND" H 8825 8975 59  0000 L BNN
+F 2 "" H 8900 9100 50  0001 C CNN
+F 3 "" H 8900 9100 50  0001 C CNN
+	1    8900 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D14
+U 1 1 BAC73F4F
+P 8700 8600
+F 0 "D14" H 8730 8679 59  0000 L BNN
+F 1 "BAT54S" H 8530 8444 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 8700 8600 50  0001 C CNN
+F 3 "" H 8700 8600 50  0001 C CNN
+	1    8700 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R62
+U 1 1 1A263169
+P 14000 3500
+F 0 "R62" H 13850 3550 42  0000 L BNN
+F 1 "10k" H 13850 3400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 14000 3500 50  0001 C CNN
+F 3 "" H 14000 3500 50  0001 C CNN
+	1    14000 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R59
+U 1 1 17B42A99
+P 13700 3300
+F 0 "R59" H 13550 3350 42  0000 L BNN
+F 1 "100" H 13550 3200 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 13700 3300 50  0001 C CNN
+F 3 "" H 13700 3300 50  0001 C CNN
+	1    13700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:NMOSSOT223 Q11
+U 1 1 D160EE69
+P 14700 3200
+F 0 "Q11" H 14800 3300 59  0000 L BNN
+F 1 "BSP78" H 14800 3200 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 14700 3200 50  0001 C CNN
+F 3 "" H 14700 3200 50  0001 C CNN
+	1    14700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY041
+U 1 1 75F12378
+P 10800 7500
+F 0 "#SUPPLY041" H 10800 7500 50  0001 C CNN
+F 1 "PWR_GND" H 10525 7375 59  0000 L BNN
+F 2 "" H 10800 7500 50  0001 C CNN
+F 3 "" H 10800 7500 50  0001 C CNN
+	1    10800 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R46
+U 1 1 DC7BBBA2
+P 10800 7900
+F 0 "R46" H 10650 7950 42  0000 L BNN
+F 1 "1k" H 10650 7800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 10800 7900 50  0001 C CNN
+F 3 "" H 10800 7900 50  0001 C CNN
+	1    10800 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R44
+U 1 1 178DF98A
+P 10500 8100
+F 0 "R44" H 10350 8150 42  0000 L BNN
+F 1 "100k" H 10350 8000 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 10500 8100 50  0001 C CNN
+F 3 "" H 10500 8100 50  0001 C CNN
+	1    10500 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY040
+U 1 1 C677056B
+P 10500 8400
+F 0 "#SUPPLY040" H 10500 8400 50  0001 C CNN
+F 1 "GND" H 10425 8275 59  0000 L BNN
+F 2 "" H 10500 8400 50  0001 C CNN
+F 3 "" H 10500 8400 50  0001 C CNN
+	1    10500 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R43
+U 1 1 455CE5BF
+P 10000 8000
+F 0 "R43" H 9850 8050 42  0000 L BNN
+F 1 "1k" H 9850 7900 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 10000 8000 50  0001 C CNN
+F 3 "" H 10000 8000 50  0001 C CNN
+	1    10000 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D7
+U 1 1 58164064
+P 4200 5500
+F 0 "D7" H 4230 5579 59  0000 L BNN
+F 1 "BAT54S" H 4030 5344 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 4200 5500 50  0001 C CNN
+F 3 "" H 4200 5500 50  0001 C CNN
+	1    4200 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R21
+U 1 1 8377EC41
+P 3900 5500
+F 0 "R21" H 3750 5550 42  0000 L BNN
+F 1 "1k" H 3750 5400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 3900 5500 50  0001 C CNN
+F 3 "" H 3900 5500 50  0001 C CNN
+	1    3900 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R22
+U 1 1 93686B98
+P 4400 5300
+F 0 "R22" H 4250 5350 42  0000 L BNN
+F 1 "1k" H 4250 5200 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 4400 5300 50  0001 C CNN
+F 3 "" H 4400 5300 50  0001 C CNN
+	1    4400 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY020
+U 1 1 0331A01D
+P 4300 5900
+F 0 "#SUPPLY020" H 4300 5900 50  0001 C CNN
+F 1 "GND" H 4225 5775 59  0000 L BNN
+F 2 "" H 4300 5900 50  0001 C CNN
+F 3 "" H 4300 5900 50  0001 C CNN
+	1    4300 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-60V-300MA-LOGIC-LEVEL-FET-2N7002(SOT-23) Q1
+U 1 1 B46BE143
+P 5350 3600
+F 0 "Q1" H 5200 3700 42  0000 L BNN
+F 1 "2N7002" H 5350 3700 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 5350 3600 50  0001 C CNN
+F 3 "" H 5350 3600 50  0001 C CNN
+	1    5350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R36
+U 1 1 B9F940DC
+P 8500 8300
+F 0 "R36" H 8350 8359 59  0000 L BNN
+F 1 "4.7k" H 8350 8170 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 8500 8300 50  0001 C CNN
+F 3 "" H 8500 8300 50  0001 C CNN
+	1    8500 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R37
+U 1 1 9842811B
+P 8500 8900
+F 0 "R37" H 8350 8959 59  0000 L BNN
+F 1 "9.1k" H 8350 8770 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 8500 8900 50  0001 C CNN
+F 3 "" H 8500 8900 50  0001 C CNN
+	1    8500 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY034
+U 1 1 C21E2EB3
+P 8500 9200
+F 0 "#SUPPLY034" H 8500 9200 50  0001 C CNN
+F 1 "GND" H 8425 9075 59  0000 L BNN
+F 2 "" H 8500 9200 50  0001 C CNN
+F 3 "" H 8500 9200 50  0001 C CNN
+	1    8500 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R19
+U 1 1 0D1D3462
+P 3500 7700
+F 0 "R19" H 3350 7759 59  0000 L BNN
+F 1 "4.7k" H 3350 7570 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 3500 7700 50  0001 C CNN
+F 3 "" H 3500 7700 50  0001 C CNN
+	1    3500 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R20
+U 1 1 2A6FFF0B
+P 3500 8300
+F 0 "R20" H 3350 8359 59  0000 L BNN
+F 1 "9.1k" H 3350 8170 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 3500 8300 50  0001 C CNN
+F 3 "" H 3500 8300 50  0001 C CNN
+	1    3500 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY017
+U 1 1 268EB7DE
+P 3500 8600
+F 0 "#SUPPLY017" H 3500 8600 50  0001 C CNN
+F 1 "GND" H 3425 8475 59  0000 L BNN
+F 2 "" H 3500 8600 50  0001 C CNN
+F 3 "" H 3500 8600 50  0001 C CNN
+	1    3500 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:PINHD-2X24 JP1
+U 1 1 2F430EF2
+P 10300 3800
+F 0 "JP1" H 10050 5025 59  0000 L BNN
+F 1 "PINHD-2X24" H 10050 2400 59  0000 L BNN
+F 2 "Speeduino_base:2X24" H 10300 3800 50  0001 C CNN
+F 3 "" H 10300 3800 50  0001 C CNN
+	1    10300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:PINHD-2X24 JP3
+U 1 1 FA93C76E
+P 12100 3800
+F 0 "JP3" H 11850 5025 59  0000 L BNN
+F 1 "PINHD-2X24" H 11850 2400 59  0000 L BNN
+F 2 "Speeduino_base:2X24" H 12100 3800 50  0001 C CNN
+F 3 "" H 12100 3800 50  0001 C CNN
+	1    12100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R28
+U 1 1 DE4F0C58
+P 5700 6200
+F 0 "R28" H 5550 6250 42  0000 L BNN
+F 1 "2k49" H 5550 6100 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5700 6200 50  0001 C CNN
+F 3 "" H 5700 6200 50  0001 C CNN
+	1    5700 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C20
+U 1 1 FF0A6764
+P 8400 6200
+F 0 "C20" H 8250 6250 42  0000 L BNN
+F 1 "100nf" H 8250 6100 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 8400 6200 50  0001 C CNN
+F 3 "" H 8400 6200 50  0001 C CNN
+	1    8400 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C23
+U 1 1 96139B5C
+P 8900 6200
+F 0 "C23" H 8750 6250 42  0000 L BNN
+F 1 "220nf" H 8750 6100 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 8900 6200 50  0001 C CNN
+F 3 "" H 8900 6200 50  0001 C CNN
+	1    8900 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R38
+U 1 1 7C5B7EFE
+P 8700 6000
+F 0 "R38" H 8550 6050 42  0000 L BNN
+F 1 "470R" H 8550 5900 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 8700 6000 50  0001 C CNN
+F 3 "" H 8700 6000 50  0001 C CNN
+	1    8700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY032
+U 1 1 70B0FDB1
+P 8400 6500
+F 0 "#SUPPLY032" H 8400 6500 50  0001 C CNN
+F 1 "GND" H 8325 6375 59  0000 L BNN
+F 2 "" H 8400 6500 50  0001 C CNN
+F 3 "" H 8400 6500 50  0001 C CNN
+	1    8400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY035
+U 1 1 7F737C64
+P 8900 6500
+F 0 "#SUPPLY035" H 8900 6500 50  0001 C CNN
+F 1 "GND" H 8825 6375 59  0000 L BNN
+F 2 "" H 8900 6500 50  0001 C CNN
+F 3 "" H 8900 6500 50  0001 C CNN
+	1    8900 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY038
+U 1 1 EFE06A32
+P 9200 6400
+F 0 "#SUPPLY038" H 9200 6400 50  0001 C CNN
+F 1 "GND" H 9125 6275 59  0000 L BNN
+F 2 "" H 9200 6400 50  0001 C CNN
+F 3 "" H 9200 6400 50  0001 C CNN
+	1    9200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D15
+U 1 1 20478EC3
+P 9200 6000
+F 0 "D15" H 9230 6079 59  0000 L BNN
+F 1 "BAT54S" H 9030 5844 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 9200 6000 50  0001 C CNN
+F 3 "" H 9200 6000 50  0001 C CNN
+	1    9200 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R34
+U 1 1 E39B16DD
+P 8100 5800
+F 0 "R34" H 7950 5850 42  0000 L BNN
+F 1 "2k49" H 7950 5700 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 8100 5800 50  0001 C CNN
+F 3 "" H 8100 5800 50  0001 C CNN
+	1    8100 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C2
+U 1 1 BFFA351D
+P 1200 7100
+F 0 "C2" H 1050 7150 42  0000 L BNN
+F 1 "100nf" H 1050 7000 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 1200 7100 50  0001 C CNN
+F 3 "" H 1200 7100 50  0001 C CNN
+	1    1200 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C4
+U 1 1 D7EFB57B
+P 1700 7100
+F 0 "C4" H 1550 7150 42  0000 L BNN
+F 1 "220nf" H 1550 7000 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 1700 7100 50  0001 C CNN
+F 3 "" H 1700 7100 50  0001 C CNN
+	1    1700 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R5
+U 1 1 213E2257
+P 1500 6900
+F 0 "R5" H 1350 6950 42  0000 L BNN
+F 1 "470R" H 1350 6800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1500 6900 50  0001 C CNN
+F 3 "" H 1500 6900 50  0001 C CNN
+	1    1500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY02
+U 1 1 0BDF3AC2
+P 1200 7400
+F 0 "#SUPPLY02" H 1200 7400 50  0001 C CNN
+F 1 "GND" H 1125 7275 59  0000 L BNN
+F 2 "" H 1200 7400 50  0001 C CNN
+F 3 "" H 1200 7400 50  0001 C CNN
+	1    1200 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY04
+U 1 1 F59CD171
+P 1700 7400
+F 0 "#SUPPLY04" H 1700 7400 50  0001 C CNN
+F 1 "GND" H 1625 7275 59  0000 L BNN
+F 2 "" H 1700 7400 50  0001 C CNN
+F 3 "" H 1700 7400 50  0001 C CNN
+	1    1700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R1
+U 1 1 FF0D621B
+P 900 6700
+F 0 "R1" H 750 6750 42  0000 L BNN
+F 1 "2k49" H 750 6600 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 900 6700 50  0001 C CNN
+F 3 "" H 900 6700 50  0001 C CNN
+	1    900  6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C1
+U 1 1 5F7CD27E
+P 1100 8200
+F 0 "C1" H 950 8250 42  0000 L BNN
+F 1 "100nf" H 950 8100 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 1100 8200 50  0001 C CNN
+F 3 "" H 1100 8200 50  0001 C CNN
+	1    1100 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C3
+U 1 1 AD44A152
+P 1500 8200
+F 0 "C3" H 1350 8250 42  0000 L BNN
+F 1 "220nf" H 1350 8100 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 1500 8200 50  0001 C CNN
+F 3 "" H 1500 8200 50  0001 C CNN
+	1    1500 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R3
+U 1 1 2D336B19
+P 1300 8000
+F 0 "R3" H 1150 8050 42  0000 L BNN
+F 1 "470R" H 1150 7900 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1300 8000 50  0001 C CNN
+F 3 "" H 1300 8000 50  0001 C CNN
+	1    1300 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY01
+U 1 1 4114ABC6
+P 1100 8500
+F 0 "#SUPPLY01" H 1100 8500 50  0001 C CNN
+F 1 "GND" H 1025 8375 59  0000 L BNN
+F 2 "" H 1100 8500 50  0001 C CNN
+F 3 "" H 1100 8500 50  0001 C CNN
+	1    1100 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY03
+U 1 1 BB85E6C7
+P 1500 8500
+F 0 "#SUPPLY03" H 1500 8500 50  0001 C CNN
+F 1 "GND" H 1425 8375 59  0000 L BNN
+F 2 "" H 1500 8500 50  0001 C CNN
+F 3 "" H 1500 8500 50  0001 C CNN
+	1    1500 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY08
+U 1 1 75100347
+P 2000 8500
+F 0 "#SUPPLY08" H 2000 8500 50  0001 C CNN
+F 1 "GND" H 1925 8375 59  0000 L BNN
+F 2 "" H 2000 8500 50  0001 C CNN
+F 3 "" H 2000 8500 50  0001 C CNN
+	1    2000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY07
+U 1 1 B94ED314
+P 2000 7300
+F 0 "#SUPPLY07" H 2000 7300 50  0001 C CNN
+F 1 "GND" H 1925 7175 59  0000 L BNN
+F 2 "" H 2000 7300 50  0001 C CNN
+F 3 "" H 2000 7300 50  0001 C CNN
+	1    2000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D3
+U 1 1 39967F7A
+P 2000 8000
+F 0 "D3" H 2030 8079 59  0000 L BNN
+F 1 "BAT54S" H 1830 7844 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 2000 8000 50  0001 C CNN
+F 3 "" H 2000 8000 50  0001 C CNN
+	1    2000 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D2
+U 1 1 DCE5EB0D
+P 2000 6900
+F 0 "D2" H 2030 6979 59  0000 L BNN
+F 1 "BAT54S" H 1830 6744 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 2000 6900 50  0001 C CNN
+F 3 "" H 2000 6900 50  0001 C CNN
+	1    2000 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R7
+U 1 1 D0B09F00
+P 1700 7800
+F 0 "R7" H 1550 7859 59  0000 L BNN
+F 1 "4.7k" H 1550 7670 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1700 7800 50  0001 C CNN
+F 3 "" H 1700 7800 50  0001 C CNN
+	1    1700 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R8
+U 1 1 55A8339E
+P 1700 8400
+F 0 "R8" H 1550 8459 59  0000 L BNN
+F 1 "9.1k" H 1550 8270 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 1700 8400 50  0001 C CNN
+F 3 "" H 1700 8400 50  0001 C CNN
+	1    1700 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY05
+U 1 1 6EA68DB5
+P 1700 8700
+F 0 "#SUPPLY05" H 1700 8700 50  0001 C CNN
+F 1 "GND" H 1625 8575 59  0000 L BNN
+F 2 "" H 1700 8700 50  0001 C CNN
+F 3 "" H 1700 8700 50  0001 C CNN
+	1    1700 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q3
+U 1 1 B411A0A3
+P 10500 7700
+F 0 "Q3" H 10350 7800 42  0000 L BNN
+F 1 "CJ2302" H 10500 7800 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 10500 7700 50  0001 C CNN
+F 3 "" H 10500 7700 50  0001 C CNN
+	1    10500 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q9
+U 1 1 9D17AA75
+P 8250 3550
+F 0 "Q9" H 8100 3650 42  0000 L BNN
+F 1 "CJ2302" H 8250 3650 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 8250 3550 50  0001 C CNN
+F 3 "" H 8250 3550 50  0001 C CNN
+	1    8250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q2
+U 1 1 A1A747D4
+P 9600 9500
+F 0 "Q2" H 9450 9600 42  0000 L BNN
+F 1 "CJ2302" H 9600 9600 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 9600 9500 50  0001 C CNN
+F 3 "" H 9600 9500 50  0001 C CNN
+	1    9600 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q4
+U 1 1 D8937DE8
+P 11100 9500
+F 0 "Q4" H 10950 9600 42  0000 L BNN
+F 1 "CJ2302" H 11100 9600 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 11100 9500 50  0001 C CNN
+F 3 "" H 11100 9500 50  0001 C CNN
+	1    11100 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q7
+U 1 1 FD1BB808
+P 12500 9500
+F 0 "Q7" H 12350 9600 42  0000 L BNN
+F 1 "CJ2302" H 12500 9600 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 12500 9500 50  0001 C CNN
+F 3 "" H 12500 9500 50  0001 C CNN
+	1    12500 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q8
+U 1 1 348C0A0D
+P 13800 9500
+F 0 "Q8" H 13650 9600 42  0000 L BNN
+F 1 "CJ2302" H 13800 9600 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 13800 9500 50  0001 C CNN
+F 3 "" H 13800 9500 50  0001 C CNN
+	1    13800 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 4700 1700 4950
+Wire Wire Line
+	2600 4800 2600 4950
+Wire Wire Line
+	6450 6400 6700 6400
+Wire Wire Line
+	8850 7100 9300 7100
+Wire Wire Line
+	8850 6000 9100 6000
+Wire Wire Line
+	12300 3900 13000 3900
+Wire Wire Line
+	12300 5000 13000 5000
+Wire Wire Line
+	12300 4700 13000 4700
+Wire Wire Line
+	12300 4600 13000 4600
+Wire Wire Line
+	12300 4500 13000 4500
+Wire Wire Line
+	11400 4200 12000 4200
+Wire Wire Line
+	12300 4100 13000 4100
+Wire Wire Line
+	13300 10600 14200 10600
+Wire Wire Line
+	4000 1400 3900 1400
+Wire Wire Line
+	3900 1400 3900 1600
+Wire Wire Line
+	4100 1400 4200 1400
+Wire Wire Line
+	4200 1400 4200 1600
+Text GLabel 3900 1600 0    50   Input ~ 0
+VBAT
+Text GLabel 4200 1600 3    50   Input ~ 0
+PWR_GND
+Text GLabel 4650 1400 3    50   Input ~ 0
+V_INJ12
+Text GLabel 4550 1400 3    50   Input ~ 0
+V_INJ12
+Text GLabel 4450 1400 3    50   Input ~ 0
+V_INJ34
+Text GLabel 4300 1400 3    50   Input ~ 0
+V_INJ34
+Text GLabel 6800 1400 3    50   Input ~ 0
+INJ2-OUT
+Text GLabel 5950 1400 3    50   Input ~ 0
+INJ3-OUT
+Text GLabel 7300 1400 3    50   Input ~ 0
+INJ1-OUT
+Text GLabel 5550 1400 3    50   Input ~ 0
+INJ4-OUT
+Text GLabel 5250 2350 2    50   Input ~ 0
+IDLE2-OUT
+Text GLabel 5400 1400 3    50   Input ~ 0
+FUEL_PUMP
+Text GLabel 5850 1400 3    50   Input ~ 0
+FAN
+Text GLabel 6400 1400 3    50   Input ~ 0
+IGN1-OUT
+Text GLabel 7750 1400 3    50   Input ~ 0
+IGN2-OUT
+Text GLabel 8150 1400 3    50   Input ~ 0
+IGN3-OUT
+Text GLabel 8550 1400 3    50   Input ~ 0
+IGN4-OUT
+Text GLabel 4850 2350 0    50   Input ~ 0
+STEP_1A_OUT
+Text GLabel 4750 2700 0    50   Input ~ 0
+STEP_1B_OUT
+Text GLabel 8700 1400 3    50   Input ~ 0
+V_IGN
+Text GLabel 8250 1400 3    50   Input ~ 0
+V_IGN
+Text GLabel 8450 1400 3    50   Input ~ 0
+5V
+Text GLabel 8050 1400 3    50   Input ~ 0
+MAP
+Text GLabel 6700 2000 1    50   Input ~ 0
+GND
+Text GLabel 4750 1400 3    50   Input ~ 0
+PWR_GND
+Text GLabel 4850 1400 3    50   Input ~ 0
+PWR_GND
+Connection ~ 4200 1400
+Connection ~ 3900 1400
+$Comp
+L molex_48pin:molex_48pin U2
+U 1 1 5E17AB54
+P 6900 1950
+F 0 "U2" V 8187 2355 60  0000 C CNN
+F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
+F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
+F 3 "" H 6900 1950 60  0001 C CNN
+	1    6900 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7600 2000 1    50   Input ~ 0
+GND
+Text GLabel 7050 1400 3    50   Input ~ 0
+GND
+Text GLabel 7100 2100 1    50   Input ~ 0
+GND
+Text GLabel 6600 1400 3    50   Input ~ 0
+GND
+Text GLabel 7600 1400 3    50   Input ~ 0
+IAT
+Text GLabel 7200 1400 3    50   Input ~ 0
+CLT
+Text GLabel 6700 1400 3    50   Input ~ 0
+O2
+Text GLabel 6300 1400 3    50   Input ~ 0
+TPS
+Text GLabel 5250 1400 3    50   Input ~ 0
+VR1+
+Text GLabel 5750 1400 3    50   Input ~ 0
+VR2+
+Text GLabel 6200 1400 3    50   Input ~ 0
+VR2-
+Text GLabel 6100 1400 3    50   Input ~ 0
+VR1-
+Wire Wire Line
+	4900 10800 4900 11100
+Connection ~ 4900 10800
+Wire Wire Line
+	4900 10450 4900 10800
+Wire Wire Line
+	5100 11100 4900 11100
+Text GLabel 5500 11100 2    50   Input ~ 0
+V_IGN
+$Comp
+L Device:Polyfuse_Small F6
+U 1 1 5E5DABA1
+P 5200 11100
+F 0 "F6" V 4995 11100 50  0000 C CNN
+F 1 "PPTC 16V2A" V 5086 11100 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" H 5250 10900 50  0001 L CNN
+F 3 "~" H 5200 11100 50  0001 C CNN
+	1    5200 11100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 11100 5500 11100
+Wire Wire Line
+	5100 10800 4900 10800
+Text GLabel 5500 10800 2    50   Input ~ 0
+V_IDLE
+$Comp
+L Device:Polyfuse_Small F5
+U 1 1 5E2C4A2B
+P 5200 10800
+F 0 "F5" V 4995 10800 50  0000 C CNN
+F 1 "PPTC 16V2A" V 5086 10800 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" H 5250 10600 50  0001 L CNN
+F 3 "~" H 5200 10800 50  0001 C CNN
+	1    5200 10800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 10800 5500 10800
+Connection ~ 4900 10450
+Text GLabel 5500 10450 2    50   Input ~ 0
+V_INJ34
+Text GLabel 5500 10100 2    50   Input ~ 0
+V_INJ12
+Wire Wire Line
+	5100 10450 4900 10450
+Wire Wire Line
+	4900 10100 5100 10100
+$Comp
+L Speeduino_base-eagle-import:?1812L F4
+U 1 1 5E351ECF
+P 5300 10450
+F 0 "F4" H 5150 10550 59  0000 L BNN
+F 1 "PPTC 16V2A" H 5150 10300 59  0000 L BNN
+F 2 "Speeduino_base:1812L" H 5300 10450 50  0001 C CNN
+F 3 "" H 5300 10450 50  0001 C CNN
+	1    5300 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:?1812L F3
+U 1 1 5E350AE7
+P 5300 10100
+F 0 "F3" H 5150 10200 59  0000 L BNN
+F 1 "PPTC 16V2A" H 5150 9950 59  0000 L BNN
+F 2 "Speeduino_base:1812L" H 5300 10100 50  0001 C CNN
+F 3 "" H 5300 10100 50  0001 C CNN
+	1    5300 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY026
+U 1 1 65B39815
+P 6600 10400
+F 0 "#SUPPLY026" H 6600 10400 50  0001 C CNN
+F 1 "GND" H 6525 10275 59  0000 L BNN
+F 2 "" H 6600 10400 50  0001 C CNN
+F 3 "" H 6600 10400 50  0001 C CNN
+	1    6600 10400
+	0    1    1    0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-FERRITE-BEAD-470R-2A(0805)'0805' L1
+U 1 1 6985C268
+P 7000 10400
+F 0 "L1" H 6900 10450 42  0000 L BNN
+F 1 "470R-2A" H 6900 10300 42  0000 L BNN
+F 2 "Speeduino_base:L0805" H 7000 10400 50  0001 C CNN
+F 3 "" H 7000 10400 50  0001 C CNN
+	1    7000 10400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:?1812L F1
+U 1 1 2B6D0F9D
+P 5300 9800
+F 0 "F1" H 5150 9900 59  0000 L BNN
+F 1 "PPTC 16V2A" H 5150 9650 59  0000 L BNN
+F 2 "Speeduino_base:1812L" H 5300 9800 50  0001 C CNN
+F 3 "" H 5300 9800 50  0001 C CNN
+	1    5300 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:VARISTOR-7,5 R23
+U 1 1 0739C489
+P 4600 9600
+F 0 "R23" H 4500 9750 59  0000 L BNN
+F 1 "VARISTOR-18V" H 4500 9350 59  0000 L BNN
+F 2 "Speeduino_base:R-7,5" H 4600 9600 50  0001 C CNN
+F 3 "" H 4600 9600 50  0001 C CNN
+	1    4600 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:LM340?-MP IC1
+U 1 1 46657C43
+P 7300 9800
+F 0 "IC1" H 7000 10025 59  0000 L BNN
+F 1 "LM340?-MP" H 7000 9925 59  0000 L BNN
+F 2 "Speeduino_base:SOT223" H 7300 9800 50  0001 C CNN
+F 3 "" H 7300 9800 50  0001 C CNN
+	1    7300 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C16
+U 1 1 6187B1B6
+P 6880 9960
+F 0 "C16" H 6730 10010 42  0000 L BNN
+F 1 "220nf" H 6730 9860 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 6880 9960 50  0001 C CNN
+F 3 "" H 6880 9960 50  0001 C CNN
+	1    6880 9960
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-10UF-25V-10%-X5R(1206) C14
+U 1 1 20CCEB9A
+P 6680 9960
+F 0 "C14" H 6530 10010 42  0000 L BNN
+F 1 "10uf" H 6530 9860 42  0000 L BNN
+F 2 "Speeduino_base:C1206" H 6680 9960 50  0001 C CNN
+F 3 "" H 6680 9960 50  0001 C CNN
+	1    6680 9960
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC) D10
+U 1 1 25070C16
+P 6480 9800
+F 0 "D10" H 6330 9900 42  0000 L BNN
+F 1 "40V-1A" H 6330 9650 42  0000 L BNN
+F 2 "Speeduino_base:DO-214AC" H 6480 9800 50  0001 C CNN
+F 3 "" H 6480 9800 50  0001 C CNN
+	1    6480 9800
+	1    0    0    -1  
+$EndComp
+Text Label 5600 9800 0    70   ~ 0
+VBAT_F1
+Wire Wire Line
+	5500 9800 6330 9800
+Text Label 4600 9360 0    70   ~ 0
+PWR_GND
+Wire Wire Line
+	4600 9400 4600 9360
+Text Label 7300 10100 0    70   ~ 0
+PWR_GND
+Connection ~ 6880 10110
+Connection ~ 7300 10100
+Wire Wire Line
+	7200 10400 8200 10400
+Wire Wire Line
+	6680 10110 6880 10110
+Wire Wire Line
+	6880 10110 7300 10110
+Wire Wire Line
+	7300 10110 7300 10100
+Wire Wire Line
+	7300 10100 7900 10100
+Wire Wire Line
+	7300 10090 7300 10100
+Connection ~ 6880 9810
+Connection ~ 6680 9810
+Wire Wire Line
+	6900 9810 6900 9800
+Wire Wire Line
+	6880 9810 6900 9810
+Wire Wire Line
+	6680 9810 6880 9810
+Wire Wire Line
+	6630 9810 6680 9810
+Wire Wire Line
+	6630 9800 6630 9810
+Text Label 6700 10400 0    10   ~ 0
+GND
+Wire Wire Line
+	6700 10400 6800 10400
+Connection ~ 4900 9800
+Text Label 4600 9800 2    70   ~ 0
+VBAT
+Wire Wire Line
+	4900 9800 4600 9800
+Wire Wire Line
+	5100 9800 4900 9800
+Wire Wire Line
+	5100 9550 4900 9550
+Text GLabel 5500 9550 2    50   Input ~ 0
+V_O2
+$Comp
+L Device:Polyfuse_Small F7
+U 1 1 5EA6B9CB
+P 5200 9550
+F 0 "F7" V 4995 9550 50  0000 C CNN
+F 1 "PPTC 16V2A" V 5086 9550 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" H 5250 9350 50  0001 L CNN
+F 3 "~" H 5200 9550 50  0001 C CNN
+	1    5200 9550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 9550 5500 9550
+Wire Wire Line
+	4900 9550 4900 9800
+Text GLabel 7850 1400 3    50   Input ~ 0
+V_O2
+Text GLabel 5150 2700 2    50   Input ~ 0
+V_IDLE
+Text GLabel 7500 1400 3    50   Input ~ 0
+3.3V
+Text GLabel 8850 1400 3    50   Input ~ 0
+PWR_GND
+Text GLabel 9150 2150 2    50   Input ~ 0
+FLEX_FUEL_IN
+Text GLabel 9050 1400 3    50   Input ~ 0
+TACHO-OUT
+Text GLabel 6300 2000 3    50   Input ~ 0
+O2_2
+Text GLabel 6700 2100 3    50   Input ~ 0
+IAT_2
+Text GLabel 7200 2000 3    50   Input ~ 0
+CLT_2
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP5
+U 1 1 5E4980D7
+P 6500 2000
+F 0 "JP5" H 6500 2113 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 6500 2204 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 6500 2000 50  0001 C CNN
+F 3 "~" H 6500 2000 50  0001 C CNN
+	1    6500 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP6
+U 1 1 5E499282
+P 6900 2100
+F 0 "JP6" H 6900 2213 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 6900 2304 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 6900 2100 50  0001 C CNN
+F 3 "~" H 6900 2100 50  0001 C CNN
+	1    6900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP7
+U 1 1 5E499DEA
+P 7400 2000
+F 0 "JP7" H 7400 2113 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 7400 2204 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 7400 2000 50  0001 C CNN
+F 3 "~" H 7400 2000 50  0001 C CNN
+	1    7400 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 1400 6500 1850
+Wire Wire Line
+	6900 1400 6900 1950
+Wire Wire Line
+	7400 1400 7400 1850
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP8
+U 1 1 5E1C65D8
+P 4950 2700
+F 0 "JP8" H 4950 2813 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 4950 2904 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 4950 2700 50  0001 C CNN
+F 3 "~" H 4950 2700 50  0001 C CNN
+	1    4950 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP9
+U 1 1 5E1C71B1
+P 5050 2350
+F 0 "JP9" H 5050 2463 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 5050 2554 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5050 2350 50  0001 C CNN
+F 3 "~" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 1400 5050 2200
+Connection ~ 4950 2550
+Wire Wire Line
+	4950 2550 4950 2600
+Wire Wire Line
+	4950 1400 4950 2550
+Wire Wire Line
+	5100 1950 5150 1950
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP4
+U 1 1 5E45BCB2
+P 14350 10600
+F 0 "JP4" H 14350 10713 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 14350 10804 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 14350 10600 50  0001 C CNN
+F 3 "~" H 14350 10600 50  0001 C CNN
+	1    14350 10600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14350 10400 14900 10400
+Wire Wire Line
+	14350 10800 14800 10800
+Text GLabel 14800 10800 2    50   Input ~ 0
+VBAT_F1
+Text GLabel 14900 10400 2    50   Input ~ 0
+5V
+Wire Wire Line
+	10000 8800 10900 8800
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 5E5084D3
+P 11050 8800
+F 0 "JP2" H 11050 8913 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 11050 9004 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 11050 8800 50  0001 C CNN
+F 3 "~" H 11050 8800 50  0001 C CNN
+	1    11050 8800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11050 8600 11600 8600
+Wire Wire Line
+	11050 9000 11500 9000
+Text GLabel 11600 8600 2    50   Input ~ 0
+VBAT_F1
+Text GLabel 11500 9000 2    50   Input ~ 0
+5V
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP11
+U 1 1 5E624540
+P 1500 2000
+F 0 "JP11" H 1500 2113 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1500 2204 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 1500 2000 50  0001 C CNN
+F 3 "~" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP12
+U 1 1 5E62500C
+P 2600 2000
+F 0 "JP12" H 2600 2113 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 2600 2204 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 2600 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 1600 2600 1850
+Wire Wire Line
+	1500 1700 1500 2150
+Text GLabel 5150 1400 3    50   Input ~ 0
+STEP_2B_OUT
+Text GLabel 5850 1950 2    50   Input ~ 0
+IDLE1-OUT
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP10
+U 1 1 5E1C773E
+P 5650 1950
+F 0 "JP10" H 5650 2063 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 5650 2154 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5650 1950 50  0001 C CNN
+F 3 "~" H 5650 1950 50  0001 C CNN
+	1    5650 1950
+	-1   0    0    1   
+$EndComp
+Text GLabel 5450 1950 0    50   Input ~ 0
+STEP_2A_OUT
+Wire Wire Line
+	5650 1800 5650 1400
+Text GLabel 3500 9700 2    50   Input ~ 0
+V_IDLE
+Wire Wire Line
+	4900 10100 4900 9800
+Wire Wire Line
+	4900 10400 4900 10450
+Wire Wire Line
+	4900 10100 4900 10450
+Connection ~ 4900 10100
+Text GLabel 8350 1400 3    50   Input ~ 0
+V_IGN
+Text GLabel 7950 1400 3    50   Input ~ 0
+V_IGN
+Wire Wire Line
+	5350 5350 5350 5300
+Text Label 5350 5350 0    10   ~ 0
+GND
+Wire Wire Line
+	5750 5350 5750 5300
+Text Label 5750 5350 0    10   ~ 0
+GND
+Wire Wire Line
+	6150 5150 6350 5150
+Wire Wire Line
+	6350 5150 6350 5350
+Text Label 6150 5150 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 4950 5350 4950
+Wire Wire Line
+	5350 4950 5350 5000
+Wire Wire Line
+	5350 4950 5150 4950
+Connection ~ 5350 4950
+Wire Wire Line
+	6050 4950 6570 4950
+Wire Wire Line
+	5950 4850 5950 4950
+Wire Wire Line
+	5950 4950 6050 4950
+Wire Wire Line
+	5950 5050 5950 4950
+Connection ~ 6050 4950
+Connection ~ 5950 4950
+Wire Wire Line
+	6150 4750 6150 4450
+Text Label 6150 4650 0    70   ~ 0
+3.3V
+Wire Wire Line
+	5750 4450 5950 4450
+Wire Wire Line
+	5700 4950 5750 4950
+Wire Wire Line
+	5750 5000 5750 4950
+Wire Wire Line
+	5750 4450 5750 4950
+Connection ~ 5750 4950
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-100NF-50V-10%-X7R(0603) C25
+U 1 1 5E38B921
+P 5350 5150
+F 0 "C25" H 5200 5200 42  0000 L BNN
+F 1 "100nf" H 5200 5050 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 5350 5150 50  0001 C CNN
+F 3 "" H 5350 5150 50  0001 C CNN
+	1    5350 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:CERAMIC-220NF-25V-10%-X7R(0603) C26
+U 1 1 5E38B927
+P 5750 5150
+F 0 "C26" H 5600 5200 42  0000 L BNN
+F 1 "220nf" H 5600 5050 42  0000 L BNN
+F 2 "Speeduino_base:C0603" H 5750 5150 50  0001 C CNN
+F 3 "" H 5750 5150 50  0001 C CNN
+	1    5750 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R66
+U 1 1 5E38B92D
+P 5550 4950
+F 0 "R66" H 5400 5000 42  0000 L BNN
+F 1 "470R" H 5400 4850 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5550 4950 50  0001 C CNN
+F 3 "" H 5550 4950 50  0001 C CNN
+	1    5550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0101
+U 1 1 5E38B933
+P 5350 5450
+F 0 "#SUPPLY0101" H 5350 5450 50  0001 C CNN
+F 1 "GND" H 5275 5325 59  0000 L BNN
+F 2 "" H 5350 5450 50  0001 C CNN
+F 3 "" H 5350 5450 50  0001 C CNN
+	1    5350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0102
+U 1 1 5E38B939
+P 5750 5450
+F 0 "#SUPPLY0102" H 5750 5450 50  0001 C CNN
+F 1 "GND" H 5675 5325 59  0000 L BNN
+F 2 "" H 5750 5450 50  0001 C CNN
+F 3 "" H 5750 5450 50  0001 C CNN
+	1    5750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0103
+U 1 1 5E38B93F
+P 6350 5450
+F 0 "#SUPPLY0103" H 6350 5450 50  0001 C CNN
+F 1 "GND" H 6275 5325 59  0000 L BNN
+F 2 "" H 6350 5450 50  0001 C CNN
+F 3 "" H 6350 5450 50  0001 C CNN
+	1    6350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D18
+U 1 1 5E38B945
+P 6150 4950
+F 0 "D18" H 6180 5029 59  0000 L BNN
+F 1 "BAT54S" H 5980 4794 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 6150 4950 50  0001 C CNN
+F 3 "" H 6150 4950 50  0001 C CNN
+	1    6150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R67
+U 1 1 5E38B94B
+P 5950 4650
+F 0 "R67" H 5800 4709 59  0000 L BNN
+F 1 "4.7k" H 5800 4520 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5950 4650 50  0001 C CNN
+F 3 "" H 5950 4650 50  0001 C CNN
+	1    5950 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:R-EU_R0805 R68
+U 1 1 5E38B951
+P 5950 5250
+F 0 "R68" H 5800 5309 59  0000 L BNN
+F 1 "9.1k" H 5800 5120 59  0000 L BNN
+F 2 "Speeduino_base:R0603" H 5950 5250 50  0001 C CNN
+F 3 "" H 5950 5250 50  0001 C CNN
+	1    5950 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0104
+U 1 1 5E38B957
+P 5950 5550
+F 0 "#SUPPLY0104" H 5950 5550 50  0001 C CNN
+F 1 "GND" H 5875 5425 59  0000 L BNN
+F 2 "" H 5950 5550 50  0001 C CNN
+F 3 "" H 5950 5550 50  0001 C CNN
+	1    5950 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 4950 0    50   Input ~ 0
+BARO
+Text GLabel 6550 4950 2    50   Input ~ 0
+PB1
+Text GLabel 2200 8000 2    50   Input ~ 0
+PA3
+Text GLabel 11150 5900 0    50   Input ~ 0
+PD12
+Text GLabel 11250 7000 0    50   Input ~ 0
+PD13
+Text GLabel 13900 5900 0    50   Input ~ 0
+PD14
+Text GLabel 13850 7000 0    50   Input ~ 0
+PD15
+Wire Wire Line
+	11150 5900 11300 5900
+Connection ~ 11300 5900
+Wire Wire Line
+	11300 5900 11800 5900
+Wire Wire Line
+	11250 7000 11400 7000
+Connection ~ 11400 7000
+Wire Wire Line
+	13900 5900 14100 5900
+Connection ~ 14100 5900
+Wire Wire Line
+	14100 5900 14600 5900
+Wire Wire Line
+	13850 7000 14100 7000
+Connection ~ 14100 7000
+Wire Wire Line
+	14100 7000 14600 7000
+Text GLabel 2400 6900 2    50   Input ~ 0
+PA2
+Text GLabel 9550 6000 2    50   Input ~ 0
+PA1
+Text GLabel 11100 7900 2    50   Input ~ 0
+PC13
+$Comp
+L Device:Jumper_NO_Small JP13
+U 1 1 5E70EAC2
+P 1200 2800
+F 0 "JP13" V 1109 2848 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 1200 2848 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" V 1291 2848 50  0000 L CNN
+F 3 "~" H 1200 2800 50  0001 C CNN
+	1    1200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP14
+U 1 1 5E70F5A3
+P 2900 2600
+F 0 "JP14" V 2854 2648 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 2945 2648 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2900 2600 50  0001 C CNN
+F 3 "~" H 2900 2600 50  0001 C CNN
+	1    2900 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 2450 1200 2700
+Wire Wire Line
+	1200 2850 1200 2900
+Connection ~ 1200 2900
+Wire Wire Line
+	1200 2900 1200 3100
+Wire Wire Line
+	2900 2700 2900 3000
+Wire Wire Line
+	2900 2350 2900 2500
+Text GLabel 1500 1000 1    50   Input ~ 0
+PE0
+Text GLabel 2600 1000 1    50   Input ~ 0
+PE1
+Text GLabel 13450 3300 0    50   Input ~ 0
+PC8
+Text GLabel 13450 4400 0    50   Input ~ 0
+PD3
+Wire Wire Line
+	13450 4400 13550 4400
+Wire Wire Line
+	13450 3300 13550 3300
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP15
+U 1 1 5EA0F43B
+P 8950 2150
+F 0 "JP15" H 8950 2263 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 8950 2354 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 8950 2150 50  0001 C CNN
+F 3 "~" H 8950 2150 50  0001 C CNN
+	1    8950 2150
+	-1   0    0    1   
+$EndComp
+Text GLabel 8750 2150 0    50   Input ~ 0
+Baro
+Wire Wire Line
+	8950 1400 8950 2000
+Text GLabel 3500 9800 2    50   Input ~ 0
+PWR_GND
+Text GLabel 11450 1850 0    50   Input ~ 0
+BOOT0
+Text GLabel 12550 1850 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	12300 3200 13000 3200
+Wire Wire Line
+	12300 3000 13000 3000
+Wire Wire Line
+	12300 2900 13150 2900
+Text Label 12900 2900 0    70   ~ 0
+BOOT1
+Wire Wire Line
+	12300 3100 13350 3100
+Text GLabel 11450 1950 0    50   Input ~ 0
+BOOT1
+$Comp
+L Device:Jumper_NO_Small JP16
+U 1 1 5E61C757
+P 11700 1850
+F 0 "JP16" H 11700 2035 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 11700 1944 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11700 1850 50  0001 C CNN
+F 3 "~" H 11700 1850 50  0001 C CNN
+	1    11700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP17
+U 1 1 5E61D311
+P 11700 1950
+F 0 "JP17" H 11700 2135 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 11700 2044 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11700 1950 50  0001 C CNN
+F 3 "~" H 11700 1950 50  0001 C CNN
+	1    11700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 1850 11800 1850
+Wire Wire Line
+	11800 1850 11800 1950
+Connection ~ 11800 1850
+Wire Wire Line
+	11600 1850 11450 1850
+Wire Wire Line
+	11450 1950 11600 1950
+Wire Wire Line
+	11500 1300 11700 1300
+Wire Wire Line
+	11000 1300 11200 1300
+Wire Wire Line
+	12000 1300 12350 1300
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R71
+U 1 1 5E80CCFA
+P 11350 1300
+F 0 "R71" H 11200 1350 42  0000 L BNN
+F 1 "1k" H 11200 1200 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11350 1300 50  0001 C CNN
+F 3 "" H 11350 1300 50  0001 C CNN
+	1    11350 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-LED-CLEAR-YELLOW(0603) D21
+U 1 1 5E80CD00
+P 11850 1300
+F 0 "D21" H 11550 1350 42  0000 L BNN
+F 1 "YEL" H 11650 1100 42  0000 L BNN
+F 2 "Speeduino_base:LED-0603" H 11850 1300 50  0001 C CNN
+F 3 "" H 11850 1300 50  0001 C CNN
+	1    11850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 900  11700 900 
+Wire Wire Line
+	11000 900  11200 900 
+Wire Wire Line
+	12000 900  12350 900 
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R70
+U 1 1 5E85B2DA
+P 11350 900
+F 0 "R70" H 11200 950 42  0000 L BNN
+F 1 "1k" H 11200 800 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11350 900 50  0001 C CNN
+F 3 "" H 11350 900 50  0001 C CNN
+	1    11350 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-LED-CLEAR-YELLOW(0603) D20
+U 1 1 5E85B2E0
+P 11850 900
+F 0 "D20" H 11550 950 42  0000 L BNN
+F 1 "YEL" H 11650 700 42  0000 L BNN
+F 2 "Speeduino_base:LED-0603" H 11850 900 50  0001 C CNN
+F 3 "" H 11850 900 50  0001 C CNN
+	1    11850 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 500  11700 500 
+Wire Wire Line
+	11000 500  11200 500 
+Wire Wire Line
+	12000 500  12350 500 
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R69
+U 1 1 5E8A9CBD
+P 11350 500
+F 0 "R69" H 11200 550 42  0000 L BNN
+F 1 "1k" H 11200 400 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 11350 500 50  0001 C CNN
+F 3 "" H 11350 500 50  0001 C CNN
+	1    11350 500 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-LED-CLEAR-YELLOW(0603) D19
+U 1 1 5E8A9CC3
+P 11850 500
+F 0 "D19" H 11550 550 42  0000 L BNN
+F 1 "YEL" H 11650 300 42  0000 L BNN
+F 2 "Speeduino_base:LED-0603" H 11850 500 50  0001 C CNN
+F 3 "" H 11850 500 50  0001 C CNN
+	1    11850 500 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 500  12350 900 
+Wire Wire Line
+	12350 900  12350 1300
+Connection ~ 12350 900 
+Text GLabel 12350 900  2    50   Input ~ 0
+PWR_GND
+Text GLabel 11000 500  0    50   Input ~ 0
+5V
+Text GLabel 11000 900  0    50   Input ~ 0
+3.3V
+Text GLabel 11000 1300 0    50   Input ~ 0
+VBAT
+$EndSCHEMATC
