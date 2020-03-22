@@ -2,26 +2,40 @@ SPECTRE	(Speeduino PrintEd Circuit TjeeRdiE)
 
 NEED FIXING
 
-Schematic:
-Fix 3.3v not connected for CLT sensor resistor
-Resistor between PE0 + PE1 and BAT54S to protect BAT54S from over current
-Change fuel pump pin PA6 because PA6 is also LED used for visual feedback
-Change vbat pin because PC6 has not adc (change to PC5 for example)
-Flyback diode for both idle outputs (Diode To VBAT not special output)
-Flyback diode for FAN and Fuel output
+	Schematic:
+		
 
-PCB:
-Fix headers on the side of the board serial + boot0 + boot1 (now shorting out with bottom plate)
+	PCB:
 
-NICE TO HAVE
-Add boost control (with flyback diode)
-Super cap connection for VBAT (for RTC backup sdcard logging)
-Separete 3.3 volt supply/chip (now 3.3 volt comes from ebay baord not very nice)
-Add Proto erea 
-dc/dc converter for 5 volt now regulator getting hot
-Put status and indication leds on the outside. now not all visable when stm is placed
-Change injectors 1 to 4 to PWM output pins of same TIM for low-z injector driver
-Add more injector outputs (8x total) 
-Add more ign output (8x) 
-Make boot0 a button no jumper
-Internal SPI temperature/baro sensor (BME280)
+
+	NICE TO HAVE
+		Super cap connection for VBAT (for RTC backup sdcard logging)
+		Separete 3.3 volt supply/chip (now 3.3 volt comes from ebay baord not very nice)
+		Add Proto erea 
+		Put status and indication leds on the outside. now not all visable when douther board is placed
+		Add more ign output (8x) 
+		Make boot0 a button no jumper
+		Add reset button
+		Internal SPI temperature/baro sensor (BME280)
+
+FIXED for version 0.4
+
+	Schematic:
+		Fix 3.3v not connected for CLT sensor resistor
+		Resistor between PE0 + PE1 and BAT54S to protect BAT54S from over current
+		REsistor pulldown on PE0 + PE1 so no sync with floating input.
+		Change fuel pump pin PA6 because PA6 is also LED used for visual feedback (PA4)	
+		Change vbat pin because PC6 has not adc (change to PC5 for example)
+		Flyback diode for both idle outputs (Diode To VBAT not special output)
+		Flyback diode for FAN and Fuel output
+
+	PCB:
+		Fix headers on the side of the board serial + boot0 + boot1 (now shorting out with bottom plate)
+		Plac VBAT measurements components on other header.
+		Place bluetooth antenna outside of the PCB. 
+
+	NICE TO HAVE
+		Add boost control (with flyback diode)
+		dc/dc converter for 5 volt now regulator getting hot (added to220 lm7805 can be dc dc version)
+		Change injectors 1 to 4 to PWM output pins of same TIM for low-z injector driver (add inj 6..8 on TIM pwm) 
+		Add more injector outputs (8x total) 
