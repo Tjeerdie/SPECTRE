@@ -12,11 +12,13 @@ NEED FIXING
 		Super cap connection for VBAT (for RTC backup sdcard logging)
 		Separete 3.3 volt supply/chip (now 3.3 volt comes from ebay baord not very nice)
 		Add Proto erea 
-		Put status and indication leds on the outside. now not all visable when douther board is placed
 		Add more ign output (8x) 
 		Make boot0 a button no jumper
 		Add reset button
 		Internal SPI temperature/baro sensor (BME280)
+		CAN bus tranceiver 
+		Add rs232 level converter vor Serial1
+		Add switchable flyback diode for current control low-z injectors
 
 FIXED for version 0.4
 
@@ -39,3 +41,4 @@ FIXED for version 0.4
 		dc/dc converter for 5 volt now regulator getting hot (added to220 lm7805 can be dc dc version)
 		Change injectors 1 to 4 to PWM output pins of same TIM for low-z injector driver (add inj 6..8 on TIM pwm) 
 		Add more injector outputs (8x total) 
+		Put status and indication leds on the outside. now not all visable when douther board is placed

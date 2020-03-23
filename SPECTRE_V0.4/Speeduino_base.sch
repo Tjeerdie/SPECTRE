@@ -3499,8 +3499,6 @@ Text GLabel 11750 3300 0    50   BiDi ~ 0
 PB9
 Text GLabel 11750 3400 0    50   BiDi ~ 0
 PB7
-Text GLabel 11750 3500 0    50   BiDi ~ 0
-PB5
 Text GLabel 11750 3600 0    50   BiDi ~ 0
 PD7
 Text GLabel 11750 3700 0    50   BiDi ~ 0
@@ -3541,8 +3539,6 @@ Text GLabel 12050 3300 2    50   BiDi ~ 0
 PB8
 Text GLabel 12050 3400 2    50   BiDi ~ 0
 PB6
-Text GLabel 12050 3500 2    50   BiDi ~ 0
-PB3
 Text GLabel 12050 3600 2    50   BiDi ~ 0
 PD6
 Text GLabel 12050 3700 2    50   BiDi ~ 0
@@ -4220,4 +4216,40 @@ Text GLabel 6100 1400 3    50   Output ~ 0
 CLT_2
 NoConn ~ 10500 4800
 NoConn ~ 10500 4900
+$Comp
+L Device:D_Zener_Small D27
+U 1 1 5E7D198A
+P 3150 10300
+F 0 "D27" V 3104 10368 50  0000 L CNN
+F 1 "3.6V" V 3195 10368 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF_Handsoldering" V 3150 10300 50  0001 C CNN
+F 3 "~" V 3150 10300 50  0001 C CNN
+	1    3150 10300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 10200 3150 10150
+Wire Wire Line
+	3150 10150 3000 10150
+Wire Wire Line
+	3150 10400 3150 10500
+Wire Wire Line
+	3150 10500 3000 10500
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0108
+U 1 1 5E8517DF
+P 2900 10500
+F 0 "#SUPPLY0108" H 2900 10500 50  0001 C CNN
+F 1 "GND" H 2825 10375 59  0000 L BNN
+F 2 "" H 2900 10500 50  0001 C CNN
+F 3 "" H 2900 10500 50  0001 C CNN
+	1    2900 10500
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 10150 0    50   Input ~ 0
+3.3V
+Text GLabel 11750 3500 0    50   BiDi ~ 0
+PB5
+Text GLabel 12050 3500 2    50   BiDi ~ 0
+PB3
 $EndSCHEMATC
