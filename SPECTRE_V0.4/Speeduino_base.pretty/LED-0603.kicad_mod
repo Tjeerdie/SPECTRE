@@ -1,4 +1,4 @@
-(module LED-0603 (layer F.Cu) (tedit 0)
+(module LED-0603 (layer F.Cu) (tedit 5E7A68EB)
   (fp_text reference D14 (at 1.5875 0.381) (layer F.SilkS)
     (effects (font (size 0.84455 0.84455) (thickness 0.0929)) (justify left bottom))
   )
@@ -21,4 +21,9 @@
     (solder_mask_margin 0.1016))
   (pad - smd roundrect (at 0.762 0) (size 0.762 0.889) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.125)
     (solder_mask_margin 0.1016))
+  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

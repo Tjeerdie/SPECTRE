@@ -2101,17 +2101,6 @@ F 3 "" H 8750 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Speeduino_base-eagle-import:BAT54S D15
-U 1 1 20478EC3
-P 8750 4900
-F 0 "D15" H 8780 4979 59  0000 L BNN
-F 1 "BAT54S" H 8580 4744 59  0000 L BNN
-F 2 "Speeduino_base:SOT23" H 8750 4900 50  0001 C CNN
-F 3 "" H 8750 4900 50  0001 C CNN
-	1    8750 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R34
 U 1 1 E39B16DD
 P 7650 4700
@@ -2430,22 +2419,10 @@ Text GLabel 4150 2300 3    50   Input ~ 0
 STEP_1A_OUT
 Text GLabel 5050 1400 3    50   Input ~ 0
 STEP_1B_OUT
-Text GLabel 8700 1400 3    50   Input ~ 0
+Text GLabel 7850 1400 3    50   Input ~ 0
 5V
 Text GLabel 8050 1400 3    50   Output ~ 0
 MAP
-Connection ~ 4200 1400
-$Comp
-L molex_48pin:molex_48pin U2
-U 1 1 5E17AB54
-P 6900 1950
-F 0 "U2" V 8187 2355 60  0000 C CNN
-F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
-F 3 "" H 6900 1950 60  0001 C CNN
-	1    6900 1950
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7050 1400 3    50   Input ~ 0
 GND
 Text GLabel 6600 1400 3    50   Input ~ 0
@@ -3014,7 +2991,7 @@ U 1 1 5E5E6468
 P 14700 2350
 F 0 "D24" V 14654 2418 50  0000 L CNN
 F 1 "1N4007" V 14745 2418 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-128" V 14700 2350 50  0001 C CNN
+F 2 "Speeduino_base:D_SOD-128" V 14700 2350 50  0001 C CNN
 F 3 "~" V 14700 2350 50  0001 C CNN
 	1    14700 2350
 	0    1    1    0   
@@ -3029,7 +3006,7 @@ U 1 1 5E648732
 P 14700 3850
 F 0 "D25" V 14654 3918 50  0000 L CNN
 F 1 "1N4007" V 14745 3918 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-128" V 14700 3850 50  0001 C CNN
+F 2 "Speeduino_base:D_SOD-128" V 14700 3850 50  0001 C CNN
 F 3 "~" V 14700 3850 50  0001 C CNN
 	1    14700 3850
 	0    1    1    0   
@@ -3044,7 +3021,7 @@ U 1 1 5E6A2F41
 P 5600 3300
 F 0 "D22" V 5554 3368 50  0000 L CNN
 F 1 "1N4007" V 5645 3368 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-128" V 5600 3300 50  0001 C CNN
+F 2 "Speeduino_base:D_SOD-128" V 5600 3300 50  0001 C CNN
 F 3 "~" V 5600 3300 50  0001 C CNN
 	1    5600 3300
 	0    1    1    0   
@@ -3059,7 +3036,7 @@ U 1 1 5E6F41B5
 P 8800 2800
 F 0 "D23" V 8754 2868 50  0000 L CNN
 F 1 "1N4007" V 8845 2868 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-128" V 8800 2800 50  0001 C CNN
+F 2 "Speeduino_base:D_SOD-128" V 8800 2800 50  0001 C CNN
 F 3 "~" V 8800 2800 50  0001 C CNN
 	1    8800 2800
 	0    1    1    0   
@@ -3876,7 +3853,7 @@ U 1 1 61C2B859
 P 14550 750
 F 0 "D26" V 14504 818 50  0000 L CNN
 F 1 "1N4007" V 14595 818 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-128" V 14550 750 50  0001 C CNN
+F 2 "Speeduino_base:D_SOD-128" V 14550 750 50  0001 C CNN
 F 3 "~" V 14550 750 50  0001 C CNN
 	1    14550 750 
 	0    1    1    0   
@@ -4173,8 +4150,6 @@ F 3 "~" H 1950 10800 50  0001 C CNN
 	1    1950 10800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8450 1400
-NoConn ~ 7850 1400
 NoConn ~ 5750 1400
 NoConn ~ 10200 4000
 NoConn ~ 9600 2800
@@ -4252,4 +4227,159 @@ Text GLabel 11750 3500 0    50   BiDi ~ 0
 PB5
 Text GLabel 12050 3500 2    50   BiDi ~ 0
 PB3
+$Comp
+L speeduino_lib:TJA1050 U?1
+U 1 1 5E827D30
+P 11600 6400
+F 0 "U?1" H 11525 7031 50  0000 C CNN
+F 1 "TJA1050" H 11525 6940 50  0000 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 11600 6400 50  0001 C CNN
+F 3 "" H 11600 6400 50  0001 C CNN
+	1    11600 6400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11000 6450
+Text GLabel 12050 6250 2    50   Output ~ 0
+CANL
+Text GLabel 12050 6350 2    50   Output ~ 0
+CANH
+Connection ~ 4200 1400
+$Comp
+L molex_48pin:molex_48pin U2
+U 1 1 5E17AB54
+P 6900 1950
+F 0 "U2" V 8187 2355 60  0000 C CNN
+F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
+F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
+F 3 "" H 6900 1950 60  0001 C CNN
+	1    6900 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8450 1400 3    50   Input ~ 0
+CANH
+Text GLabel 8700 1400 3    50   Input ~ 0
+CANL
+Text GLabel 11500 5900 2    50   Input ~ 0
+5V
+Wire Wire Line
+	11500 5900 11500 5950
+Text GLabel 10100 6600 0    50   Input ~ 0
+PD0
+Text GLabel 9850 6000 0    50   Input ~ 0
+PD1
+Text GLabel 11550 6750 3    50   Input ~ 0
+GND
+Text GLabel 11000 6250 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10600 6300 10600 6200
+Text Label 10600 6300 0    10   ~ 0
+GND
+Wire Wire Line
+	10600 5800 10600 5500
+Text Label 10600 5800 1    70   ~ 0
+3.3V
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0109
+U 1 1 5E8B962B
+P 10600 6400
+F 0 "#SUPPLY0109" H 10600 6400 50  0001 C CNN
+F 1 "GND" H 10525 6275 59  0000 L BNN
+F 2 "" H 10600 6400 50  0001 C CNN
+F 3 "" H 10600 6400 50  0001 C CNN
+	1    10600 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 6000 10950 6150
+Wire Wire Line
+	10950 6150 11000 6150
+Wire Wire Line
+	10400 6900 10400 6800
+Text Label 10400 6900 0    10   ~ 0
+GND
+Wire Wire Line
+	10400 6400 10400 6100
+Text Label 10400 6400 1    70   ~ 0
+3.3V
+$Comp
+L Speeduino_base-eagle-import:GND #SUPPLY0110
+U 1 1 5E93B03C
+P 10400 7000
+F 0 "#SUPPLY0110" H 10400 7000 50  0001 C CNN
+F 1 "GND" H 10325 6875 59  0000 L BNN
+F 2 "" H 10400 7000 50  0001 C CNN
+F 3 "" H 10400 7000 50  0001 C CNN
+	1    10400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D28
+U 1 1 5E93B042
+P 10400 6600
+F 0 "D28" H 10430 6679 59  0000 L BNN
+F 1 "BAT54S" H 10230 6444 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 10400 6600 50  0001 C CNN
+F 3 "" H 10400 6600 50  0001 C CNN
+	1    10400 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 6600 10300 6600
+Connection ~ 10300 6600
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R84
+U 1 1 5E97C8A6
+P 10850 6350
+F 0 "R84" H 10700 6400 42  0000 L BNN
+F 1 "1K" H 10700 6250 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 10850 6350 50  0001 C CNN
+F 3 "" H 10850 6350 50  0001 C CNN
+	1    10850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R83
+U 1 1 5E97D64D
+P 10300 6000
+F 0 "R83" H 10150 6050 42  0000 L BNN
+F 1 "1k" H 10150 5900 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 10300 6000 50  0001 C CNN
+F 3 "" H 10300 6000 50  0001 C CNN
+	1    10300 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 6000 10500 6000
+Connection ~ 10500 6000
+Wire Wire Line
+	10500 6000 10950 6000
+Wire Wire Line
+	10150 6000 9850 6000
+Wire Wire Line
+	10700 6350 10700 6600
+Wire Wire Line
+	10300 6600 10700 6600
+$Comp
+L Speeduino_base-eagle-import:BAT54S D15
+U 1 1 20478EC3
+P 8750 4900
+F 0 "D15" H 8780 4979 59  0000 L BNN
+F 1 "BAT54S" H 8580 4744 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 8750 4900 50  0001 C CNN
+F 3 "" H 8750 4900 50  0001 C CNN
+	1    8750 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:BAT54S D29
+U 1 1 5E8B9631
+P 10600 6000
+F 0 "D29" H 10630 6079 59  0000 L BNN
+F 1 "BAT54S" H 10430 5844 59  0000 L BNN
+F 2 "Speeduino_base:SOT23" H 10600 6000 50  0001 C CNN
+F 3 "" H 10600 6000 50  0001 C CNN
+	1    10600 6000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

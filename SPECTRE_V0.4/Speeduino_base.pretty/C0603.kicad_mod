@@ -1,4 +1,4 @@
-(module C0603 (layer F.Cu) (tedit 5E1CB6D0)
+(module C0603 (layer F.Cu) (tedit 5E7A672E)
   (descr <b>0603<b><p>)
   (fp_text reference C24 (at 0.508 4.064 -90) (layer F.SilkS)
     (effects (font (size 0.84455 0.84455) (thickness 0.0929)) (justify right top))
@@ -15,4 +15,9 @@
     (solder_mask_margin 0.1016))
   (pad 2 smd roundrect (at 0 0.762 270) (size 0.889 0.889) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.125)
     (solder_mask_margin 0.1016))
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
