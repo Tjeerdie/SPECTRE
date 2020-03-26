@@ -6,7 +6,7 @@ NEED FIXING
 		
 
 	PCB:
-		Rounded corners to better fit casing
+		
 
 	NICE TO HAVE
 		Super cap connection for VBAT (for RTC backup sdcard logging)
@@ -16,7 +16,6 @@ NEED FIXING
 		Make boot0 a button no jumper
 		Add reset button
 		Internal SPI temperature/baro sensor (BME280)
-		CAN bus tranceiver 
 		Add rs232 level converter vor Serial1
 		Add switchable flyback diode for pwm control low-z injectors
 
@@ -35,6 +34,7 @@ FIXED for version 0.4
 		Fix headers on the side of the board serial + boot0 + boot1 (now shorting out with bottom plate)
 		Plac VBAT measurements components on other header.
 		Place bluetooth antenna outside of the PCB. 
+		Rounded corners to better fit casing
 
 	NICE TO HAVE
 		Add boost control (with flyback diode)
@@ -42,3 +42,4 @@ FIXED for version 0.4
 		Change injectors 1 to 4 to PWM output pins of same TIM for low-z injector driver (add inj 6..8 on TIM pwm) 
 		Add more injector outputs (8x total) 
 		Put status and indication leds on the outside. now not all visable when douther board is placed
+		CAN bus tranceiver 
