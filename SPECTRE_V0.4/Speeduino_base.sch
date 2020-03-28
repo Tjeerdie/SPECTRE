@@ -2423,8 +2423,6 @@ Text GLabel 7850 1400 3    50   Input ~ 0
 5V
 Text GLabel 8050 1400 3    50   Output ~ 0
 MAP
-Text GLabel 7050 1400 3    50   Input ~ 0
-GND
 Text GLabel 6600 1400 3    50   Input ~ 0
 GND
 Text GLabel 7600 1400 3    50   Output ~ 0
@@ -2439,7 +2437,7 @@ Text GLabel 5250 1400 3    50   Output ~ 0
 VR1+
 Text GLabel 5850 1400 3    50   Output ~ 0
 VR2+
-Text GLabel 6200 1400 3    50   Output ~ 0
+Text GLabel 5750 1400 3    50   Output ~ 0
 VR2-
 Text GLabel 6300 1400 3    50   Output ~ 0
 VR1-
@@ -3764,9 +3762,9 @@ Wire Wire Line
 	600  10300 750  10300
 Wire Wire Line
 	750  10300 750  10400
-Text GLabel 6500 1400 3    50   Input ~ 0
+Text GLabel 6200 1400 3    50   Input ~ 0
 GND
-Text GLabel 6900 1400 3    50   Input ~ 0
+Text GLabel 7050 1400 3    50   Input ~ 0
 GND
 Text GLabel 7400 1400 3    50   Input ~ 0
 GND
@@ -4150,7 +4148,6 @@ F 3 "~" H 1950 10800 50  0001 C CNN
 	1    1950 10800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5750 1400
 NoConn ~ 10200 4000
 NoConn ~ 9600 2800
 NoConn ~ 10500 4000
@@ -4162,8 +4159,6 @@ NoConn ~ 10500 5000
 NoConn ~ 10500 4500
 NoConn ~ 10200 4500
 NoConn ~ 10500 4400
-NoConn ~ 12050 3900
-NoConn ~ 11750 3900
 NoConn ~ 12050 3300
 NoConn ~ 11750 3400
 NoConn ~ 11750 3700
@@ -4243,18 +4238,6 @@ Text GLabel 12050 6250 2    50   Output ~ 0
 CANL
 Text GLabel 12050 6350 2    50   Output ~ 0
 CANH
-Connection ~ 4200 1400
-$Comp
-L molex_48pin:molex_48pin U2
-U 1 1 5E17AB54
-P 6900 1950
-F 0 "U2" V 8187 2355 60  0000 C CNN
-F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
-F 3 "" H 6900 1950 60  0001 C CNN
-	1    6900 1950
-	0    -1   -1   0   
-$EndComp
 Text GLabel 8450 1400 3    50   Input ~ 0
 CANH
 Text GLabel 8700 1400 3    50   Input ~ 0
@@ -4519,7 +4502,7 @@ U 1 1 5EB21DAA
 P 12750 3150
 F 0 "J2" V 12846 2862 50  0000 R CNN
 F 1 "Conn_02x04_Odd_Even" V 12755 2862 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 12750 3150 50  0001 C CNN
+F 2 "Speeduino_base:PinHeader_2x04_P2.54mm_Vertical" H 12750 3150 50  0001 C CNN
 F 3 "~" H 12750 3150 50  0001 C CNN
 	1    12750 3150
 	0    -1   -1   0   
@@ -4548,4 +4531,20 @@ Text GLabel 12750 4500 2    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 12750 4700 2    50   Output ~ 0
 SPI1_MISO
+Text GLabel 6500 1400 3    50   Input ~ 0
+RS232_TX
+Connection ~ 4200 1400
+$Comp
+L molex_48pin:molex_48pin U2
+U 1 1 5E17AB54
+P 6900 1950
+F 0 "U2" V 8187 2355 60  0000 C CNN
+F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
+F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
+F 3 "" H 6900 1950 60  0001 C CNN
+	1    6900 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6900 1400 3    50   Output ~ 0
+RS232_RX
 $EndSCHEMATC
