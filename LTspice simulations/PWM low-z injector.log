@@ -1,0 +1,27 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * Z:\home\hoogendijkta\Documents\hobby\speeduino\LTspice simulations\PWM low-z injector.asc
+
+WARNING: Node U2:N009 is floating.
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Mar 29 22:25:53 2020
+Total elapsed time: 15.068 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 319223
+traniter = 319185
+tranpoints = 99217
+accept = 70538
+rejected = 28679
+matrix size = 88
+fillins = 11
+solver = Normal
+Thread vector: 46.5/37.4[2] 16.2/13.4[2] 9.9/8.5[2] 0.8/2.1[1]  2592/500
+Matrix Compiler1: 5.18 KB object code size  3.8/2.5/[1.2]
+Matrix Compiler2: off  [2.2]/3.6/3.9
+
+

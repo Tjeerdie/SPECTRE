@@ -4457,35 +4457,6 @@ Wire Wire Line
 	13150 10050 13250 10050
 Connection ~ 13150 10050
 Wire Wire Line
-	13450 9750 13800 9750
-Wire Wire Line
-	13850 9350 13750 9350
-$Comp
-L Device:D_Schottky_Small D30
-U 1 1 5E84310E
-P 13650 9350
-F 0 "D30" H 13650 9237 50  0000 C CNN
-F 1 "SS310" V 13695 9418 50  0001 L CNN
-F 2 "Diode_SMD:D_SMA" V 13650 9350 50  0001 C CNN
-F 3 "~" V 13650 9350 50  0001 C CNN
-	1    13650 9350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_FET:AO3401A Q20
-U 1 1 5E83F742
-P 13350 9550
-F 0 "Q20" H 13555 9550 50  0000 L CNN
-F 1 "AO3401A" H 13555 9505 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 13550 9475 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 13350 9550 50  0001 L CNN
-	1    13350 9550
-	1    0    0    -1  
-$EndComp
-Connection ~ 13450 9750
-Wire Wire Line
-	13450 9350 13550 9350
-Wire Wire Line
 	12550 10450 13150 10450
 Connection ~ 13150 10450
 Wire Wire Line
@@ -4494,11 +4465,6 @@ Wire Wire Line
 	12550 10050 12550 9800
 Wire Wire Line
 	12550 9600 12550 9550
-Wire Wire Line
-	12550 9300 13450 9300
-Wire Wire Line
-	13450 9300 13450 9350
-Connection ~ 13450 9350
 Wire Wire Line
 	12550 9550 13150 9550
 Connection ~ 12550 9550
@@ -4950,12 +4916,46 @@ Text GLabel 14700 11450 0    50   Input ~ 0
 PE15
 Text GLabel 15650 10050 0    50   Input ~ 0
 PE11
-Text GLabel 13850 9350 2    50   Input ~ 0
-V_IDLE
 Text GLabel 16500 9350 2    50   Input ~ 0
 V_IDLE
 Text GLabel 13850 10550 2    50   Input ~ 0
 V_IDLE
 Text GLabel 16500 10550 2    50   Input ~ 0
 V_IDLE
+Text GLabel 13850 9350 2    50   Input ~ 0
+V_IDLE
+Wire Wire Line
+	13850 9350 13750 9350
+$Comp
+L Device:D_Schottky_Small D30
+U 1 1 5E84310E
+P 13650 9350
+F 0 "D30" H 13650 9237 50  0000 C CNN
+F 1 "SS310" V 13695 9418 50  0001 L CNN
+F 2 "Diode_SMD:D_SMA" V 13650 9350 50  0001 C CNN
+F 3 "~" V 13650 9350 50  0001 C CNN
+	1    13650 9350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:AO3401A Q20
+U 1 1 5E83F742
+P 13350 9550
+F 0 "Q20" H 13555 9550 50  0000 L CNN
+F 1 "AO3401A" H 13555 9505 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 13550 9475 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 13350 9550 50  0001 L CNN
+	1    13350 9550
+	1    0    0    -1  
+$EndComp
+Connection ~ 13450 9750
+Wire Wire Line
+	13450 9750 13800 9750
+Wire Wire Line
+	13450 9350 13550 9350
+Connection ~ 13450 9350
+Wire Wire Line
+	13450 9300 13450 9350
+Wire Wire Line
+	12550 9300 13450 9300
 $EndSCHEMATC
