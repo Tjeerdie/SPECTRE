@@ -2401,19 +2401,19 @@ Text GLabel 7300 1400 3    50   Input ~ 0
 INJ1-OUT
 Text GLabel 6400 1400 3    50   Input ~ 0
 INJ4-OUT
-Text GLabel 6200 2000 3    50   Input ~ 0
+Text GLabel 5800 1950 3    50   Input ~ 0
 IDLE2-OUT
 Text GLabel 5850 1400 3    50   Input ~ 0
 FUEL_PUMP
 Text GLabel 5400 1400 3    50   Input ~ 0
 FAN
-Text GLabel 5550 1400 3    50   Input ~ 0
-IGN1-OUT
-Text GLabel 7750 1400 3    50   Input ~ 0
-IGN2-OUT
-Text GLabel 8150 1400 3    50   Input ~ 0
-IGN3-OUT
 Text GLabel 5150 1400 3    50   Input ~ 0
+IGN1-OUT
+Text GLabel 7200 1400 3    50   Input ~ 0
+IGN2-OUT
+Text GLabel 7750 1400 3    50   Input ~ 0
+IGN3-OUT
+Text GLabel 8150 1400 3    50   Input ~ 0
 IGN4-OUT
 Text GLabel 4150 2300 3    50   Input ~ 0
 STEP_1A_OUT
@@ -2427,7 +2427,7 @@ Text GLabel 6600 1400 3    50   Input ~ 0
 GND
 Text GLabel 5650 1400 3    50   Output ~ 0
 IAT
-Text GLabel 7200 1400 3    50   Output ~ 0
+Text GLabel 6700 1400 3    50   Output ~ 0
 CLT
 Text GLabel 6300 1400 3    50   Output ~ 0
 O2
@@ -2500,12 +2500,12 @@ IAT_2
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP9
 U 1 1 5E1C71B1
-P 5950 1950
-F 0 "JP9" H 5950 2063 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 5950 2154 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5950 1950 50  0001 C CNN
-F 3 "~" H 5950 1950 50  0001 C CNN
-	1    5950 1950
+P 5550 1900
+F 0 "JP9" H 5550 2013 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 5550 2104 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5550 1900 50  0001 C CNN
+F 3 "~" H 5550 1900 50  0001 C CNN
+	1    5550 1900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2583,7 +2583,7 @@ F 3 "~" H 4400 2200 50  0001 C CNN
 	1    4400 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 5700 2000 3    50   Input ~ 0
+Text GLabel 5300 1950 3    50   Input ~ 0
 STEP_2A_OUT
 Wire Wire Line
 	5350 5350 5350 5300
@@ -2807,7 +2807,7 @@ Text GLabel 1200 300  1    50   Output ~ 0
 PE0
 Text GLabel 2300 400  1    50   Output ~ 0
 PE1
-Text GLabel 14700 2450 0    50   Input ~ 0
+Text GLabel 14650 1050 0    50   Input ~ 0
 PC8
 Text GLabel 14450 3950 0    50   Input ~ 0
 PD3
@@ -3918,9 +3918,9 @@ F 3 "" H 13150 10250 50  0001 C CNN
 $EndComp
 Text GLabel 13000 10050 0    50   Input ~ 0
 PE9
-Text GLabel 13000 11250 0    50   Input ~ 0
-PE13
 Text GLabel 15650 11250 0    50   Input ~ 0
+PE13
+Text GLabel 13000 11250 0    50   Input ~ 0
 PE14
 Wire Wire Line
 	13000 10050 13150 10050
@@ -3992,13 +3992,13 @@ Wire Wire Line
 Wire Wire Line
 	4650 2200 4650 2250
 Wire Wire Line
-	6150 1950 6200 1950
+	5750 1900 5800 1900
 Wire Wire Line
-	6200 1950 6200 2000
+	5800 1900 5800 1950
 Wire Wire Line
-	5750 1950 5700 1950
+	5350 1900 5300 1900
 Wire Wire Line
-	5700 1950 5700 2000
+	5300 1900 5300 1950
 Wire Wire Line
 	9250 7450 9250 7550
 Connection ~ 9250 7550
@@ -4006,8 +4006,6 @@ Wire Wire Line
 	4750 1400 4750 2050
 Wire Wire Line
 	4750 2050 4400 2050
-Wire Wire Line
-	5950 1400 5950 1800
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5E7B7B17
@@ -4051,9 +4049,9 @@ Text GLabel 4000 3400 1    50   Input ~ 0
 VBAT
 Text GLabel 9900 10000 2    50   Input ~ 0
 PD10
-Text GLabel 14650 1050 0    50   Input ~ 0
+Text GLabel 14700 2450 0    50   Input ~ 0
 PC7
-Text GLabel 6700 1400 3    50   Output ~ 0
+Text GLabel 5950 1400 3    50   Output ~ 0
 CLT_2
 NoConn ~ 10500 4800
 NoConn ~ 10500 4900
@@ -4944,4 +4942,6 @@ Wire Wire Line
 	16100 10950 15650 10950
 Wire Wire Line
 	13450 10950 13800 10950
+Wire Wire Line
+	5550 1750 5550 1400
 $EndSCHEMATC
