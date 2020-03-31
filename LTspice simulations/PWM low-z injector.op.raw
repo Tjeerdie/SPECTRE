@@ -1,5 +1,5 @@
 Title: * Z:\home\hoogendijkta\Documents\hobby\speeduino\KicadPCB\SPECTRE\LTspice simulations\PWM low-z injector.asc
-Date: Mon Mar 30 22:25:23 2020
+Date: Tue Mar 31 19:19:49 2020
 Plotname: Operating Point
 Flags: real
 No. Variables: 77
@@ -969,4 +969,4 @@ Variables:
 	75	Ix(u4:1)	subckt_current
 	76	Ix(u4:2)	subckt_current
 Binary:
-ÍÌÌÌÌÌ,@fffAfffAfffA        fffA¸Û´v©/33S@LÎ³<ó±Ğ>33S@33S@    È{š3    lê-?*ı?† €?Ú!‹>lê-?æÿº!    æÿº¡1ÌÂ LK';+tŒ9EK';ö˜œ7\¹®ë‡ˆ/¿+;®x8Ôx8AtŒ9J86¿+;x8¿y8•ÓS1Û´úík<‚J´.œJ´.A2½»úík<    ûík¼Û´‹Û´   €       €       €       €    ™/N±×Q1Y×&9aë&¹péc,ad•/{Ù¸J8¶Š¶*0ÂKİ8¥7h,M´.Û´‹ˆ´®8È³.    ˆ´®
+ÍÌÌÌÌÌ,@fffAfffAfffA        fffA¸Û´v©/33S@LÎ³<ó±Ğ>33S@33S@    È{š3    lê-?*ı?† €?Ú!‹>lê-?±ÿº!    ±ÿº¡1ÌÂ LK';+tŒ9EK';Àœ7\¹®•Mˆ/¿+;®x8Ôx8AtŒ9J86¿+;x8¿y8•ÓS1Û´úík<¼´.Ó´.A2½»úík<    ûík¼Û´‹Û´   €       €       €       €    ™/N±×Q1Y×&9aë&¹péc,ad•/{Ù¸J8¶Š¶*0ÂKİ8¥7h,M´.Û´‹ˆ´®8È³.    ˆ´®
