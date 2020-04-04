@@ -9,23 +9,24 @@ Check out the SPECTRE_V0.3\photos folder to see the real thing!
 Well there is no getting started because this board is not fully tested and debugged yet. Current status of design mistakes and fixes for version 0.4 can be found in [TODOFixes](TODOFixes). The intension is to get a version 0.4 fully working board out as soon as time permits.
 
 ## Tested
-The following functions have been tested en confirmed to be working with real car hardware and provide good results.<br/> 
+The following functions have been tested and confirmed to be working with real car hardware and provide good results.<br/> 
 Halleffect trigger input (Trigger 1) [OK]<br/>
+VR1 input (Trigger 1) <br/> 
+VR2 input (Trigger 2) <br/> 
 Halleffect trigger input (Trigger 2) [OK]<br/>
 Inlet Air Temperature (IAT) [OK]<br/>
 Manifold Absolute pressure [OK]<br/>
 Injector outputs [OK]<br/>
+Lambda sensor (O2) <br/>
+Throttle position input <br/>
 
 ## Tested and working with modifcations
 Coolant temperature (CLT) [OK]<br/>
 PWM idle output [OK]<br/>
 
 ## To be tested
-VR1 input (Trigger 1) <br/> 
-VR2 input (Trigger 2) <br/> 
 Stepper idle output<br/> 
 Ignition outputs <br/>
-Throttle position input <br/>
 BLuetooth module (SERIAL3) <br/>
 Fuel pump relay <br/>
 FAN relay <br/>
@@ -33,7 +34,6 @@ BARO <br/>
 FLEX fuel <br/>
 Coolant temperature (CLT_2) <br/>
 Inlet Air Temperature (IAT_2) <br/>
-Lambda sensor (O2) <br/>
 Lambda sensor (O2_2) <br/>
 TACHO out <br/>
 
