@@ -4985,4 +4985,62 @@ Wire Wire Line
 	12300 6250 12050 6250
 Connection ~ 12300 6250
 NoConn ~ 10200 4500
+$Comp
+L Reference_Voltage:TL431DBZ U?
+U 1 1 5EC38137
+P 3750 10300
+F 0 "U?" V 3796 10230 50  0000 R CNN
+F 1 "TL431DBZ" V 3705 10230 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 10150 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 3750 10300 50  0001 C CIN
+	1    3750 10300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 10150 3500 10150
+Wire Wire Line
+	3750 10150 3750 10200
+Connection ~ 3150 10150
+Wire Wire Line
+	3750 10400 3750 10500
+Wire Wire Line
+	3750 10500 3400 10500
+Connection ~ 3150 10500
+$Comp
+L Device:R_Small R?
+U 1 1 5ECE80FF
+P 3500 10250
+F 0 "R?" H 3559 10296 50  0000 L CNN
+F 1 "1k8" H 3559 10205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 10250 50  0001 C CNN
+F 3 "~" H 3500 10250 50  0001 C CNN
+	1    3500 10250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 10150
+Wire Wire Line
+	3500 10150 3750 10150
+$Comp
+L Device:R_Small R?
+U 1 1 5ECEB0D8
+P 3400 10400
+F 0 "R?" H 3459 10446 50  0000 L CNN
+F 1 "2k49" H 3459 10355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 10400 50  0001 C CNN
+F 3 "~" H 3400 10400 50  0001 C CNN
+	1    3400 10400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 10500
+Wire Wire Line
+	3400 10500 3150 10500
+Wire Wire Line
+	3400 10300 3500 10300
+Wire Wire Line
+	3500 10300 3500 10350
+Wire Wire Line
+	3500 10350 3650 10350
+Wire Wire Line
+	3650 10350 3650 10300
+Connection ~ 3500 10350
 $EndSCHEMATC
