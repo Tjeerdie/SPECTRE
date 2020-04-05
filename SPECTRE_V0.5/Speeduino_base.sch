@@ -2523,7 +2523,7 @@ Wire Wire Line
 	9900 10700 10450 10700
 Wire Wire Line
 	9900 11100 10350 11100
-Text GLabel 11300 11100 2    50   Input ~ 0
+Text GLabel 10350 11100 2    50   Input ~ 0
 VBAT_F1
 Text GLabel 10450 10700 2    50   Input ~ 0
 5V
@@ -4020,14 +4020,10 @@ $EndComp
 NoConn ~ 10200 4000
 NoConn ~ 9600 2800
 NoConn ~ 10500 4000
-NoConn ~ 10200 4800
 NoConn ~ 10200 4900
 NoConn ~ 10200 5000
 NoConn ~ 12050 5000
 NoConn ~ 10500 5000
-NoConn ~ 10500 4500
-NoConn ~ 10200 4500
-NoConn ~ 10500 4400
 NoConn ~ 12050 3300
 NoConn ~ 11750 3400
 NoConn ~ 11750 3700
@@ -4103,13 +4099,13 @@ F 3 "" H 11600 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 11000 6450
-Text GLabel 12050 6250 2    50   Output ~ 0
+Text GLabel 12350 6100 2    50   BiDi ~ 0
 CANL
-Text GLabel 12050 6350 2    50   Output ~ 0
+Text GLabel 12350 6500 2    50   BiDi ~ 0
 CANH
-Text GLabel 6900 1400 3    50   Input ~ 0
+Text GLabel 6900 1400 3    50   BiDi ~ 0
 CANH
-Text GLabel 8700 1400 3    50   Input ~ 0
+Text GLabel 8700 1400 3    50   BiDi ~ 0
 CANL
 Text GLabel 11500 5900 2    50   Input ~ 0
 5V
@@ -4944,4 +4940,49 @@ Wire Wire Line
 	13450 10950 13800 10950
 Wire Wire Line
 	5550 1750 5550 1400
+$Comp
+L Device:Jumper_NC_Small JP5
+U 1 1 5E9CEF08
+P 12450 6400
+F 0 "JP5" H 12450 6612 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 12450 6521 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 12450 6400 50  0001 C CNN
+F 3 "~" H 12450 6400 50  0001 C CNN
+	1    12450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R97
+U 1 1 5E9D0C9F
+P 12450 6250
+F 0 "R97" H 12300 6300 42  0000 L BNN
+F 1 "120" H 12300 6150 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 12450 6250 50  0001 C CNN
+F 3 "" H 12450 6250 50  0001 C CNN
+	1    12450 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12600 6250 12650 6250
+Wire Wire Line
+	12650 6250 12650 6400
+Wire Wire Line
+	12650 6400 12550 6400
+Wire Wire Line
+	12350 6100 12300 6100
+Wire Wire Line
+	12300 6100 12300 6250
+Wire Wire Line
+	12350 6400 12350 6500
+Wire Wire Line
+	12050 6350 12250 6350
+Wire Wire Line
+	12250 6350 12250 6400
+Wire Wire Line
+	12250 6400 12350 6400
+Connection ~ 12350 6400
+Wire Wire Line
+	12300 6250 12050 6250
+Connection ~ 12300 6250
+NoConn ~ 10200 4500
 $EndSCHEMATC
