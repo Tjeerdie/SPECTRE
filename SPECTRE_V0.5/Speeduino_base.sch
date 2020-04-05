@@ -3194,7 +3194,7 @@ Wire Wire Line
 Connection ~ 2700 5950
 Text GLabel 3800 5750 1    50   Input ~ 0
 3.3V
-Text GLabel 4050 5950 2    50   Output ~ 0
+Text GLabel 3550 9250 2    50   Output ~ 0
 PC2
 Wire Wire Line
 	3500 5950 3700 5950
@@ -3563,7 +3563,7 @@ Wire Wire Line
 NoConn ~ 10200 3300
 Text GLabel 2500 9250 0    50   Input ~ 0
 MAP
-Text GLabel 3550 9250 2    50   Output ~ 0
+Text GLabel 4050 5950 2    50   Output ~ 0
 PC0
 Wire Wire Line
 	3550 9250 3250 9250
