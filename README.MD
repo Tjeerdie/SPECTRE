@@ -1,9 +1,13 @@
 # Project SPECTRE
 Project SPECTRE	(Speeduino PrintEd Circuit board TjeeRdiE). This is a PCB with the hardware to run speeduino on a STM32F407VE6T daugther board from ebay. (Or a STM32 BLACK_F407VE as it is sometimes called). Schematics and more information on the cpu board can be found here: [Link] (https://github.com/mcauser/BLACK_F407VE) 
 
-This is a design in Kicad so to open the files use Kicad. The intension of the V0.3 board is to use minimal hardware next to the board and casing. So injector voltage, MAP power IGN power etc are all available from the connector directly. For a 4 cylinder NA engine with wasted spark and full seqential injection you would only need a relay for the fuel pump and a relay for the cooling Fan if needed. The board with daugther board fits inside the ebay ECU housing with 48pin connector.
+This is a design in Kicad so to open the files use Kicad. The intension of the V0.3 board is to use minimal hardware next to the board and casing. So fused injector voltage, MAP power IGN power etc are all available from the connector directly. For a 4 cylinder NA engine with wasted spark and full seqential fuel injection you would only need a relay for the fuel pump and a relay for the cooling Fan if needed. The board with daugther board fits inside the ebay ECU housing with 48pin connector.
 
-From version V0.4 and on the idea is to use more pins for other functions. like CAN bus and RS232 etc. So now a fuse and relay box need to be used to connect it to the car. 
+From version V0.4 and on the idea is to use more pins for other functions. like CAN bus and RS232 more ignition/injection outputs. So now a fuse and relay box need to be used to connect it to the car. 
+
+From version V0.5 and onwards 4 of the 8 injector outputs are designed for PWM peak and hold drivers. This is usefull for low-z injectors. The idea is to use 4 drivers for petrol injection and 4 drivers for LPG vapour injection with a second fuel table. The need changes in speeduino software are not there yet. No worries until that time it will work as normal injector drivers. 
+
+A simulation of PWM peak and hold drivers is also in the LTspice folder. Nice to see the wave forms used and the current in the coil.
 
 ##Photos
 Check out the SPECTRE_V0.3\photos folder to see the real thing! For version V0.5 there are some 3d renders in the folder.
@@ -11,7 +15,7 @@ Check out the SPECTRE_V0.3\photos folder to see the real thing! For version V0.5
 ## Getting Started
 Well there is no getting started because this board is not fully tested and debugged yet. Current status of design mistakes and fixes for version 0.4 and V0.5 can be found in [TODOFixes](TODOFixes). The intension is to get a version 0.4 fully working board out as soon as time permits.
 
-## Tested
+## Tested on V0.3
 The following functions have been tested and confirmed to be working with real car hardware and provide good results.<br/> 
 Halleffect trigger input (Trigger 1) [OK]<br/>
 VR1 input (Trigger 1) <br/> 
