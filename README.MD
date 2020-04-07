@@ -1,5 +1,5 @@
 # Project SPECTRE
-Project SPECTRE	(Speeduino PrintEd Circuit board TjeeRdiE). This is a PCB with the hardware to run speeduino on a STM32F407VE6T daugther board from ebay. (Or a STM32 BLACK_F407VE as it is sometimes called). Schematics and more information on the cpu board can be found here: [Link] (https://github.com/mcauser/BLACK_F407VE) 
+Project SPECTRE	(Speeduino PrintEd Circuit board TjeeRdiE). This is a PCB with the hardware to run speeduino on a STM32F407VE6T daugther board from ebay. (Or a STM32 BLACK_F407VE as it is sometimes called). Schematics and more information on the cpu board can be found here: (https://github.com/mcauser/BLACK_F407VE) 
 
 This is a design in Kicad so to open the files use Kicad. The intension of the V0.3 board is to use minimal hardware next to the board and casing. So fused injector voltage, MAP power IGN power etc are all available from the connector directly. For a 4 cylinder NA engine with wasted spark and full seqential fuel injection you would only need a relay for the fuel pump and a relay for the cooling Fan if needed. The board with daugther board fits inside the ebay ECU housing with 48pin connector.
 
@@ -13,7 +13,7 @@ A LTspice simulation of PWM peak and hold drivers is also in the LTspice folder.
 Check out the SPECTRE_V0.3\photos folder to see the real thing! For version V0.5 there are some 3d renders in the folder.
 
 ## Getting Started
-Well there is no getting started because this board is not fully tested and debugged yet. Current status of design mistakes and fixes for V0.4 and V0.5 can be found in [TODOFixes](TODOFixes). The intention is to test V0.3 fully before getting a version V0.5 or V0.6 fully working board out. 
+Well there is no getting started because this board is not fully tested and debugged yet. Current status of design mistakes and fixes for V0.4 and V0.5 can be found in TODOfixes file. The intention is to test V0.3 fully before getting a version V0.5 or V0.6 board out on the bench. 
 
 ## Tested on V0.3
 The following functions have been tested and confirmed to be working with real under the bonnet hardware and provide good results.<br/> 
