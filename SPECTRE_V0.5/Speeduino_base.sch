@@ -3996,7 +3996,6 @@ F 3 "~" H 1950 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9600 2800
-NoConn ~ 10500 4000
 NoConn ~ 10200 4900
 NoConn ~ 10200 5000
 NoConn ~ 12050 5000
@@ -4957,7 +4956,6 @@ Connection ~ 12350 6400
 Wire Wire Line
 	12300 6250 12050 6250
 Connection ~ 12300 6250
-NoConn ~ 10200 4500
 $Comp
 L Reference_Voltage:TL431DBZ U5
 U 1 1 5EC38137
@@ -5024,6 +5022,7 @@ Text GLabel 4700 7200 3    50   Input ~ 0
 PA9
 NoConn ~ 11750 5000
 NoConn ~ 12050 4900
-NoConn ~ 10250 3900
 NoConn ~ 10500 3900
+NoConn ~ 10500 4000
+NoConn ~ 10200 3900
 $EndSCHEMATC
