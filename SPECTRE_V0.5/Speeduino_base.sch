@@ -2737,7 +2737,7 @@ BARO
 Text GLabel 6550 4950 2    50   Output ~ 0
 PB1
 Text GLabel 1850 7300 2    50   Output ~ 0
-PA3
+PA4
 Text GLabel 13050 7650 0    50   Input ~ 0
 PD12
 Text GLabel 13050 8500 0    50   Input ~ 0
@@ -2765,7 +2765,7 @@ Connection ~ 15350 8500
 Wire Wire Line
 	15350 8500 15850 8500
 Text GLabel 2050 5950 2    50   Output ~ 0
-PA2
+PA0
 Text GLabel 9100 4900 2    50   Output ~ 0
 PA1
 Text GLabel 10350 7950 2    50   Input ~ 0
@@ -2964,25 +2964,6 @@ F 3 "" H 2400 11500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 11500 2150 11500
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5E2F31E3
-P 10250 2200
-F 0 "J1" V 10404 1912 50  0000 R CNN
-F 1 "Conn_01x04_Male" V 10313 1912 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical_SMD_Pin1Left" H 10250 2200 50  0001 C CNN
-F 3 "~" H 10250 2200 50  0001 C CNN
-	1    10250 2200
-	0    -1   -1   0   
-$EndComp
-Text GLabel 10150 2000 1    50   Input ~ 0
-3.3V
-Text GLabel 10450 2000 1    50   Input ~ 0
-GND
-Text GLabel 10250 2000 1    50   Input ~ 0
-PA10
-Text GLabel 10350 2000 1    50   Input ~ 0
-PA9
 $Comp
 L Device:D_Small D24
 U 1 1 5E5E6468
@@ -3574,7 +3555,6 @@ Connection ~ 2550 9250
 Wire Wire Line
 	2550 9250 2600 9250
 NoConn ~ 10200 3700
-NoConn ~ 10200 3800
 NoConn ~ 10200 4300
 Text GLabel 4100 3700 0    50   Input ~ 0
 PE3
@@ -3592,10 +3572,8 @@ Wire Wire Line
 NoConn ~ 11750 4000
 NoConn ~ 11750 4100
 NoConn ~ 11750 4200
-Text GLabel 5250 8100 2    50   Input ~ 0
-PD9
-Text GLabel 4700 7200 3    50   Output ~ 0
-PD8
+Text GLabel 5250 8100 2    50   Output ~ 0
+PA10
 NoConn ~ 4600 7200
 NoConn ~ 5100 7200
 Wire Wire Line
@@ -4017,7 +3995,6 @@ F 3 "~" H 1950 10800 50  0001 C CNN
 	1    1950 10800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10200 4000
 NoConn ~ 9600 2800
 NoConn ~ 10500 4000
 NoConn ~ 10200 4900
@@ -4349,8 +4326,6 @@ F 3 "~" H 12550 4400 50  0001 C CNN
 	1    12550 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 14150 5050 1    50   Output ~ 0
-PD9
 Text GLabel 14150 6650 3    50   Input ~ 0
 RS232_RX
 NoConn ~ 14350 5050
@@ -4410,8 +4385,6 @@ Text GLabel 7500 1400 3    50   Output ~ 0
 RS232_RX
 Text GLabel 14550 6650 3    50   Output ~ 0
 RS232_TX
-Text GLabel 14550 5050 1    50   Input ~ 0
-PD8
 $Comp
 L speeduino_lib:SMD-MOSFET-N-CH-30V-5.8A-AO3400(SOT-23) Q19
 U 1 1 5E997814
@@ -5043,4 +5016,14 @@ Wire Wire Line
 Wire Wire Line
 	3650 10350 3650 10300
 Connection ~ 3500 10350
+Text GLabel 14550 5050 1    50   Input ~ 0
+PA9
+Text GLabel 14150 5050 1    50   Output ~ 0
+PA10
+Text GLabel 4700 7200 3    50   Input ~ 0
+PA9
+NoConn ~ 11750 5000
+NoConn ~ 12050 4900
+NoConn ~ 10250 3900
+NoConn ~ 10500 3900
 $EndSCHEMATC
