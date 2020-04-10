@@ -22,11 +22,12 @@ VR2 input (Trigger 2) [OK]<br/>
 Halleffect trigger input (Trigger 1) [OK]<br/>
 Halleffect trigger input (Trigger 2) [OK]<br/>
 Inlet Air Temperature (IAT) [OK]<br/>
-Manifold Absolute pressure [OK]<br/>
+Manifold Absolute pressure (MAP) [OK]<br/>
 Injector outputs [OK]<br/>
 Lambda sensor (O2) [OK]<br/>
 Throttle position input [OK]<br/>
 Bluetooth module (PD8,PD9) [OK]<br/>
+Ignition outputs [OK]<br/> 
 
 ## Tested and working with modifcations
 Coolant temperature (CLT) [OK]<br/>
@@ -34,7 +35,6 @@ PWM idle output [OK]<br/>
 
 ## To be tested
 Stepper idle output<br/> 
-Ignition outputs <br/>
 Fuel pump relay <br/>
 FAN relay <br/>
 BARO <br/>
