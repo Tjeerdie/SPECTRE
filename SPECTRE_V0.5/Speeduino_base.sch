@@ -2808,7 +2808,7 @@ PE0
 Text GLabel 2300 400  1    50   Output ~ 0
 PE1
 Text GLabel 14650 1050 0    50   Input ~ 0
-PC8
+PC6
 Text GLabel 14450 3950 0    50   Input ~ 0
 PD3
 Wire Wire Line
