@@ -1,9 +1,9 @@
 # Project SPECTRE
 Project SPECTRE	(Speeduino PrintEd Circuit board TjeeRdiE). This is a PCB with the hardware to run speeduino on a STM32F407VE6T daugther board from ebay. (Or a STM32 BLACK_F407VE as it is sometimes called). Schematics and more information on the cpu board can be found here: (https://github.com/mcauser/BLACK_F407VE) 
 
-This is a design in Kicad so to open the files use Kicad. The intension of the V0.3 board is to use minimal hardware next to the board and casing. So fused injector voltage, MAP power IGN power etc are all available from the connector directly. For a 4 cylinder NA engine with wasted spark and full seqential fuel injection you would only need a relay for the fuel pump and a relay for the cooling Fan if needed. The board with daugther board fits inside the ebay ECU housing with 48pin connector.
+This is a design in Kicad so to open the files use Kicad. The philosophy of the V0.3 board is to use minimal hardware next to the board and casing. So fuse protected injector power, MAP power IGN power etc are all available from the connector directly. For a 4 cylinder NA engine with wasted spark and full seqential fuel injection you would only need a relay for the fuel pump and a relay for the cooling Fan if needed. The board with MCU board fits inside the ebay ECU housing with 48pin connector.
 
-From version V0.4 and on the idea is to use more pins for other functions. like CAN bus and RS232 more ignition/injection outputs. So now a fuse and relay box need to be used to connect it to the car. 
+From version V0.4 and on the idea is to use more pins for other functions. like CAN bus and RS232 more ignition/injection outputs. So now a fuse/relay box is needed to connect it to the car. (or the orginal can be used)
 
 From version V0.5 and onwards 4/8 injector outputs are designed for PWM peak and hold drivers. This is usefull for low-z injectors. The idea is to use 4 drivers for petrol injection normal saturated mode and 4 drivers for LPG vapour injection with a second fuel table. LPG vapour injectors are normally low-z (between 2.5 to 4 Ohm). The necessary changes in speeduino software are not developed yet. No worries until that time it will work as normal injector drivers. 
 
@@ -28,21 +28,22 @@ Lambda sensor (O2) [OK]<br/>
 Throttle position input [OK]<br/>
 Bluetooth module (PD8,PD9) [OK]<br/>
 Ignition outputs [OK]<br/> 
+TACHO out [OK]<br/>
+Fuel pump relay [OK]<br/>
+FAN relay [OK]<br/>
 
 ## Tested and working with modifcations
 Coolant temperature (CLT) [OK]<br/>
 PWM idle output [OK]<br/>
+Battery voltage reading [OK]<br/> 
 
 ## To be tested
 Stepper idle output<br/> 
-Fuel pump relay <br/>
-FAN relay <br/>
 BARO <br/>
 FLEX fuel <br/>
 Coolant temperature (CLT_2) <br/>
 Inlet Air Temperature (IAT_2) <br/>
 Lambda sensor (O2_2) <br/>
-TACHO out <br/>
 
 ## License
 This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details

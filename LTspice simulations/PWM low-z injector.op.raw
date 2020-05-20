@@ -1,8 +1,8 @@
 Title: * Z:\home\hoogendijkta\Documents\hobby\speeduino\KicadPCB\SPECTRE\LTspice simulations\PWM low-z injector.asc
-Date: Tue Mar 31 19:19:49 2020
+Date: Thu May 14 19:26:38 2020
 Plotname: Operating Point
 Flags: real
-No. Variables: 77
+No. Variables: 80
 No. Points:            1
 Offset:   0.0000000000000000e+000
 Command: Linear Technology Corporation LTspice IV
@@ -899,7 +899,7 @@ Variables:
 	5	V(pwm)	voltage
 	6	V(n005)	voltage
 	7	V(n013)	voltage
-	8	V(n018)	voltage
+	8	V(n019)	voltage
 	9	V(n014)	voltage
 	10	V(3.3v)	voltage
 	11	V(n015)	voltage
@@ -907,66 +907,69 @@ Variables:
 	13	V(p001)	voltage
 	14	V(n016)	voltage
 	15	V(n017)	voltage
-	16	V(n004)	voltage
-	17	V(n019)	voltage
-	18	V(n008)	voltage
-	19	V(n010)	voltage
-	20	V(n009)	voltage
-	21	V(n002)	voltage
-	22	V(n001)	voltage
-	23	Id(M2)	device_current
-	24	Ig(M2)	device_current
-	25	Is(M2)	device_current
-	26	I(C1)	device_current
-	27	I(D5)	device_current
-	28	I(D4)	device_current
-	29	I(D3)	device_current
-	30	I(D1)	device_current
-	31	I(D2)	device_current
-	32	I(L1)	device_current
-	33	I(R13)	device_current
-	34	I(R12)	device_current
-	35	I(R11)	device_current
-	36	I(R10)	device_current
-	37	I(R9)	device_current
-	38	I(R8)	device_current
-	39	I(R7)	device_current
-	40	I(R6)	device_current
-	41	I(R5)	device_current
-	42	I(R4)	device_current
-	43	I(R1)	device_current
-	44	I(R3)	device_current
-	45	I(R2)	device_current
-	46	I(V6)	device_current
-	47	I(V3)	device_current
-	48	I(V2)	device_current
-	49	I(V1)	device_current
-	50	I8(A5)	device_current
-	51	I7(A5)	device_current
-	52	I8(A2)	device_current
-	53	I7(A2)	device_current
-	54	I8(A1)	device_current
-	55	I7(A1)	device_current
-	56	I8(A4)	device_current
-	57	I6(A4)	device_current
-	58	I8(A3)	device_current
-	59	I6(A3)	device_current
-	60	Ix(u1:1)	subckt_current
-	61	Ix(u1:2)	subckt_current
-	62	Ix(u1:3)	subckt_current
-	63	Ix(u1:4)	subckt_current
-	64	Ix(u1:5)	subckt_current
-	65	Ix(u2:1)	subckt_current
-	66	Ix(u2:2)	subckt_current
-	67	Ix(u2:3)	subckt_current
-	68	Ix(u2:4)	subckt_current
-	69	Ix(u2:5)	subckt_current
-	70	Ix(u2:6)	subckt_current
-	71	Ix(u3:4)	subckt_current
-	72	Ix(u3:1)	subckt_current
-	73	Ix(u3:2)	subckt_current
-	74	Ix(u4:4)	subckt_current
-	75	Ix(u4:1)	subckt_current
-	76	Ix(u4:2)	subckt_current
+	16	V(n018)	voltage
+	17	V(n004)	voltage
+	18	V(n020)	voltage
+	19	V(n008)	voltage
+	20	V(n010)	voltage
+	21	V(n009)	voltage
+	22	V(n002)	voltage
+	23	V(n001)	voltage
+	24	Id(M2)	device_current
+	25	Ig(M2)	device_current
+	26	Is(M2)	device_current
+	27	I(C1)	device_current
+	28	I(D5)	device_current
+	29	I(D4)	device_current
+	30	I(D3)	device_current
+	31	I(D1)	device_current
+	32	I(D2)	device_current
+	33	I(L1)	device_current
+	34	I(R13)	device_current
+	35	I(R12)	device_current
+	36	I(R11)	device_current
+	37	I(R10)	device_current
+	38	I(R9)	device_current
+	39	I(R8)	device_current
+	40	I(R7)	device_current
+	41	I(R6)	device_current
+	42	I(R5)	device_current
+	43	I(R4)	device_current
+	44	I(R1)	device_current
+	45	I(R3)	device_current
+	46	I(R2)	device_current
+	47	I(V6)	device_current
+	48	I(V3)	device_current
+	49	I(V2)	device_current
+	50	I(V1)	device_current
+	51	I8(A5)	device_current
+	52	I7(A5)	device_current
+	53	I8(A2)	device_current
+	54	I7(A2)	device_current
+	55	I8(A1)	device_current
+	56	I7(A1)	device_current
+	57	I8(A4)	device_current
+	58	I7(A4)	device_current
+	59	I8(A6)	device_current
+	60	I6(A6)	device_current
+	61	I8(A3)	device_current
+	62	I6(A3)	device_current
+	63	Ix(u1:1)	subckt_current
+	64	Ix(u1:2)	subckt_current
+	65	Ix(u1:3)	subckt_current
+	66	Ix(u1:4)	subckt_current
+	67	Ix(u1:5)	subckt_current
+	68	Ix(u2:1)	subckt_current
+	69	Ix(u2:2)	subckt_current
+	70	Ix(u2:3)	subckt_current
+	71	Ix(u2:4)	subckt_current
+	72	Ix(u2:5)	subckt_current
+	73	Ix(u2:6)	subckt_current
+	74	Ix(u3:4)	subckt_current
+	75	Ix(u3:1)	subckt_current
+	76	Ix(u3:2)	subckt_current
+	77	Ix(u4:4)	subckt_current
+	78	Ix(u4:1)	subckt_current
+	79	Ix(u4:2)	subckt_current
 Binary:
-ÍÌÌÌÌÌ,@fffAfffAfffA        fffA¸Û´v©/33S@LÎ³<ó±Ð>33S@33S@    È{š3    lê-?*ý?† €?Ú!‹>lê-?±ÿº!    ±ÿº¡1ÌÂ LK';+tŒ9EK';Àœ7\¹®•Mˆ/¿+;®xŽ8ÔxŽ8AtŒ9J86¿+;xŽ8¿yŽ8•ÓS1Û´úík<¼´.Ó´.A2½»úík<    ûík¼Û´‹Û´   €       €       €       €    ™/N±×Q1Y×&9aë&¹péc,ad•/{Ù¸J8¶Š¶*0ÂKÝ8¥7h,M´.Û´‹ˆ´®8È³.    ˆ´®
+ÍÌÌÌÌÌ,@fffAfffAfffA        fffA¸Û´v©/33S@LÎ³<ó±Ð>33S@    33S@    È{š3    lê-?*ý?† €?Ú!‹>lê-?±ÿº!    ±ÿº¡1ÌÂ LK';+tŒ9EK';Àœ7\¹®•Mˆ/¿+;®xŽ8ÔxŽ8AtŒ9J86¿+;xŽ8¿yŽ8•ÓS1Û´úík<¼´.Ó´.A2½»úík<    ûík¼Û´‹Û´   €       €       €       €       €    ™/N±×Q1Y×&9aë&¹péc,ad•/{Ù¸J8¶Š¶*0ÂKÝ8¥7h,M´.Û´‹ˆ´®8È³.    ˆ´®
