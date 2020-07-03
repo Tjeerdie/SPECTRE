@@ -650,40 +650,6 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Speeduino_base-eagle-import_SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC)
-#
-DEF Speeduino_base-eagle-import_SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC) D 0 40 Y Y 1 L N
-F0 "D" -150 100 42 H V L BNN
-F1 "Speeduino_base-eagle-import_SMD-DIODE-SCHOTTKY-40V-1A(DO-214AC)" -150 -150 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -50 -100 -50 100 N
-P 2 1 0 0 -50 -100 50 0 N
-P 2 1 0 0 -50 100 50 0 N
-P 2 1 0 0 50 100 50 -100 N
-X + 1 -150 0 100 R 0 0 1 0 P
-X - 2 150 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# Speeduino_base-eagle-import_SMD-DIODE-SWITCHING-75V-150MA(D1206)
-#
-DEF Speeduino_base-eagle-import_SMD-DIODE-SWITCHING-75V-150MA(D1206) D 0 40 Y Y 1 L N
-F0 "D" -150 100 42 H V L BNN
-F1 "Speeduino_base-eagle-import_SMD-DIODE-SWITCHING-75V-150MA(D1206)" -150 -150 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -50 -100 -50 100 N
-P 2 1 0 0 -50 -100 50 0 N
-P 2 1 0 0 -50 100 50 0 N
-P 2 1 0 0 50 100 50 -100 N
-X + + -150 0 100 R 0 0 1 0 P
-X - - 150 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # Speeduino_base-eagle-import_SMD-LED-CLEAR-YELLOW(0603)
 #
 DEF Speeduino_base-eagle-import_SMD-LED-CLEAR-YELLOW(0603) D 0 40 Y Y 1 L N
