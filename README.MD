@@ -7,13 +7,12 @@ From version V0.4 and on the idea is to use more pins for other functions. like 
 
 From version V0.5 and onwards 4/8 injector outputs are designed for PWM peak and hold drivers. This is usefull for low-z injectors. The idea is to use 4 drivers for petrol injection normal saturated mode and 4 drivers for LPG vapour injection with a second fuel table. LPG vapour injectors are normally low-z (between 2.5 to 4 Ohm). The necessary changes in speeduino software are not developed yet. No worries until that time it will work as normal injector drivers. 
 
-A LTspice simulation of PWM peak and hold drivers is also in the LTspice folder. It is nice to see the wave forms used and the current thru the coil.
 
 ##Photos
 Check out the SPECTRE_V0.3\photos folder to see the real thing! For version V0.5 there are some 3d renders in the folder.
 
 ## Getting Started
-Well there is no getting started because this board is not fully tested and debugged yet. Current status of design mistakes and fixes for V0.4 and V0.5 can be found in TODOfixes file. The intention is to test V0.3 fully before getting a version V0.5 or V0.6 board out on the bench. 
+Well there is no getting started because this board is not fully tested and debugged yet. Current status of design mistakes and fixes for V0.4 and V0.5 can be found in TODOfixes file. Version 0.3 is now fully tested on a real engine and this works as expected! So version 0.5 has been produced and is up for testing next. 
 
 ## Tested on V0.3
 The following functions have been tested and confirmed to be working with real under the bonnet hardware and provide good results.<br/> 
@@ -32,18 +31,48 @@ TACHO out [OK]<br/>
 Fuel pump relay [OK]<br/>
 FAN relay [OK]<br/>
 
-## Tested and working with modifcations
+## Tested and working with modifcations on V0.3
 Coolant temperature (CLT) [OK]<br/>
 PWM idle output [OK]<br/>
 Battery voltage reading [OK]<br/> 
 
-## To be tested
+## Not tested on V0.3
 Stepper idle output<br/> 
 BARO <br/>
 FLEX fuel <br/>
 Coolant temperature (CLT_2) <br/>
 Inlet Air Temperature (IAT_2) <br/>
 Lambda sensor (O2_2) <br/>
+
+## Tested on V0.5
+The following functions have been tested and confirmed to be working with real under the bonnet hardware and provide good results.<br/> 
+
+VR1 input (Trigger 1) [OK] <br/> 
+Manifold Absolute pressure (MAP) [OK]<br/>
+Injector outputs [OK]<br/>
+Lambda sensor (O2) [OK]<br/>
+Throttle position input [OK]<br/>
+Bluetooth module (PA9,PA10) [OK]<br/>
+Battery voltage reading [OK]<br/> 
+Ignition outputs [OK]<br/> 
+
+## To be tested on V0.5
+Stepper idle output<br/> 
+BARO <br/>
+FLEX fuel <br/>
+Coolant temperature (CLT_2) <br/>
+Inlet Air Temperature (IAT_2) <br/>
+Lambda sensor (O2_2) <br/>
+VR2 input (Trigger 2)<br/> 
+Halleffect trigger input (Trigger 1)<br/>
+Halleffect trigger input (Trigger 2)<br/>
+Inlet Air Temperature (IAT)<br/>
+Coolant temperature (CLT)<br/>
+TACHO out<br/>
+Fuel pump relay<br/>
+FAN relay<br/>
+PWM idle output<br/>
+
 
 ## License
 This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details
