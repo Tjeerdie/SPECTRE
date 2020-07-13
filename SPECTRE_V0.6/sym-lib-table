@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Speeduino_base-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Speeduino_base-eagle-import.lib)(options "")(descr ""))
-  (lib (name speeduino_lib)(type Legacy)(uri ${KIPRJMOD}/speeduino_lib.lib)(options "")(descr ""))
-)
