@@ -7,6 +7,8 @@ From version V0.4 and on the idea is to use more pins for other functions. like 
 
 From version V0.5 and onwards 4/8 injector outputs are designed for PWM peak and hold drivers. This is usefull for low-z injectors. The idea is to use 4 drivers for petrol injection normal saturated mode and 4 drivers for LPG vapour injection with a second fuel table. LPG vapour injectors are normally low-z (between 2.5 to 4 Ohm). The necessary changes in speeduino software are not developed yet. No worries until that time it will work as normal injector drivers. 
 
+A stand alone Peak and Hold driver board is now in a seperate repo. See my other repository for this. 
+
 
 ##Photos
 Check out the SPECTRE_V0.3\photos folder to see the real thing! For version V0.5 there are some 3d renders in the folder.
