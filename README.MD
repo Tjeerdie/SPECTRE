@@ -57,22 +57,24 @@ Battery voltage reading [OK]<br/>
 Ignition outputs [OK]<br/> 
 
 ## To be tested on V0.5
-Stepper idle output<br/> 
-BARO <br/>
-FLEX fuel <br/>
-Coolant temperature (CLT_2) <br/>
-Inlet Air Temperature (IAT_2) <br/>
-Lambda sensor (O2_2) <br/>
 VR2 input (Trigger 2)<br/> 
 Halleffect trigger input (Trigger 1)<br/>
 Halleffect trigger input (Trigger 2)<br/>
-Inlet Air Temperature (IAT)<br/>
-Coolant temperature (CLT)<br/>
-TACHO out<br/>
 Fuel pump relay<br/>
 FAN relay<br/>
 PWM idle output<br/>
-
+TACHO out<br/>
+BOOST output<br/>
+Stepper idle output<br/> 
+BARO <br/>
+CAN bus<br/>
+RS232 on connector<br/>
+FLEX fuel input<br/>
+Coolant temperature (CLT_2) <br/>
+Inlet Air Temperature (IAT_2) <br/>
+Lambda sensor (O2_2) <br/>
+Inlet Air Temperature (IAT)<br/>
+Coolant temperature (CLT)<br/>
 
 ## License
 This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details
