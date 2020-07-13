@@ -1,0 +1,6 @@
+PCB:
+R3 Change soldermask location
+R69 change location no to be in the IC
+R97,R96,R79,R78 change silkscreen location to be readable
+R42 make thedesign neat around this part
+D12 silkscreen verplaatsen

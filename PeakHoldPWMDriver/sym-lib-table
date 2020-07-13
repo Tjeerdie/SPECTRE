@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Speeduino_base-eagle-import)(type Legacy)(uri /home/hoogendijkta/Documents/hobby/speeduino/KicadPCB/SPECTRE/SPECTRE_V0.5/Speeduino_base-eagle-import.lib)(options "")(descr ""))
-  (lib (name speeduino_lib)(type Legacy)(uri /home/hoogendijkta/Documents/hobby/speeduino/KicadPCB/SPECTRE/SPECTRE_V0.5/speeduino_lib.lib)(options "")(descr ""))
-)
