@@ -421,16 +421,10 @@ Wire Wire Line
 	7500 3200 7150 3200
 Wire Wire Line
 	3600 7150 3600 7050
-Text Label 3600 7050 0    70   ~ 0
-3.3V
 Wire Wire Line
 	6800 6200 6800 6000
-Text Label 6800 6200 1    70   ~ 0
-3.3V
 Wire Wire Line
 	8850 6000 8850 5800
-Text Label 8850 6000 1    70   ~ 0
-3.3V
 Wire Wire Line
 	1000 900  800  900 
 Text Label 1000 900  2    70   ~ 0
@@ -441,8 +435,6 @@ Text Label 2100 900  2    70   ~ 0
 3.3V
 Wire Wire Line
 	3350 9050 3350 8750
-Text Label 3350 8950 0    70   ~ 0
-3.3V
 Wire Wire Line
 	5000 7900 5200 7900
 Text Label 5100 7900 0    70   ~ 0
@@ -451,12 +443,6 @@ Wire Wire Line
 	5700 6050 5700 5900
 Wire Wire Line
 	8750 4700 8750 4400
-Text Label 8750 4700 1    70   ~ 0
-3.3V
-Wire Wire Line
-	7650 4550 7650 4400
-Text Label 7650 4400 0    70   ~ 0
-3.3V
 Wire Wire Line
 	5450 11100 5450 11250
 Wire Wire Line
@@ -935,7 +921,7 @@ L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R54
 U 1 1 FAD656C0
 P 7650 2900
 F 0 "R54" H 7500 2950 42  0000 L BNN
-F 1 "1k" H 7500 2800 42  0000 L BNN
+F 1 "470R" H 7500 2800 42  0000 L BNN
 F 2 "Speeduino_base:R0603" H 7650 2900 50  0001 C CNN
 F 3 "" H 7650 2900 50  0001 C CNN
 	1    7650 2900
@@ -1155,7 +1141,7 @@ L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R33
 U 1 1 1D995D96
 P 4350 3400
 F 0 "R33" H 4200 3450 42  0000 L BNN
-F 1 "1k" H 4200 3300 42  0000 L BNN
+F 1 "470R" H 4200 3300 42  0000 L BNN
 F 2 "Speeduino_base:R0603" H 4350 3400 50  0001 C CNN
 F 3 "" H 4350 3400 50  0001 C CNN
 	1    4350 3400
@@ -1903,7 +1889,7 @@ L Speeduino_base-eagle-import:R-EU_R0805 R25
 U 1 1 B9F940DC
 P 3150 8950
 F 0 "R25" H 3000 9009 59  0000 L BNN
-F 1 "4K7" H 3000 8820 59  0000 L BNN
+F 1 "4k7" H 3000 8820 59  0000 L BNN
 F 2 "Speeduino_base:R0603" H 3150 8950 50  0001 C CNN
 F 3 "" H 3150 8950 50  0001 C CNN
 	1    3150 8950
@@ -2362,7 +2348,7 @@ Text GLabel 7300 1400 3    50   Input ~ 0
 INJ1-OUT
 Text GLabel 6400 1400 3    50   Input ~ 0
 INJ4-OUT
-Text GLabel 5800 1950 3    50   Input ~ 0
+Text GLabel 6700 2300 3    50   Input ~ 0
 IDLE2-OUT
 Text GLabel 5850 1400 3    50   Input ~ 0
 FUEL_PUMP
@@ -2376,9 +2362,9 @@ Text GLabel 7750 1400 3    50   Input ~ 0
 IGN3-OUT
 Text GLabel 8150 1400 3    50   Input ~ 0
 IGN4-OUT
-Text GLabel 4150 2300 3    50   Input ~ 0
+Text GLabel 4050 2300 3    50   Input ~ 0
 STEP_1A_OUT
-Text GLabel 5050 1400 3    50   Input ~ 0
+Text GLabel 5450 2350 3    50   Input ~ 0
 STEP_1B_OUT
 Text GLabel 7850 1400 3    50   Input ~ 0
 5V
@@ -2446,12 +2432,12 @@ TACHO-OUT
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP6
 U 1 1 5E1C71B1
-P 5550 1900
-F 0 "JP6" H 5550 2013 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 5550 2104 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5550 1900 50  0001 C CNN
-F 3 "~" H 5550 1900 50  0001 C CNN
-	1    5550 1900
+P 6450 2250
+F 0 "JP6" H 6450 2363 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 6450 2454 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 6450 2250 50  0001 C CNN
+F 3 "~" H 6450 2250 50  0001 C CNN
+	1    6450 2250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2514,22 +2500,22 @@ F 3 "~" H 2300 1650 50  0001 C CNN
 	1    2300 1650
 	-1   0    0    1   
 $EndComp
-Text GLabel 4950 1400 3    50   Input ~ 0
+Text GLabel 4750 2250 3    50   Input ~ 0
 STEP_2B_OUT
-Text GLabel 4650 2250 3    50   Input ~ 0
+Text GLabel 4550 2250 3    50   Input ~ 0
 IDLE1-OUT
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP5
 U 1 1 5E1C773E
-P 4400 2200
-F 0 "JP5" H 4400 2313 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 4400 2404 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 4400 2200 50  0001 C CNN
-F 3 "~" H 4400 2200 50  0001 C CNN
-	1    4400 2200
+P 4300 2200
+F 0 "JP5" H 4300 2313 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 4300 2404 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 4300 2200 50  0001 C CNN
+F 3 "~" H 4300 2200 50  0001 C CNN
+	1    4300 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 5300 1950 3    50   Input ~ 0
+Text GLabel 6200 2300 3    50   Input ~ 0
 STEP_2A_OUT
 Wire Wire Line
 	5350 5350 5350 5300
@@ -2763,43 +2749,43 @@ Wire Wire Line
 	14700 2450 14800 2450
 Text GLabel 4850 1400 3    50   Output ~ 0
 BARO
-Text GLabel 12700 1800 0    50   Input ~ 0
+Text GLabel 12550 2100 0    50   Input ~ 0
 BOOT0
-Text GLabel 13800 1800 2    50   Input ~ 0
+Text GLabel 13650 2100 2    50   Input ~ 0
 3.3V
-Text GLabel 12700 1900 0    50   Input ~ 0
+Text GLabel 12550 2200 0    50   Input ~ 0
 BOOT1
 $Comp
 L Device:Jumper_NO_Small JP10
 U 1 1 5E61C757
-P 12950 1800
-F 0 "JP10" H 12950 1985 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 12950 1894 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12950 1800 50  0001 C CNN
-F 3 "~" H 12950 1800 50  0001 C CNN
-	1    12950 1800
+P 12800 2100
+F 0 "JP10" H 12800 2285 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 12800 2194 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12800 2100 50  0001 C CNN
+F 3 "~" H 12800 2100 50  0001 C CNN
+	1    12800 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper_NO_Small JP11
 U 1 1 5E61D311
-P 12950 1900
-F 0 "JP11" H 12950 2085 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 12950 1994 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12950 1900 50  0001 C CNN
-F 3 "~" H 12950 1900 50  0001 C CNN
-	1    12950 1900
+P 12800 2200
+F 0 "JP11" H 12800 2385 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 12800 2294 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12800 2200 50  0001 C CNN
+F 3 "~" H 12800 2200 50  0001 C CNN
+	1    12800 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13800 1800 13050 1800
+	13650 2100 12900 2100
 Wire Wire Line
-	13050 1800 13050 1900
-Connection ~ 13050 1800
+	12900 2100 12900 2200
+Connection ~ 12900 2100
 Wire Wire Line
-	12850 1800 12700 1800
+	12700 2100 12550 2100
 Wire Wire Line
-	12700 1900 12850 1900
+	12550 2200 12700 2200
 Wire Wire Line
 	12750 1250 12950 1250
 Wire Wire Line
@@ -3330,7 +3316,6 @@ Text GLabel 10500 4900 2    50   BiDi ~ 0
 PB12
 Text GLabel 10500 5000 2    50   BiDi ~ 0
 PB14
-NoConn ~ 10200 4100
 NoConn ~ 10500 4100
 Text GLabel 1400 4900 3    50   Input ~ 0
 VR1+
@@ -3795,7 +3780,7 @@ U 1 1 6244D841
 P 2700 10800
 F 0 "U2" H 2700 11042 50  0000 C CNN
 F 1 "LM78M05_TO220" H 2700 10951 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2700 11025 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 2700 11025 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM78M05.pdf" H 2700 10750 50  0001 C CNN
 	1    2700 10800
 	1    0    0    -1  
@@ -3837,28 +3822,26 @@ Wire Wire Line
 Text GLabel 4300 1400 3    50   Input ~ 0
 INJ8-OUT
 Wire Wire Line
-	4150 2300 4150 2200
+	4050 2300 4050 2200
 Wire Wire Line
-	4150 2200 4200 2200
+	4050 2200 4100 2200
 Wire Wire Line
-	4600 2200 4650 2200
+	4500 2200 4550 2200
 Wire Wire Line
-	4650 2200 4650 2250
+	4550 2200 4550 2250
 Wire Wire Line
-	5750 1900 5800 1900
+	6650 2250 6700 2250
 Wire Wire Line
-	5800 1900 5800 1950
+	6700 2250 6700 2300
 Wire Wire Line
-	5350 1900 5300 1900
+	6250 2250 6200 2250
 Wire Wire Line
-	5300 1900 5300 1950
+	6200 2250 6200 2300
 Wire Wire Line
 	9250 7450 9250 7550
 Connection ~ 9250 7550
 Wire Wire Line
 	4750 1400 4750 2050
-Wire Wire Line
-	4750 2050 4400 2050
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5E7B7B17
@@ -3969,8 +3952,6 @@ Text Label 10600 6300 0    10   ~ 0
 GND
 Wire Wire Line
 	10600 5800 10600 5500
-Text Label 10600 5800 1    70   ~ 0
-3.3V
 $Comp
 L Speeduino_base-eagle-import:GND #SUPPLY048
 U 1 1 5E8B962B
@@ -4264,8 +4245,6 @@ Text GLabel 16100 11600 2    50   Input ~ 0
 PWR_GND
 Wire Wire Line
 	15800 11650 16100 11650
-Wire Wire Line
-	5550 1750 5550 1400
 $Comp
 L Device:Jumper_NC_Small JP13
 U 1 1 5E9CEF08
@@ -4555,8 +4534,8 @@ L Device:CP_Small C31
 U 1 1 5F1B45C6
 P 2950 10250
 F 0 "C31" H 3038 10296 50  0000 L CNN
-F 1 "1000uF" H 3038 10205 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 2950 10250 50  0001 C CNN
+F 1 "470uF 6.3V" H 3038 10205 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2950 10250 50  0001 C CNN
 F 3 "~" H 2950 10250 50  0001 C CNN
 	1    2950 10250
 	1    0    0    -1  
@@ -4580,8 +4559,8 @@ L Device:CP_Small C32
 U 1 1 5F30E5E6
 P 4050 11000
 F 0 "C32" H 4138 11046 50  0000 L CNN
-F 1 "1000uF" H 4138 10955 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 4050 11000 50  0001 C CNN
+F 1 "470uF 6.3V" H 4138 10955 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4050 11000 50  0001 C CNN
 F 3 "~" H 4050 11000 50  0001 C CNN
 	1    4050 11000
 	1    0    0    -1  
@@ -4590,9 +4569,6 @@ Wire Wire Line
 	4050 10800 4050 10900
 Wire Wire Line
 	4050 11100 4050 11200
-Wire Wire Line
-	4050 11200 3750 11200
-Connection ~ 3750 11200
 Text GLabel 11850 9400 2    50   Input ~ 0
 PWR_GND
 Text GLabel 12300 8850 1    50   Output ~ 0
@@ -4664,7 +4640,7 @@ Wire Wire Line
 	11950 8850 12300 8850
 Connection ~ 11950 8850
 Text GLabel 10850 9000 1    50   Input ~ 0
-PE4
+PB13
 Wire Wire Line
 	10850 9000 10950 9000
 Wire Wire Line
@@ -4741,7 +4717,7 @@ Wire Wire Line
 	11950 7600 12300 7600
 Connection ~ 11950 7600
 Text GLabel 10850 7750 1    50   Input ~ 0
-PD11
+PB12
 Wire Wire Line
 	10850 7750 10950 7750
 Wire Wire Line
@@ -4749,132 +4725,6 @@ Wire Wire Line
 Connection ~ 11800 8150
 Wire Wire Line
 	11950 7300 11950 7400
-Wire Wire Line
-	11000 850  11000 1050
-Text Label 11000 850  0    10   ~ 0
-GND
-Wire Wire Line
-	10900 650  10850 650 
-Wire Wire Line
-	10900 650  11200 650 
-Wire Wire Line
-	11200 650  11200 600 
-Connection ~ 10900 650 
-$Comp
-L Speeduino_base-eagle-import:BAT54S D34
-U 1 1 5F907871
-P 11000 650
-F 0 "D34" H 11030 729 59  0000 L BNN
-F 1 "BAT54S" H 10830 494 59  0000 L BNN
-F 2 "Speeduino_base:SOT23" H 11000 650 50  0001 C CNN
-F 3 "" H 11000 650 50  0001 C CNN
-	1    11000 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R100
-U 1 1 5F907877
-P 10700 650
-F 0 "R100" H 10550 700 42  0000 L BNN
-F 1 "1k" H 10550 550 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 10700 650 50  0001 C CNN
-F 3 "" H 10700 650 50  0001 C CNN
-	1    10700 650 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R104
-U 1 1 5F90787D
-P 11200 450
-F 0 "R104" H 11050 500 42  0000 L BNN
-F 1 "1k" H 11050 350 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 11200 450 50  0001 C CNN
-F 3 "" H 11200 450 50  0001 C CNN
-	1    11200 450 
-	0    1    1    0   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:GND #SUPPLY0101
-U 1 1 5F907883
-P 11100 1050
-F 0 "#SUPPLY0101" H 11100 1050 50  0001 C CNN
-F 1 "GND" H 11025 925 59  0000 L BNN
-F 2 "" H 11100 1050 50  0001 C CNN
-F 3 "" H 11100 1050 50  0001 C CNN
-	1    11100 1050
-	0    -1   -1   0   
-$EndComp
-Text GLabel 11200 300  1    50   Output ~ 0
-PD7
-Text GLabel 11000 450  1    50   Input ~ 0
-3.3V
-Text GLabel 10450 650  0    50   Input ~ 0
-D0
-Wire Wire Line
-	10450 650  10550 650 
-Wire Wire Line
-	11000 2050 11000 2250
-Text Label 11000 2050 0    10   ~ 0
-GND
-Wire Wire Line
-	10900 1850 10850 1850
-Wire Wire Line
-	10900 1850 11200 1850
-Wire Wire Line
-	11200 1850 11200 1800
-Connection ~ 10900 1850
-$Comp
-L Speeduino_base-eagle-import:BAT54S D35
-U 1 1 5FA43BAC
-P 11000 1850
-F 0 "D35" H 11030 1929 59  0000 L BNN
-F 1 "BAT54S" H 10830 1694 59  0000 L BNN
-F 2 "Speeduino_base:SOT23" H 11000 1850 50  0001 C CNN
-F 3 "" H 11000 1850 50  0001 C CNN
-	1    11000 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R101
-U 1 1 5FA43BB2
-P 10700 1850
-F 0 "R101" H 10550 1900 42  0000 L BNN
-F 1 "1k" H 10550 1750 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 10700 1850 50  0001 C CNN
-F 3 "" H 10700 1850 50  0001 C CNN
-	1    10700 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R105
-U 1 1 5FA43BB8
-P 11200 1650
-F 0 "R105" H 11050 1700 42  0000 L BNN
-F 1 "1k" H 11050 1550 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 11200 1650 50  0001 C CNN
-F 3 "" H 11200 1650 50  0001 C CNN
-	1    11200 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:GND #SUPPLY0102
-U 1 1 5FA43BBE
-P 11100 2250
-F 0 "#SUPPLY0102" H 11100 2250 50  0001 C CNN
-F 1 "GND" H 11025 2125 59  0000 L BNN
-F 2 "" H 11100 2250 50  0001 C CNN
-F 3 "" H 11100 2250 50  0001 C CNN
-	1    11100 2250
-	0    -1   -1   0   
-$EndComp
-Text GLabel 11200 1500 1    50   Output ~ 0
-PD8
-Text GLabel 11000 1650 1    50   Input ~ 0
-3.3V
-Text GLabel 10450 1850 0    50   Input ~ 0
-D1
-Wire Wire Line
-	10450 1850 10550 1850
 Text GLabel 16450 10950 2    50   Output ~ 0
 INJ8-OUT
 $Comp
@@ -4945,4 +4795,138 @@ Text GLabel 5750 1400 3    50   Output ~ 0
 AIN_1
 Wire Wire Line
 	3750 10800 4050 10800
+Wire Wire Line
+	5550 2050 6450 2050
+Wire Wire Line
+	6450 2050 6450 2100
+Wire Wire Line
+	5550 1400 5550 2050
+Wire Wire Line
+	4300 2050 4750 2050
+Text GLabel 5250 2250 3    50   Input ~ 0
+Spare_2-Out
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP14
+U 1 1 5F619C00
+P 5000 2200
+F 0 "JP14" H 5000 2313 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 5000 2404 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 2200 5250 2200
+Wire Wire Line
+	5250 2200 5250 2250
+Wire Wire Line
+	4800 2200 4750 2200
+Wire Wire Line
+	4750 2200 4750 2250
+Text GLabel 5950 2350 3    50   Input ~ 0
+Spare_1-Out
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP15
+U 1 1 5F66DD1B
+P 5700 2300
+F 0 "JP15" H 5700 2413 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 5700 2504 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5700 2300 50  0001 C CNN
+F 3 "~" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 2300 5950 2300
+Wire Wire Line
+	5950 2300 5950 2350
+Wire Wire Line
+	5500 2300 5450 2300
+Wire Wire Line
+	5450 2300 5450 2350
+Wire Wire Line
+	4950 1400 4950 2050
+Wire Wire Line
+	4950 2050 5000 2050
+Wire Wire Line
+	5700 2150 5150 2150
+Wire Wire Line
+	5150 2150 5150 1900
+Wire Wire Line
+	5150 1900 5050 1900
+Wire Wire Line
+	5050 1900 5050 1400
+Wire Wire Line
+	4050 11200 3750 11200
+Connection ~ 3750 11200
+Wire Wire Line
+	12750 1650 12950 1650
+Wire Wire Line
+	12250 1650 12450 1650
+Wire Wire Line
+	13250 1650 13300 1650
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R73
+U 1 1 5F96391D
+P 12600 1650
+F 0 "R73" H 12450 1700 42  0000 L BNN
+F 1 "100R" H 12450 1550 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 12600 1650 50  0001 C CNN
+F 3 "" H 12600 1650 50  0001 C CNN
+	1    12600 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-LED-CLEAR-YELLOW(0603) D27
+U 1 1 5F963923
+P 13100 1650
+F 0 "D27" H 12800 1700 42  0000 L BNN
+F 1 "YEL" H 12900 1450 42  0000 L BNN
+F 2 "Speeduino_base:LED-0603" H 13100 1650 50  0001 C CNN
+F 3 "" H 13100 1650 50  0001 C CNN
+	1    13100 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 1900 2    50   Input ~ 0
+PA6
+Text GLabel 10200 4100 0    50   BiDi ~ 0
+PA6
+Text GLabel 13800 1650 2    50   Input ~ 0
+GND
+$Comp
+L Speeduino_base-eagle-import:SMD-MOSFET-N-CH-20V-2.1A-CJ2302(SOT-23) Q8
+U 1 1 5FAA5A90
+P 13500 1650
+F 0 "Q8" H 13350 1750 42  0000 L BNN
+F 1 "AO3400" H 13500 1750 42  0000 L BNN
+F 2 "Speeduino_base:SOT-23" H 13500 1650 50  0001 C CNN
+F 3 "" H 13500 1650 50  0001 C CNN
+	1    13500 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13800 1650 13700 1650
+Text GLabel 12250 1650 0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	13500 1850 13500 1900
+Wire Wire Line
+	13500 1900 13550 1900
+Text GLabel 3600 7050 1    50   Input ~ 0
+3.3V
+Text GLabel 3350 8900 1    50   Input ~ 0
+3.3V
+Text GLabel 7650 4500 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	7650 4500 7650 4550
+Text GLabel 6800 6000 1    50   Input ~ 0
+3.3V
+Text GLabel 8750 4400 1    50   Input ~ 0
+3.3V
+Text GLabel 10600 5500 0    50   Input ~ 0
+3.3V
+Text GLabel 8850 5800 0    50   Input ~ 0
+3.3V
 $EndSCHEMATC
