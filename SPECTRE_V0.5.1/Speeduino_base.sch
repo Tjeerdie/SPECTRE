@@ -2443,10 +2443,6 @@ Text GLabel 7950 1400 3    50   Output ~ 0
 FLEX_FUEL_IN
 Text GLabel 9050 1400 3    50   Input ~ 0
 TACHO-OUT
-Text GLabel 5250 1400 3    50   Output ~ 0
-AIN_1
-Text GLabel 5750 1400 3    50   Output ~ 0
-AIN_0
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP6
 U 1 1 5E1C71B1
@@ -3115,7 +3111,7 @@ Wire Wire Line
 	750  7300 400  7300
 Connection ~ 750  7300
 Text GLabel 400  7300 0    50   Input ~ 0
-AIN_1
+AIN_2
 Text GLabel 1650 7100 1    50   Input ~ 0
 3.3V
 Text GLabel 2650 5950 0    50   Input ~ 0
@@ -3306,7 +3302,7 @@ PA5
 Text GLabel 10500 4200 2    50   BiDi ~ 0
 PC5
 Text GLabel 350  5950 0    50   Input ~ 0
-AIN_0
+AIN_1
 Wire Wire Line
 	350  5950 500  5950
 Connection ~ 500  5950
@@ -3476,7 +3472,7 @@ IGN3-OUT
 Text GLabel 8350 10300 2    50   Output ~ 0
 IGN4-OUT
 Text GLabel 7450 4900 0    50   Input ~ 0
-AIN_2
+AIN_3
 Wire Wire Line
 	7450 4900 7650 4900
 Connection ~ 7650 4900
@@ -3902,7 +3898,7 @@ PD10
 Text GLabel 14700 2450 0    50   Input ~ 0
 PC7
 Text GLabel 5950 1400 3    50   Output ~ 0
-AIN_2
+AIN_3
 NoConn ~ 10500 4800
 NoConn ~ 10500 4900
 $Comp
@@ -4591,8 +4587,6 @@ F 3 "~" H 4050 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 10800 4050 10800
-Wire Wire Line
 	4050 10800 4050 10900
 Wire Wire Line
 	4050 11100 4050 11200
@@ -4945,4 +4939,10 @@ Wire Wire Line
 	8350 11350 8350 11400
 Wire Wire Line
 	9050 11400 8350 11400
+Text GLabel 5250 1400 3    50   Output ~ 0
+AIN_2
+Text GLabel 5750 1400 3    50   Output ~ 0
+AIN_1
+Wire Wire Line
+	3750 10800 4050 10800
 $EndSCHEMATC
