@@ -1,0 +1,3 @@
+Change injector driver for higher current
+Ignition channel use mosfet buffer to driver ignition channels with higher current
+Add proto erea 
