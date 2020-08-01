@@ -4956,7 +4956,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 8700 9350 50
 	1    0    0    -1  
 $EndComp
 Text GLabel 8300 9550 1    50   Input ~ 0
-PB6
+PD9
 Text GLabel 9100 10050 2    50   Input ~ 0
 PWR_GND
 Wire Wire Line
