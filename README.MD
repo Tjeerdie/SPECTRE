@@ -6,13 +6,13 @@ Latest version is 0.5.2
 A stand alone Peak and Hold injector driver board is now seperate. See: https://github.com/Tjeerdie/Peak-And-hold-Driver
 
 ## Getting Started
-Take a look at the very iformative manual for speeduino:
+Take a look at the very informative manual for speeduino:
 https://speeduino.com/Speeduino_manual.pdf
 
 How to load the firmware to the STM32 see:
 https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 
-## Board pinout:
+## Board pinout
 | Pin# | Function    | Alternative | Switch |
 |-----|-------------|-------------|--------|
 | 1   | GND_PWR     |             |        |
@@ -66,7 +66,8 @@ https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 
 
 ## Tested on V0.5.2
-The following functions have been tested and confirmed to be working with real under the bonnet hardware and provide good results. An 4 cylinder engine with wasted spark is running on this hardware<br/> 
+The following functions have been tested and confirmed to be working on a volvo B230FK redblock engine. This a 4 cylinder engine with small turbo. A VAG wasted spark coil with internal drivers is used as ignition<br/> 
+
 VR2 input (Trigger 2) [OK]<br/> 
 Halleffect trigger input (Trigger 1) [OK]<br/>
 VR1 input (Trigger 1) [OK] <br/> 
@@ -97,8 +98,6 @@ FLEX fuel input<br/>
 Coolant temperature (CLT_2) <br/>
 Inlet Air Temperature (IAT_2) <br/>
 Lambda sensor (O2_2) <br/>
-
-
 
 ## License
 This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details
