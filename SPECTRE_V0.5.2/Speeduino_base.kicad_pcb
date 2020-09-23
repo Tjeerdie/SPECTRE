@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 44)
-    (tracks 3457)
+    (tracks 3458)
     (zones 0)
     (modules 211)
     (nets 264)
@@ -11766,6 +11766,7 @@
   (segment (start 200.66 71.628) (end 200.66 72.600998) (width 0.45) (layer Bottom) (net 219))
   (segment (start 202.814998 84.958998) (end 203.2 85.344) (width 0.45) (layer Bottom) (net 219))
   (segment (start 202.814998 84.074) (end 202.814998 84.958998) (width 0.45) (layer Bottom) (net 219))
+  (segment (start 204.27 65.65) (end 204.27 65.586) (width 0.25) (layer Top) (net 219))
   (via (at 210.82 98.044) (size 0.8) (drill 0.4) (layers Top Bottom) (net 220))
   (segment (start 212.470022 75.657146) (end 212.470022 96.393978) (width 0.25) (layer Bottom) (net 220))
   (segment (start 212.328 67.28) (end 212.353001 67.305001) (width 0.25) (layer Bottom) (net 220))
