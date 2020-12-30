@@ -4219,12 +4219,12 @@ Text GLabel 6100 1400 3    50   Input ~ 0
 RS232_TX
 Connection ~ 4200 1400
 $Comp
-L molex_48pin:molex_48pin U4
+L speeduino_lib:molex_48pin U4
 U 1 1 5E17AB54
 P 6900 1950
 F 0 "U4" V 8187 2355 60  0000 C CNN
 F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
+F 2 "Speeduino_base:Molex_48" H 6900 1950 60  0001 C CNN
 F 3 "" H 6900 1950 60  0001 C CNN
 	1    6900 1950
 	0    -1   -1   0   

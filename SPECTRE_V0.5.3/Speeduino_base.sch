@@ -4841,16 +4841,16 @@ Wire Wire Line
 Connection ~ 2950 6900
 Wire Wire Line
 	2950 6900 3900 6900
+Connection ~ 6550 1250
 $Comp
-L molex_48pin:molex_48pin U?
+L molex_48pin:molex_48pin U4
 U 1 1 5FFFB3E6
 P 9250 1800
-F 0 "U?" V 10537 2205 60  0000 C CNN
+F 0 "U4" V 10537 2205 60  0000 C CNN
 F 1 "molex_48pin" V 10431 2205 60  0000 C CNN
 F 2 "Speeduino_base:Molex_48" H 9250 1800 60  0001 C CNN
 F 3 "" H 9250 1800 60  0001 C CNN
 	1    9250 1800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 6550 1250
 $EndSCHEMATC

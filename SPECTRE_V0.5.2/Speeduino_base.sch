@@ -2060,8 +2060,6 @@ Wire Wire Line
 	8400 4900 8450 4900
 Wire Wire Line
 	4000 1400 3950 1400
-Wire Wire Line
-	4100 1400 4200 1400
 Text GLabel 3950 1850 3    50   Output ~ 0
 PWR_GND
 Text GLabel 8550 1400 3    50   Input ~ 0
@@ -3469,7 +3467,7 @@ U 1 1 6244D841
 P 2700 10800
 F 0 "U2" H 2700 11042 50  0000 C CNN
 F 1 "LM78M05_TO220" H 2700 10951 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp" H 2700 11025 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2700 11025 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM78M05.pdf" H 2700 10750 50  0001 C CNN
 	1    2700 10800
 	1    0    0    -1  
@@ -3889,18 +3887,6 @@ Text GLabel 12750 4700 2    50   Output ~ 0
 SPI1_MISO
 Text GLabel 6100 1400 3    50   Input ~ 0
 RS232_TX
-Connection ~ 4200 1400
-$Comp
-L molex_48pin:molex_48pin U4
-U 1 1 5E17AB54
-P 6900 1950
-F 0 "U4" V 8187 2355 60  0000 C CNN
-F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48" H 6900 1950 60  0001 C CNN
-F 3 "" H 6900 1950 60  0001 C CNN
-	1    6900 1950
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7500 1400 3    50   Output ~ 0
 RS232_RX
 Text GLabel 14550 6650 3    50   Output ~ 0
@@ -5044,4 +5030,18 @@ Wire Wire Line
 	11350 9150 11300 9150
 Wire Wire Line
 	12150 9150 12200 9150
+Wire Wire Line
+	4100 1400 4200 1400
+$Comp
+L speeduino_lib:molex_48pin U4
+U 1 1 60019D12
+P 6900 1950
+F 0 "U4" V 8187 2355 60  0000 C CNN
+F 1 "molex_48pin" V 8081 2355 60  0000 C CNN
+F 2 "Speeduino_base:Molex_48" H 6900 1950 60  0001 C CNN
+F 3 "" H 6900 1950 60  0001 C CNN
+	1    6900 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4200 1400
 $EndSCHEMATC
