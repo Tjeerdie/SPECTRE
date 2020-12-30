@@ -12,7 +12,7 @@ https://speeduino.com/Speeduino_manual.pdf
 How to load the firmware to the STM32 see:
 https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 
-## Board pinout
+## ECU connector pinout
 | Pin# | Function    | Alternative | Switch |
 |-----|-------------|-------------|--------|
 | 1   | GND_PWR     |             |        |
@@ -65,6 +65,17 @@ https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 | 48  | TACHO-OUT   |             |        |
 
 
+## Information on building a V0.5.2 board
+Information for building and choosing components.
+
+### rs232 and bluetooth
+The hardware serial port 1 is shared between bluetooth and RS232 output on the ECU connector. So that means you can only build it with the bluetooth module in place OR the max232 ic in place not both! That will break the communication. 
+
+If you want your main/Tuner studio communiation to go over the hardware serial port 1 (so bluetooth or RS232 on the ECU connector). Build the speeduino firmware in the arduino IDE with no "usb support" -> "None". In that case it will default to use hardware serial 1 as the communication.
+
+### Zener diodes
+If you build the board with the injector drivers to be BSP78 [Q10,Q11,Q13,Q14,Q18,Q19,Q20,Q21] you can leave the bzx84C39 + 1N4148 out [D33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48]. These are used for clamping, but the BSP78 has internal clamping. You can use other mosfets with SOT223 footprint in place of the BSP78. If these are not clamped or reptetative avalanch rated use the clamping diodes to keep them in spec.
+
 ## Tested on V0.5.2
 The following functions have been tested and confirmed to be working on a volvo B230FK redblock engine. This a 4 cylinder engine with small turbo. A VAG wasted spark coil with internal drivers is used as ignition<br/> 
 
@@ -86,11 +97,11 @@ Coolant temperature (CLT) [OK]<br/>
 Inlet Air Temperature (IAT) [OK]<br/>
 RS232 TX [OK]<br/>
 RS232 RX [OK]<br/>
+BOOST output [OK]<br/>
+Stepper idle output [OK]<br/> 
 
 ## To be tested on V0.5.2
 TACHO out<br/>
-BOOST output<br/>
-Stepper idle output<br/> 
 BARO <br/>
 CAN bus TX<br/>
 CAN bus RX<br/>
