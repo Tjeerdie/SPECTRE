@@ -962,11 +962,44 @@ X EN 6 -800 -300 200 R 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# molex_48pin_molex_48pin
+# power_PWR_FLAG
 #
-DEF molex_48pin_molex_48pin U 0 40 Y Y 1 F N
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# speeduino_lib_TJA1050
+#
+DEF speeduino_lib_TJA1050 U? 0 40 Y Y 1 F N
+F0 "U?" -350 400 50 H V C CNN
+F1 "speeduino_lib_TJA1050" -750 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -500 350 350 -250 0 1 0 N
+X txd 1 -600 250 100 R 50 50 0 0 U
+X gnd 2 -50 -350 100 U 50 50 0 0 W
+X vcc 3 -100 450 100 D 50 50 0 0 W
+X rxd 4 -600 50 100 R 50 50 0 0 U
+X Vref 5 -600 -50 100 R 50 50 0 0 U
+X CANL 6 450 150 100 L 50 50 0 0 U
+X CANH 7 450 50 100 L 50 50 0 0 U
+X S 8 -600 150 100 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# speeduino_lib_molex_48pin
+#
+DEF speeduino_lib_molex_48pin U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "molex_48pin_molex_48pin" 0 0 60 H V C CNN
+F1 "speeduino_lib_molex_48pin" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1019,39 +1052,6 @@ X 6 6 550 2450 150 R 50 50 1 1 P
 X 7 7 550 2350 150 R 50 50 1 1 P
 X 8 8 550 2250 150 R 50 50 1 1 P
 X 9 9 550 2150 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# speeduino_lib_TJA1050
-#
-DEF speeduino_lib_TJA1050 U? 0 40 Y Y 1 F N
-F0 "U?" -350 400 50 H V C CNN
-F1 "speeduino_lib_TJA1050" -750 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -500 350 350 -250 0 1 0 N
-X txd 1 -600 250 100 R 50 50 0 0 U
-X gnd 2 -50 -350 100 U 50 50 0 0 W
-X vcc 3 -100 450 100 D 50 50 0 0 W
-X rxd 4 -600 50 100 R 50 50 0 0 U
-X Vref 5 -600 -50 100 R 50 50 0 0 U
-X CANL 6 450 150 100 L 50 50 0 0 U
-X CANH 7 450 50 100 L 50 50 0 0 U
-X S 8 -600 150 100 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
