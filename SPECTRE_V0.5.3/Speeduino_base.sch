@@ -2678,7 +2678,7 @@ IDLE2-OUT
 Text GLabel 16300 3300 2    50   Input ~ 0
 PWR_GND
 Text GLabel 15700 2950 0    50   Input ~ 0
-PC7
+PD3
 Wire Wire Line
 	16300 3300 16150 3300
 Connection ~ 16150 3300
