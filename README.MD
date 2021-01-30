@@ -12,57 +12,61 @@ https://speeduino.com/Speeduino_manual.pdf
 How to load the firmware to the STM32 see:
 https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 
-## ECU connector pinout
-| Pin# | Function    | Alternative | Switch |
-|-----|-------------|-------------|--------|
-| 1   | GND_PWR     |             |        |
-| 2   | GND_PWR     |             |        |
-| 3   | 12V_ECU     |             |        |
-| 4   | 12V_ECU     |             |        |
-| 5   | INJ_CH8     |             |        |
-| 6   | INJ_CH7     |             |        |
-| 7   | INJ_CH5     |             |        |
-| 8   | INJ_CH6     |             |        |
-| 9   | IDLE1-OUT   | STEP_1A_OUT | JP5    |
-| 10  | BARO        |             |        |
-| 11  | Spare_2_out | Step_2B_OUT | JP6    |
-| 12  | Spare_1_Out | Step_1B_OUT | JP7    |
-| 13  | IGN_CH1     |             |        |
-| 14  | 02_2        |             |        |
-| 15  | FAN         |             |        |
-| 16  | IDLE2-OUT   | STEP_2A_OUT | JP8    |
-| 17  | IAT         |             |        |
-| 18  | IAT_2       |             |        |
-| 19  | FUEL_PUMP   |             |        |
-| 20  | CLT_2       |             |        |
-| 21  | RS232_TX    |             |        |
-| 22  | GND         | IGN5-OUT    | JP18   |
-| 23  | O2          |             |        |
-| 24  | INJ_CH4     |             |        |
-| 25  | MAP         |             |        |
-| 26  | GND         | IGN6-OUT    | JP16   |
-| 27  | CLT         |             |        |
-| 28  | INJ_CH3     |             |        |
-| 29  | CANH        |             |        |
-| 30  | GND         |             |        |
-| 31  | IGN_CH2     |             |        |
-| 32  | INJ_CH1     |             |        |
-| 33  | GND         |             |        |
-| 34  | RS232_RX    |             |        |
-| 35  | TPS         |             |        |
-| 36  | IGN_CH3     |             |        |
-| 37  | 5V          |             |        |
-| 38  | FLEX_IN     |             |        |
-| 39  | VR2-        |             |        |
-| 40  | IGN_CH4     |             |        |
-| 41  | VR2+        |             |        |
-| 42  | VR1-        |             |        |
-| 43  | VR1+        |             |        |
-| 44  | INJ_CH2     |             |        |
-| 45  | CANL        |             |        |
-| 46  | 3.3V        |             |        |
-| 47  | BOOST-OUT   |             |        |
-| 48  | TACHO-OUT   |             |        |
+## Board pinout
+
+The TS Mapping column is the pin you enter in the "Local Auxillary Input Channel Configuration" when repurposing the input pins for another purpose (ex. oil pressure sensor):
+https://speeduino.com/forum/viewtopic.php?f=14&t=2809
+
+| Pin# | Function   | Alternative | Switch | TS Mapping |
+|-----|-------------|-------------|--------|------------|
+| 1   | GND_PWR     |             |        |            |
+| 2   | GND_PWR     |             |        |            |
+| 3   | 12V_ECU     |             |        |            |
+| 4   | 12V_ECU     |             |        |            |
+| 5   | INJ_CH8     |             |        |            |
+| 6   | INJ_CH7     |             |        |            |
+| 7   | INJ_CH5     |             |        |            |
+| 8   | INJ_CH6     |             |        |            |
+| 9   | IDLE1-OUT   | STEP_1A_OUT | JP5    |            |
+| 10  | BARO        |             |        | A9         |
+| 11  | Spare_2_out | Step_2B_OUT | JP6    |            |
+| 12  | Spare_1_Out | Step_1B_OUT | JP7    |            |
+| 13  | IGN_CH1     |             |        |            |
+| 14  | 02_2        |             |        | A4         |
+| 15  | FAN         |             |        |            |
+| 16  | IDLE2-OUT   | STEP_2A_OUT | JP8    |            |
+| 17  | IAT         |             |        |            |
+| 18  | IAT_2       |             |        | A0         |
+| 19  | FUEL_PUMP   |             |        |            |
+| 20  | CLT_2       |             |        | A1         |
+| 21  | RS232_TX    |             |        |            |
+| 22  | GND         | IGN5-OUT    | JP18   |            |
+| 23  | O2          |             |        |            |
+| 24  | INJ_CH4     |             |        |            |
+| 25  | MAP         |             |        |            |
+| 26  | GND         | IGN6-OUT    | JP16   |            |
+| 27  | CLT         |             |        |            |
+| 28  | INJ_CH3     |             |        |            |
+| 29  | CANH        |             |        |            |
+| 30  | GND         |             |        |            |
+| 31  | IGN_CH2     |             |        |            |
+| 32  | INJ_CH1     |             |        |            |
+| 33  | GND         |             |        |            |
+| 34  | RS232_RX    |             |        |            |
+| 35  | TPS         |             |        |            |
+| 36  | IGN_CH3     |             |        |            |
+| 37  | 5V          |             |        |            |
+| 38  | FLEX_IN     |             |        |            |
+| 39  | VR2-        |             |        |            |
+| 40  | IGN_CH4     |             |        |            |
+| 41  | VR2+        |             |        |            |
+| 42  | VR1-        |             |        |            |
+| 43  | VR1+        |             |        |            |
+| 44  | INJ_CH2     |             |        |            |
+| 45  | CANL        |             |        |            |
+| 46  | 3.3V        |             |        |            |
+| 47  | BOOST-OUT   |             |        |            |
+| 48  | TACHO-OUT   |             |        |            |
 
 
 ## Information on building a V0.5.2 board
