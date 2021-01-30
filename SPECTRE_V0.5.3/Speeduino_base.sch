@@ -1575,17 +1575,6 @@ F 3 "" H 12900 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R68
-U 1 1 5E97D64D
-P 12600 7650
-F 0 "R68" H 12450 7700 42  0000 L BNN
-F 1 "1k" H 12450 7550 42  0000 L BNN
-F 2 "Speeduino_base:R0603" H 12600 7650 50  0001 C CNN
-F 3 "" H 12600 7650 50  0001 C CNN
-	1    12600 7650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Speeduino_base-eagle-import:BAT54S D19
 U 1 1 20478EC3
 P 5150 9600
@@ -1594,17 +1583,6 @@ F 1 "BAT54S" H 4980 9444 59  0000 L BNN
 F 2 "Speeduino_base:SOT23" H 5150 9600 50  0001 C CNN
 F 3 "" H 5150 9600 50  0001 C CNN
 	1    5150 9600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Speeduino_base-eagle-import:BAT54S D23
-U 1 1 5E8B9631
-P 12800 7450
-F 0 "D23" H 12830 7529 59  0000 L BNN
-F 1 "BAT54S" H 12630 7294 59  0000 L BNN
-F 2 "Speeduino_base:SOT23" H 12800 7450 50  0001 C CNN
-F 3 "" H 12800 7450 50  0001 C CNN
-	1    12800 7450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3447,21 +3425,10 @@ Wire Wire Line
 Wire Wire Line
 	12750 7850 12650 7850
 Wire Wire Line
-	12800 7550 12800 7650
-Wire Wire Line
 	12650 7950 12650 7850
 Connection ~ 12650 7850
 Wire Wire Line
 	12650 7850 12450 7850
-Wire Wire Line
-	12750 7650 12800 7650
-Connection ~ 12800 7650
-Wire Wire Line
-	12800 7650 13200 7650
-Wire Wire Line
-	13000 7450 13100 7450
-Wire Wire Line
-	13100 7450 13100 7750
 Wire Wire Line
 	12850 8050 13100 8050
 Connection ~ 13100 8050
@@ -3469,16 +3436,9 @@ Wire Wire Line
 	13100 8050 13100 8200
 Wire Wire Line
 	13200 7750 13100 7750
-Connection ~ 13100 7750
 Wire Wire Line
 	13100 7750 13100 8050
-Wire Wire Line
-	12450 8050 12200 8050
-Wire Wire Line
-	12200 8050 12200 7450
-Wire Wire Line
-	12200 7450 12600 7450
-Text GLabel 12200 7450 0    50   Input ~ 0
+Text GLabel 12450 8050 0    50   Input ~ 0
 3.3V
 Wire Wire Line
 	14300 1500 14300 1550
@@ -4853,4 +4813,17 @@ F 3 "" H 9250 1800 60  0001 C CNN
 	1    9250 1800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Speeduino_base-eagle-import:SMD-RES-470R-5%-1_10W(0603) R68
+U 1 1 5E97D64D
+P 12600 7650
+F 0 "R68" H 12450 7700 42  0000 L BNN
+F 1 "1k" H 12450 7550 42  0000 L BNN
+F 2 "Speeduino_base:R0603" H 12600 7650 50  0001 C CNN
+F 3 "" H 12600 7650 50  0001 C CNN
+	1    12600 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 7650 13200 7650
 $EndSCHEMATC
