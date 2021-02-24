@@ -23,14 +23,14 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 2   | GND_PWR     |             |        |            |
 | 3   | 12V_ECU     |             |        |            |
 | 4   | 12V_ECU     |             |        |            |
-| 5   | INJ_CH8     |             |        |            |
-| 6   | INJ_CH7     |             |        |            |
-| 7   | INJ_CH5     |             |        |            |
-| 8   | INJ_CH6     |             |        |            |
+| 5   | INJ_CH8     |             |        | 66         |
+| 6   | INJ_CH7     |             |        | 67         |
+| 7   | INJ_CH5     |             |        | 62         |
+| 8   | INJ_CH6     |             |        | 64         |
 | 9   | IDLE1-OUT   | STEP_1A_OUT | JP5    |            |
 | 10  | BARO        |             |        | A9         |
-| 11  | Spare_2_out | Step_2B_OUT | JP6    |            |
-| 12  | Spare_1_Out | Step_1B_OUT | JP7    |            |
+| 11  | Spare_2_out | Step_2B_OUT | JP6    | 71         |
+| 12  | Spare_1_Out | Step_1B_OUT | JP7    | 72         |
 | 13  | IGN_CH1     |             |        |            |
 | 14  | 02_2        |             |        | A4         |
 | 15  | FAN         |             |        |            |
@@ -54,11 +54,11 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 33  | GND         |             |        |            |
 | 34  | RS232_RX    |             |        |            |
 | 35  | TPS         |             |        |            |
-| 36  | IGN_CH3     |             |        |            |
+| 36  | IGN_CH3     |             |        |  24        |
 | 37  | 5V          |             |        |            |
 | 38  | FLEX_IN     |             |        |            |
 | 39  | VR2-        |             |        |            |
-| 40  | IGN_CH4     |             |        |            |
+| 40  | IGN_CH4     |             |        |  34        |
 | 41  | VR2+        |             |        |            |
 | 42  | VR1-        |             |        |            |
 | 43  | VR1+        |             |        |            |
@@ -75,10 +75,14 @@ Information for building and choosing components.
 ### rs232 and bluetooth
 The hardware serial port 1 is shared between bluetooth and RS232 output on the ECU connector. So that means you can only build it with the bluetooth module in place OR the max232 ic in place not both! That will break the communication. 
 
-If you want your main/Tuner studio communiation to go over the hardware serial port 1 (so bluetooth or RS232 on the ECU connector). Build the speeduino firmware in the arduino IDE with no "usb support" -> "None". In that case it will default to use hardware serial 1 as the communication.
+Dont forget to initialize the bluetooth module to use 115200 bps baudrate using the HC-0X AT commands. 
+
+If you want your main/Tuner studio communiation to go over the hardware serial port 1 (So bluetooth or RS232 on the ECU connector). Build the speeduino firmware in the arduino IDE with no "usb support" -> "None". In that case it will default to use hardware serial 1 as the communication.
+
+If the bluetooth comms are not working and you are using a HC-05 or HC-06 module (both are 3.3v so its safe to direcly connect to the MCU). For V0.5.2 of SPECTRE [R37,R38] can be replaced by 0 ohms. For V0.5.3 [R38] can be replaced by 0 ohm. 
 
 ### Zener diodes
-If you build the board with the injector drivers to be BSP78 [Q10,Q11,Q13,Q14,Q18,Q19,Q20,Q21] you can leave the bzx84C39 + 1N4148 out [D33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48]. These are used for clamping, but the BSP78 has internal clamping. You can use other mosfets with SOT223 footprint in place of the BSP78. If these are not clamped or reptetative avalanch rated use the clamping diodes to keep them in spec.
+If you build the board with the injector driver mosfets to be BSP78 [Q10,Q11,Q13,Q14,Q18,Q19,Q20,Q21] you can leave the bzx84C39 + 1N4148 out [33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48]. These are used for clamping, but the BSP78 has internal clamping. You can use other mosfets with SOT223 footprint in place of the BSP78. If these are not clamped or reptetative avalanch rated use the clamping diodes to keep them in spec.
 
 ## Tested on V0.5.2
 The following functions have been tested and confirmed to be working on a volvo B230FK redblock engine. This a 4 cylinder engine with small turbo. A VAG wasted spark coil with internal drivers is used as ignition<br/> 
@@ -103,9 +107,9 @@ RS232 TX [OK]<br/>
 RS232 RX [OK]<br/>
 BOOST output [OK]<br/>
 Stepper idle output [OK]<br/> 
+TACHO out [OK]<br/>
 
 ## To be tested on V0.5.2
-TACHO out<br/>
 BARO <br/>
 CAN bus TX<br/>
 CAN bus RX<br/>
