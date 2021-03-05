@@ -9,6 +9,8 @@ A stand alone Peak and Hold injector driver board is now seperate. See: https://
 Take a look at the very informative manual for speeduino:
 https://speeduino.com/Speeduino_manual.pdf
 
+There is a difference for the TPS with respect to the manual. The TPS must be fed by 3.3V and not 5V like the other speeduino boards. For best performance it is better to wire all the grounds of the sensors to the GND pins and not use the PWR_GND or car chassis.
+
 How to load the firmware to the STM32 see:
 https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 
@@ -83,6 +85,8 @@ If the bluetooth comms are not working and you are using a HC-05 or HC-06 module
 
 ### Zener diodes
 If you build the board with the injector driver mosfets to be BSP78 [Q10,Q11,Q13,Q14,Q18,Q19,Q20,Q21] you can leave the bzx84C39 + 1N4148 out [33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48]. These are used for clamping, but the BSP78 has internal clamping. You can use other mosfets with SOT223 footprint in place of the BSP78. If these are not clamped or reptetative avalanch rated use the clamping diodes to keep them in spec.
+
+
 
 ## Tested on V0.5.2
 The following functions have been tested and confirmed to be working on a volvo B230FK redblock engine. This a 4 cylinder engine with small turbo. A VAG wasted spark coil with internal drivers is used as ignition<br/> 
