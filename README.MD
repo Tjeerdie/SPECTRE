@@ -1,22 +1,26 @@
 # Project SPECTRE
-Project SPECTRE	(Speeduino PrintEd Circuit board TjeeRdiE). This is a PCB with the hardware to run speeduino on a STM32F407VE6T board from ebay. (Or a STM32 BLACK_F407VE as it is sometimes called). Schematics and more information on the cpu board can be found here: (https://github.com/mcauser/BLACK_F407VE) The case with connectors can be found here: https://nl.aliexpress.com/item/32839361268.html?spm=a2g0z.12010615.8148356.7.1da330edPBhz16
+Project SPECTRE	(Speeduino PrintEd Circuit board TjeeRdiE). This is a PCB with the hardware to run speeduino on a STM32F407VE6T board from ebay. (Or a STM32 BLACK_F407VE as it is sometimes called). 
+
+Schematics and more information on the cpu board can be found here: (https://github.com/mcauser/BLACK_F407VE)
+
+The case with connectors can be found here: https://nl.aliexpress.com/item/32839361268.html?spm=a2g0z.12010615.8148356.7.1da330edPBhz16
 
 Latest version is 0.5.2
 
-A stand alone Peak and Hold injector driver board is now seperate. See: https://github.com/Tjeerdie/Peak-And-hold-Driver
+A stand alone Peak and Hold injector driver board is now in a seperate repository. See: https://github.com/Tjeerdie/Peak-And-hold-Driver
 
 ## Getting Started
 Take a look at the very informative manual for speeduino:
 https://speeduino.com/Speeduino_manual.pdf
 
-There is a difference for the TPS with respect to the manual. The TPS must be fed by 3.3V and not 5V like the other speeduino boards. For best performance it is better to wire all the grounds of the sensors to the GND pins and not use the PWR_GND or car chassis.
+There is a difference for the TPS with respect to the manual. The TPS must be fed by 3.3V and not 5V like the other speeduino boards. For best performance it is better to wire all the grounds of the sensors to the GND pins and not use the PWR_GND or carchassis for this. 
 
 How to load the firmware to the STM32 see:
 https://speeduino.com/forum/viewtopic.php?f=13&t=1914&p=26572#p26572
 
 ## Board pinout
 
-The TS Mapping column is the pin you enter in the "Local Auxillary Input Channel Configuration" when repurposing the input pins for another purpose (ex. oil pressure sensor):
+The TS Mapping column is the pin you enter in the "Local Auxillary Input Channel Configuration" when repurposing the input pins for another purpose (example: oil pressure sensor):
 https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 
 | Pin# | Function   | Alternative | Switch | Tuner Studio Mapping |
@@ -79,7 +83,7 @@ The hardware serial port 1 is shared between bluetooth and RS232 output on the E
 
 Dont forget to configure the bluetooth module to use 115200 bps baudrate using the HC-05/HC-06 AT commands. 
 
-If you want your main/Tuner studio communiation to go over the hardware serial port 1 (So bluetooth or RS232 on the ECU connector). Build the speeduino firmware in the arduino IDE with no "usb support" -> "None". In that case it will default to use hardware serial 1 as the communication.
+If you want your main/Tuner studio communiation to use the hardware serial port 1 (So bluetooth or RS232 on the ECU connector). Build the speeduino firmware in the arduino IDE with no "usb support" -> "None". In that case it will default to use hardware serial 1 as the communication.
 
 If the bluetooth comms are not working and you are using a HC-05 or HC-06 module (both are 3.3v so its safe to direcly connect to the MCU). For V0.5.2 of SPECTRE [R37,R38] can be replaced by 0 ohms. For V0.5.3 [R38] can be replaced by 0 ohm. 
 
