@@ -71,10 +71,10 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 48  | TACHO-OUT   |             |        |            |
 
 
-## Information on building a V0.5.2 board
+## Information for assembling a V0.5.X board
 Information for board assembly and choosing components.
 
-### rs232 and bluetooth
+### RS232 and bluetooth
 The hardware serial port 1 is shared between bluetooth and RS232 output on the ECU connector. So that means you can only build it with the bluetooth module in place OR the max232 ic in place not both! That will break the communication. 
 
 Dont forget to configure the bluetooth module to use 115200 bps baudrate using the HC-05/HC-06 AT commands. 
@@ -87,7 +87,7 @@ If the bluetooth comms are not working and you are using a HC-05 or HC-06 module
 If you build the board with the injector driver mosfets to be BSP78 [Q10,Q11,Q13,Q14,Q18,Q19,Q20,Q21] you can leave the bzx84C39 + 1N4148 out [33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48]. These are used for clamping, but the BSP78 has internal clamping. You can use other mosfets with SOT223 footprint in place of the BSP78. If these are not clamped or reptetative avalanch rated use the clamping diodes to keep them in spec.
 
 ### MCU board
-I noticed the 3.3V regulators on the chinese boards (LD1117v33) are sensative to over voltage and voltage feedback. When subjected to over voltage the regulator works but can have a significant offset of the set voltage. So when having issues with analog readings of the MAP sensor or any other 5V referenced sesnor on the board check the regulator voltage output and make sure it is 3.3V exactly. 
+I noticed the 3.3V regulators on the chinese boards (LD1117v33) are sensative to over voltage and voltage feedback. When subjected to over voltage the regulator works but can have a significant offset in regulation. So when having issues with analog readings of the MAP sensor or any other 5V referenced sensor on the board check the regulator voltage output with a multimeter and make sure it is 3.3V exactly. 
 
 ## Tested on V0.5.2/V0.5.3
 The following functions have been tested and confirmed to be working on a volvo B230FK redblock engine. This a 4 cylinder engine with small turbo. A VAG wasted spark coil with internal drivers is used as ignition<br/> 
@@ -114,7 +114,7 @@ BOOST output [OK]<br/>
 Stepper idle output [OK]<br/> 
 TACHO out [OK]<br/>
 
-## To be tested on V0.5.2
+## To be tested on V0.5.2/V0.5.3
 BARO <br/>
 CAN bus TX<br/>
 CAN bus RX<br/>
