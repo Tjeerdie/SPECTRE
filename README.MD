@@ -90,6 +90,15 @@ If the bluetooth comms are not working and you are using a HC-05 or HC-06 module
 ### Zener diodes
 If you build the board with the injector driver mosfets to be BSP78 [Q10,Q11,Q13,Q14,Q18,Q19,Q20,Q21] you can leave the bzx84C39 + 1N4148 out [33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48]. These are used for clamping, but the BSP78 has internal clamping. You can use other mosfets with SOT223 footprint in place of the BSP78. If these are not clamped or reptetative avalanch rated use the clamping diodes to keep them in spec.
 
+### Vehicle Speed input
+Here is a scription how to use one of the analog spare inputs (IAT_2 = ECU pin 18) as VSS input for speeduino. This can be a hall type sensor or a porximity sesnsor. it can NOT be a VR type sensor
+1. Remove C2 and C4 from the board
+2. On the MCU pin headers of the board connect PA0 to PA2 with a bit of solder
+3. in Tuner Studio select pin 50 (PA2) for the VSS input pin.
+
+PA0 (pin 48 in TS) can not work as VSS pin because of conflicting interrupts with the crank sensor (PE0)
+
+
 ## Tested on V0.5.2/V0.5.3
 The following functions have been tested and confirmed to be working on a volvo B230FK redblock engine. This a 4 cylinder engine with small turbo. A VAG wasted spark coil with internal drivers is used as ignition<br/> 
 
