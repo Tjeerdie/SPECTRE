@@ -74,6 +74,23 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 47  | BOOST-OUT   |             |        |            |
 | 48  | TACHO-OUT   |             |        |            |
 
+## Jumper settings
+There are 12 jumpers on the board to set/change various hardware configurations to suit your needs. with a sharp object scratch away the default bridge and use a solder bridge between the alternative configuration pins. The pull up resitors (JP1/JP4) are briged vs non bridged and no need to skratch anything away.
+| JP# | Function                  | Default       | Alternative|
+|-----|---------------------------|---------------|------------|
+| 1   | Halleffect Pullup resistor| Not Conneced  | Connected  |
+| 2   | Halleffect or VR input VR1| VR            | Hall       |
+| 3   | Halleffect or VR input VR2| Hall          | VR         |
+| 4   | Halleffect Pullup resistor| Not Conneced  | Connected  |
+| 5   | STEP_1A_out or IDLE1-OUT  | IDLE1-OUT     | STEP_1A_OUT|
+| 6   | Spare_2_out or Step_2B_OUT| Spare_2_out   | Step_2B_OUT|
+| 7   | Spare_1_Out or Step_1B_OUT| Spare_1_Out   | Step_1B_OUT|
+| 8   | IDLE2-OUT or STEP_2A_OUT  | IDLE2-OUT     | STEP_2A_OUT|
+| 10  | Tacho out voltage		  | 5V output     | 12V output |
+| 15  | Flex fuel or Boot0 in     | Flexfuel      | Boot0      |
+| 16  | Ignition 6 or GND         | GND           | IGN6       |
+| 18  | Ignition 6 or GND   _     | GND           | IGN7       |
+
 
 ## Information for assembling a V0.5.X board
 Information for board assembly and choosing components.
