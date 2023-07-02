@@ -34,7 +34,7 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 7   | INJ_CH5     |             |        | 62         |
 | 8   | INJ_CH6     |             |        | 64         |
 | 9   | IDLE1-OUT   | STEP_1A_OUT | JP5    |            |
-| 10  | BARO        |             |        | A9         |
+| 10  | BARO        |             |        | A13         |
 | 11  | Spare_2_out | Step_2B_OUT | JP6    | 71         |
 | 12  | Spare_1_Out | Step_1B_OUT | JP7    | 72         |
 | 13  | IGN_CH1     |             |        |            |
