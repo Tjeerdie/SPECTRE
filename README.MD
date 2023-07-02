@@ -90,7 +90,7 @@ There are 12 jumpers on the board to set/change various hardware configurations 
 | 10  | Ignition trigger out voltage		  | 5V output     | 12V output |
 | 15  | Flex fuel or Boot0 in     | Flexfuel      | Boot0      |
 | 16  | Ignition 6 or GND         | GND           | IGN6       |
-| 18  | Ignition 7 or GND   _     | GND           | IGN7       |
+| 18  | Ignition 5 or GND   _     | GND           | IGN5       |
 
 
 ## Information for assembling a V0.5.X board
