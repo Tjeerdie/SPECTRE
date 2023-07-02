@@ -86,7 +86,8 @@ There are 12 jumpers on the board to set/change various hardware configurations 
 | 6   | Spare_2_out or Step_2B_OUT| Spare_2_out   | Step_2B_OUT|
 | 7   | Spare_1_Out or Step_1B_OUT| Spare_1_Out   | Step_1B_OUT|
 | 8   | IDLE2-OUT or STEP_2A_OUT  | IDLE2-OUT     | STEP_2A_OUT|
-| 10  | Tacho out voltage		  | 5V output     | 12V output |
+| 9  | Tacho out voltage		  | 12V output     | 5V output |
+| 10  | Ignition trigger out voltage		  | 5V output     | 12V output |
 | 15  | Flex fuel or Boot0 in     | Flexfuel      | Boot0      |
 | 16  | Ignition 6 or GND         | GND           | IGN6       |
 | 18  | Ignition 6 or GND   _     | GND           | IGN7       |
