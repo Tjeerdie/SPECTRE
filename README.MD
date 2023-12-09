@@ -5,7 +5,7 @@ Schematics and more information on the cpu board can be found here: (https://git
 
 The case with connectors can be found here: https://nl.aliexpress.com/item/32839361268.html?spm=a2g0z.12010615.8148356.7.1da330edPBhz16
 
-Latest version is 0.5.2
+Latest tested version by author is 0.5.3. Version 0.5.4 is a cleaned up schematic plus a change to use resistor arrays rather than individual resistors by @vitorboss. The 0.5.4 version is not build and tested but functionally identical to 0.5.3. 
 
 A stand alone Peak and Hold injector driver board is now in a seperate repository. See: https://github.com/Tjeerdie/Peak-And-hold-Driver
 
