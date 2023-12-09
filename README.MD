@@ -34,7 +34,7 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 7   | INJ_CH5     |             |        | 62         |
 | 8   | INJ_CH6     |             |        | 64         |
 | 9   | IDLE1-OUT   | STEP_1A_OUT | JP5    |            |
-| 10  | BARO        |             |        | A9         |
+| 10  | BARO        |             |        | A13         |
 | 11  | Spare_2_out | Step_2B_OUT | JP6    | 71         |
 | 12  | Spare_1_Out | Step_1B_OUT | JP7    | 72         |
 | 13  | IGN_CH1     |             |        |            |
@@ -86,10 +86,11 @@ There are 12 jumpers on the board to set/change various hardware configurations 
 | 6   | Spare_2_out or Step_2B_OUT| Spare_2_out   | Step_2B_OUT|
 | 7   | Spare_1_Out or Step_1B_OUT| Spare_1_Out   | Step_1B_OUT|
 | 8   | IDLE2-OUT or STEP_2A_OUT  | IDLE2-OUT     | STEP_2A_OUT|
-| 10  | Tacho out voltage		  | 5V output     | 12V output |
+| 9  | Tacho out voltage		  | 12V output     | 5V output |
+| 10  | Ignition trigger out voltage		  | 5V output     | 12V output |
 | 15  | Flex fuel or Boot0 in     | Flexfuel      | Boot0      |
 | 16  | Ignition 6 or GND         | GND           | IGN6       |
-| 18  | Ignition 6 or GND   _     | GND           | IGN7       |
+| 18  | Ignition 5 or GND   _     | GND           | IGN5       |
 
 
 ## Information for assembling a V0.5.X board
