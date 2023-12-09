@@ -74,6 +74,8 @@ https://speeduino.com/forum/viewtopic.php?f=14&t=2809
 | 47  | BOOST-OUT   |             |        |            |
 | 48  | TACHO-OUT   |             |        |            |
 
+![connector pinout](/figures/pin_out.png)
+
 ## Jumper settings
 There are 12 jumpers on the board to set/change various hardware configurations to suit your needs. with a sharp object scratch away the default bridge and use a solder bridge between the alternative configuration pins. The pull up resitors (JP1/JP4) are briged vs non bridged and no need to skratch anything away.
 | JP# | Function                  | Default       | Alternative|
