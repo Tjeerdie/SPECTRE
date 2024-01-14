@@ -7,7 +7,7 @@ The case with connectors can be found here: https://nl.aliexpress.com/item/32839
 
 Latest tested version by author is 0.5.3. Version 0.5.4 is a cleaned up schematic plus a change to use resistor arrays rather than individual resistors by @vitorboss. The 0.5.4 version is not build and tested but functionally identical to 0.5.3. 
 
-If 
+The design is provided as is. Just as it is stated in the license. The design is a hobby project and not specificly designed to adhere to any standard, so use it at your own risk.
 
 A stand alone Peak and Hold injector driver board is now in a seperate repository. See: https://github.com/Tjeerdie/Peak-And-hold-Driver
 
@@ -98,7 +98,7 @@ There are 12 jumpers on the board to set/change various hardware configurations 
 
 
 ## Information for assembling a V0.5.X board
-Information for board assembly and choosing components. If  you plan to build one of these it is important to note that a little electronic knowledge is very helpful if not essential to get the board working. The accompanying JLC bom list has most passive components in it, but not all components, some self assembly/soldering part selection is required.  
+Information for board assembly and choosing components. If  you plan to build one of these it is important to note that a little electronic knowledge is very helpful if not essential to get the board working. The accompanying JLC bom list has most passive components in it, but not all components, some self assembly/soldering and part selection is required.  
 
 ### RS232 and bluetooth
 The hardware serial port 1 is shared between bluetooth and RS232 output on the ECU connector. So that means you can only build it with the bluetooth module in place OR the max232 ic in place not both! That will break the communication. 
