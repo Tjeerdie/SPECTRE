@@ -115,7 +115,7 @@ If you build the board with the injector driver mosfets to be BSP78 [Q10,Q11,Q13
 ### Vehicle Speed input
 Note: This workaroud is no longer working. There is no solution yet.
 
-Here is a scription how to use one of the analog spare inputs (IAT_2 = ECU pin 18) as VSS input for speeduino. This can be a hall type sensor or a porximity sesnsor. it can NOT be a VR type sensor
+Here is a description how to use one of the analog spare inputs (IAT_2 = ECU pin 18) as VSS input for speeduino. This can be a hall type sensor or a porximity sesnsor. it can NOT be a VR type sensor
 1. Remove C2 and C4 from the board
 2. On the MCU pin headers of the board connect PA0 to PA2 with a bit of solder
 3. in Tuner Studio select pin 50 (PA2) for the VSS input pin.
